@@ -1,0 +1,27 @@
+/* 调整网站标题和副标题的间距和样式 */
+#page-header #site-info #site-title {
+  margin-bottom: 3rem !important;  /* 增加标题和副标题之间的距离 */
+  font-size: 5rem !important;    /* 调整主标题大小 */
+}
+
+#page-header #site-info #site-subtitle #subtitle {
+  font-size: 1.5rem !important;    /* 调整副标题大小 */
+  opacity: 0.9;         /* 稍微调整透明度 */
+}
+
+/* 确保副标题容器有足够空间 */
+#page-header #site-info #site-subtitle {
+  margin-top: 1rem;     /* 增加上方间距 */
+  min-height: 1.5rem;   /* 确保有足够高度显示文字 */
+} 
+
+/* 调整标题在移动设备上的大小 */
+@media screen and (max-width: 768px) {
+  #page-header #site-info #site-title {
+    font-size: 4rem !important;
+  }
+  
+  #page-header #site-info #site-subtitle #subtitle {
+    font-size: 1.2rem !important;
+  }
+} 
