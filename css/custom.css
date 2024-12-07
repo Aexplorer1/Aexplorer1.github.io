@@ -25,3 +25,27 @@
     font-size: 1.2rem !important;
   }
 } 
+
+/* 添加以下样式来调整首页图片效果 */
+#page-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* 可以添加一个半透明遮罩,让文字更清晰 */
+#page-header:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);  /* 黑色半透明遮罩 */
+  top: 0;
+  left: 0;
+}
+
+/* 确保文字在遮罩上层 */
+#page-header #site-info {
+  position: relative;
+  z-index: 1;
+} 
