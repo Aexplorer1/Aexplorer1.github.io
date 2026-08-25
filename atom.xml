@@ -1,0 +1,4430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feeds/atom-style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://aexplorer1.github.io/</id>
+    <title>Aexplorer</title>
+    <updated>2026-08-25T11:57:02.788Z</updated>
+    <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
+    <author>
+        <name>Aexplorer</name>
+        <uri>https://aexplorer1.github.io/</uri>
+    </author>
+    <link rel="alternate" href="https://aexplorer1.github.io/"/>
+    <link rel="self" href="https://aexplorer1.github.io/atom.xml"/>
+    <subtitle>A quiet index of ideas, systems, language, and the long work of becoming.</subtitle>
+    <rights>Copyright © 2026 Aexplorer</rights>
+    <entry>
+        <title type="html"><![CDATA[A map of attention]]></title>
+        <id>https://aexplorer1.github.io/posts/map-of-attention/</id>
+        <link href="https://aexplorer1.github.io/posts/map-of-attention/"/>
+        <updated>2026-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我们如何决定什么值得被长期看见，往往比我们知道什么更重要。]]></summary>
+        <content type="html"><![CDATA[<p>注意力不是资源管理的技巧，而是一种长期选择。</p>
+<p>当一个问题持续出现在不同的工作、阅读和对话里，它就开始拥有自己的地形。这个站点会记录那些仍在变化的问题，而不是只展示已经整理好的答案。</p>
+<blockquote>
+<p>[!NOTE]
+这是新 Astro 站点的临时测试文章，未来会由 Obsidian 内容替换。</p>
+</blockquote>
+<h2>记录的尺度</h2>
+<pre><code>flowchart LR
+    A[观察] --&gt; B[记录]
+    B --&gt; C[连接]
+    C --&gt; D[重新观察]
+</code></pre>
+<p>:::fold[展开一段工作原则]
+先让问题保持足够长的时间，再决定它应该被归入哪个分类。
+:::</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2026-08-04T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systems and language]]></title>
+        <id>https://aexplorer1.github.io/posts/systems-and-language/</id>
+        <link href="https://aexplorer1.github.io/posts/systems-and-language/"/>
+        <updated>2026-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[系统给出边界，语言让我们发现边界并不总是可靠。]]></summary>
+        <content type="html"><![CDATA[<p>系统擅长重复，语言擅长偏离。</p>
+<p>一个值得继续研究的系统，不是把所有意外都消除，而是让意外出现时仍然能够被理解、被记录，并最终改变系统本身。</p>
+<h2>A small distinction</h2>
+<p>在设计工具和写作时，我更关心“什么可以被再次看见”，而不仅仅是“什么已经被完成”。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2026-07-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The long work]]></title>
+        <id>https://aexplorer1.github.io/posts/the-long-work/</id>
+        <link href="https://aexplorer1.github.io/posts/the-long-work/"/>
+        <updated>2026-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[有些工作没有清晰的完成线，只有一次又一次更准确的返回。]]></summary>
+        <content type="html"><![CDATA[<p>所谓长期工作，不是把速度放慢，而是接受理解需要多次抵达。</p>
+<p>:::warning[测试提示]
+这段内容只是站点视觉和 Markdown 渲染的占位数据。
+:::</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2026-06-02T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用代码块总结]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-data-structures-02/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-data-structures-02/"/>
+        <updated>2025-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[根据历年真题规律，建议重点掌握： 链表 ：反转、合并、重排、环检测 树 ：遍历（前序、中序、后序、层次）、重建二叉树 图 ：DFS、BFS、最短路径、最小生成树 排序 ：快速排序、归并排序、堆排序 cpp typedef struct Node { int data; struct Node nex]]></summary>
+        <content type="html"><![CDATA[<h3>备考建议</h3>
+<p>根据历年真题规律，建议重点掌握：</p>
+<ul>
+<li><strong>链表</strong>：反转、合并、重排、环检测</li>
+<li><strong>树</strong>：遍历（前序、中序、后序、层次）、重建二叉树</li>
+<li><strong>图</strong>：DFS、BFS、最短路径、最小生成树</li>
+<li><strong>排序</strong>：快速排序、归并排序、堆排序</li>
+</ul>
+<h2>链表操作</h2>
+<h3>链表反转</h3>
+<pre><code>typedef struct Node {
+    int data;
+    struct Node* next;
+} LinkList;
+
+LinkList* reverse(LinkList* head) {
+    LinkList *prev = NULL, *curr = head, *next = NULL;
+    while (curr) {
+        next = curr-&gt;next;
+        curr-&gt;next = prev;
+        prev = curr;
+        curr = next;
+    }
+    return prev;
+}
+</code></pre>
+<h3>链表合并</h3>
+<pre><code>LinkList* mergeTwoLists(LinkList* l1, LinkList* l2) {
+    LinkList dummy;
+    LinkList* tail = &amp;dummy;
+    dummy.next = NULL;
+    
+    while (l1 &amp;&amp; l2) {
+        if (l1-&gt;data &lt;= l2-&gt;data) {
+            tail-&gt;next = l1;
+            l1 = l1-&gt;next;
+        } else {
+            tail-&gt;next = l2;
+            l2 = l2-&gt;next;
+        }
+        tail = tail-&gt;next;
+    }
+    tail-&gt;next = l1 ? l1 : l2;
+    return dummy.next;
+}
+</code></pre>
+<h3>链表重排</h3>
+<pre><code>void reorderList(LinkList* head) {
+    if (!head || !head-&gt;next) return;
+    
+    // 找中间节点
+    LinkList *slow = head, *fast = head;
+    while (fast-&gt;next &amp;&amp; fast-&gt;next-&gt;next) {
+        slow = slow-&gt;next;
+        fast = fast-&gt;next-&gt;next;
+    }
+    
+    // 反转后半部分
+    LinkList *mid = slow-&gt;next;
+    slow-&gt;next = NULL;
+    LinkList *prev = NULL, *curr = mid, *next = NULL;
+    while (curr) {
+        next = curr-&gt;next;
+        curr-&gt;next = prev;
+        prev = curr;
+        curr = next;
+    }
+    
+    // 合并两个链表
+    LinkList *p1 = head, *p2 = prev;
+    while (p2) {
+        LinkList *temp1 = p1-&gt;next, *temp2 = p2-&gt;next;
+        p1-&gt;next = p2;
+        p2-&gt;next = temp1;
+        p1 = temp1;
+        p2 = temp2;
+    }
+}
+</code></pre>
+<h3>链表环检测</h3>
+<pre><code>bool hasCycle(LinkList* head) {
+    if (!head || !head-&gt;next) return false;
+    
+    LinkList *slow = head, *fast = head;
+    while (fast &amp;&amp; fast-&gt;next) {
+        slow = slow-&gt;next;
+        fast = fast-&gt;next-&gt;next;
+        if (slow == fast) return true;
+    }
+    return false;
+}
+
+// 找到环的入口
+LinkList* detectCycle(LinkList* head) {
+    LinkList *slow = head, *fast = head;
+    while (fast &amp;&amp; fast-&gt;next) {
+        slow = slow-&gt;next;
+        fast = fast-&gt;next-&gt;next;
+        if (slow == fast) {
+            LinkList *ptr = head;
+            while (ptr != slow) {
+                ptr = ptr-&gt;next;
+                slow = slow-&gt;next;
+            }
+            return ptr;
+        }
+    }
+    return NULL;
+}
+</code></pre>
+<h2>树的操作</h2>
+<h3>树节点定义</h3>
+<pre><code>typedef struct TreeNode {
+    int data;
+    TreeNode* left;
+    TreeNode* right;
+} TreeNode;
+</code></pre>
+<h3>前序遍历</h3>
+<pre><code>// 递归版本
+void preOrderRecursive(TreeNode* root) {
+    if (root) {
+        cout &lt;&lt; root-&gt;data &lt;&lt; " ";
+        preOrderRecursive(root-&gt;left);
+        preOrderRecursive(root-&gt;right);
+    }
+}
+
+// 非递归版本
+void preOrderIterative(TreeNode* root) {
+    if (!root) return;
+    
+    stack&lt;TreeNode*&gt; stk;
+    stk.push(root);
+    
+    while (!stk.empty()) {
+        TreeNode* node = stk.top();
+        stk.pop();
+        cout &lt;&lt; node-&gt;data &lt;&lt; " ";
+        
+        if (node-&gt;right) stk.push(node-&gt;right);
+        if (node-&gt;left) stk.push(node-&gt;left);
+    }
+}
+</code></pre>
+<h3>中序遍历</h3>
+<pre><code>// 递归版本
+void inOrderRecursive(TreeNode* root) {
+    if (root) {
+        inOrderRecursive(root-&gt;left);
+        cout &lt;&lt; root-&gt;data &lt;&lt; " ";
+        inOrderRecursive(root-&gt;right);
+    }
+}
+
+// 非递归版本
+void inOrderIterative(TreeNode* root) {
+    stack&lt;TreeNode*&gt; stk;
+    TreeNode* curr = root;
+    
+    while (curr || !stk.empty()) {
+        while (curr) {
+            stk.push(curr);
+            curr = curr-&gt;left;
+        }
+        curr = stk.top();
+        stk.pop();
+        cout &lt;&lt; curr-&gt;data &lt;&lt; " ";
+        curr = curr-&gt;right;
+    }
+}
+</code></pre>
+<h3>后序遍历</h3>
+<pre><code>// 递归版本
+void postOrderRecursive(TreeNode* root) {
+    if (root) {
+        postOrderRecursive(root-&gt;left);
+        postOrderRecursive(root-&gt;right);
+        cout &lt;&lt; root-&gt;data &lt;&lt; " ";
+    }
+}
+
+// 非递归版本
+void postOrderIterative(TreeNode* root) {
+    if (!root) return;
+    
+    stack&lt;TreeNode*&gt; stk;
+    TreeNode* curr = root;
+    TreeNode* lastVisited = NULL;
+    
+    while (curr || !stk.empty()) {
+        while (curr) {
+            stk.push(curr);
+            curr = curr-&gt;left;
+        }
+        
+        TreeNode* topNode = stk.top();
+        if (topNode-&gt;right &amp;&amp; lastVisited != topNode-&gt;right) {
+            curr = topNode-&gt;right;
+        } else {
+            cout &lt;&lt; topNode-&gt;data &lt;&lt; " ";
+            lastVisited = topNode;
+            stk.pop();
+        }
+    }
+}
+</code></pre>
+<h3>层次遍历</h3>
+<pre><code>void levelOrder(TreeNode* root) {
+    if (!root) return;
+    
+    queue&lt;TreeNode*&gt; q;
+    q.push(root);
+    
+    while (!q.empty()) {
+        TreeNode* node = q.front();
+        q.pop();
+        cout &lt;&lt; node-&gt;data &lt;&lt; " ";
+        
+        if (node-&gt;left) q.push(node-&gt;left);
+        if (node-&gt;right) q.push(node-&gt;right);
+    }
+}
+</code></pre>
+<h3>重建二叉树</h3>
+<pre><code>TreeNode* buildTree(int preorder[], int preStart, int preEnd,
+                   int inorder[], int inStart, int inEnd) {
+    if (preStart &gt; preEnd || inStart &gt; inEnd) return NULL;
+    
+    int rootVal = preorder[preStart];
+    TreeNode* root = new TreeNode();
+    root-&gt;data = rootVal;
+    
+    // 在中序序列中找到根节点位置
+    int rootIndex = inStart;
+    while (rootIndex &lt;= inEnd &amp;&amp; inorder[rootIndex] != rootVal) {
+        rootIndex++;
+    }
+    
+    int leftSize = rootIndex - inStart;
+    root-&gt;left = buildTree(preorder, preStart + 1, preStart + leftSize,
+                          inorder, inStart, rootIndex - 1);
+    root-&gt;right = buildTree(preorder, preStart + leftSize + 1, preEnd,
+                           inorder, rootIndex + 1, inEnd);
+    
+    return root;
+}
+</code></pre>
+<h2>图的操作</h2>
+<h3>邻接矩阵DFS</h3>
+<pre><code>void dfsMatrix(int v, bool visited[], int n, int adjMatrix[][100]) {
+    visited[v] = true;
+    cout &lt;&lt; v &lt;&lt; " ";
+    
+    for (int i = 0; i &lt; n; i++) {
+        if (adjMatrix[v][i] &amp;&amp; !visited[i]) {
+            dfsMatrix(i, visited, n, adjMatrix);
+        }
+    }
+}
+</code></pre>
+<h3>邻接矩阵BFS</h3>
+<pre><code>void bfsMatrix(int start, int n, int adjMatrix[][100]) {
+    bool visited[100] = {false};
+    queue&lt;int&gt; q;
+    
+    visited[start] = true;
+    q.push(start);
+    
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        cout &lt;&lt; u &lt;&lt; " ";
+        
+        for (int v = 0; v &lt; n; v++) {
+            if (adjMatrix[u][v] &amp;&amp; !visited[v]) {
+                visited[v] = true;
+                q.push(v);
+            }
+        }
+    }
+}
+</code></pre>
+<h3>Dijkstra最短路径</h3>
+<pre><code>void dijkstra(int graph[][100], int n, int start) {
+    int dist[100];
+    bool visited[100] = {false};
+    
+    // 初始化距离数组
+    for (int i = 0; i &lt; n; i++) {
+        dist[i] = (graph[start][i] &gt; 0) ? graph[start][i] : INT_MAX;
+    }
+    dist[start] = 0;
+    
+    for (int count = 0; count &lt; n - 1; count++) {
+        // 选择未访问的最小距离顶点
+        int minDist = INT_MAX, u = -1;
+        for (int i = 0; i &lt; n; i++) {
+            if (!visited[i] &amp;&amp; dist[i] &lt; minDist) {
+                minDist = dist[i];
+                u = i;
+            }
+        }
+        
+        if (u == -1) break;
+        visited[u] = true;
+        
+        // 更新邻接顶点的距离
+        for (int v = 0; v &lt; n; v++) {
+            if (!visited[v] &amp;&amp; graph[u][v] &amp;&amp; dist[u] != INT_MAX &amp;&amp;
+                dist[u] + graph[u][v] &lt; dist[v]) {
+                dist[v] = dist[u] + graph[u][v];
+            }
+        }
+    }
+}
+</code></pre>
+<h3>Prim最小生成树</h3>
+<pre><code>void primMST(int graph[][100], int n) {
+    int parent[100];    // 存储MST
+    int key[100];       // 权值数组
+    bool inMST[100] = {false};
+    
+    for (int i = 0; i &lt; n; i++) {
+        key[i] = INT_MAX;
+    }
+    
+    key[0] = 0;
+    parent[0] = -1;
+    
+    for (int count = 0; count &lt; n - 1; count++) {
+        // 选择不在MST中的最小key顶点
+        int minKey = INT_MAX, u = -1;
+        for (int i = 0; i &lt; n; i++) {
+            if (!inMST[i] &amp;&amp; key[i] &lt; minKey) {
+                minKey = key[i];
+                u = i;
+            }
+        }
+        
+        inMST[u] = true;
+        
+        // 更新邻接顶点的key值
+        for (int v = 0; v &lt; n; v++) {
+            if (graph[u][v] &amp;&amp; !inMST[v] &amp;&amp; graph[u][v] &lt; key[v]) {
+                parent[v] = u;
+                key[v] = graph[u][v];
+            }
+        }
+    }
+}
+</code></pre>
+<h2>排序算法</h2>
+<h3>快速排序</h3>
+<pre><code>int partition(int arr[], int low, int high) {
+    int pivot = arr[low];
+    int i = low, j = high;
+    
+    while (i &lt; j) {
+        while (i &lt; j &amp;&amp; arr[j] &gt;= pivot) j--;
+        if (i &lt; j) arr[i++] = arr[j];
+        
+        while (i &lt; j &amp;&amp; arr[i] &lt;= pivot) i++;
+        if (i &lt; j) arr[j--] = arr[i];
+    }
+    arr[i] = pivot;
+    return i;
+}
+
+void quickSort(int arr[], int low, int high) {
+    if (low &lt; high) {
+        int pos = partition(arr, low, high);
+        quickSort(arr, low, pos - 1);
+        quickSort(arr, pos + 1, high);
+    }
+}
+</code></pre>
+<h3>归并排序</h3>
+<pre><code>void merge(int arr[], int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
+    
+    int* L = new int[n1];
+    int* R = new int[n2];
+    
+    for (int i = 0; i &lt; n1; i++)
+        L[i] = arr[left + i];
+    for (int j = 0; j &lt; n2; j++)
+        R[j] = arr[mid + 1 + j];
+    
+    int i = 0, j = 0, k = left;
+    while (i &lt; n1 &amp;&amp; j &lt; n2) {
+        if (L[i] &lt;= R[j]) {
+            arr[k++] = L[i++];
+        } else {
+            arr[k++] = R[j++];
+        }
+    }
+    
+    while (i &lt; n1) arr[k++] = L[i++];
+    while (j &lt; n2) arr[k++] = R[j++];
+    
+    delete[] L;
+    delete[] R;
+}
+
+void mergeSort(int arr[], int left, int right) {
+    if (left &lt; right) {
+        int mid = left + (right - left) / 2;
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+        merge(arr, left, mid, right);
+    }
+}
+</code></pre>
+<h3>堆排序</h3>
+<pre><code>void heapify(int arr[], int n, int i) {
+    int largest = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
+    
+    if (left &lt; n &amp;&amp; arr[left] &gt; arr[largest])
+        largest = left;
+    
+    if (right &lt; n &amp;&amp; arr[right] &gt; arr[largest])
+        largest = right;
+    
+    if (largest != i) {
+        swap(arr[i], arr[largest]);
+        heapify(arr, n, largest);
+    }
+}
+
+void heapSort(int arr[], int n) {
+    // 构建最大堆
+    for (int i = n / 2 - 1; i &gt;= 0; i--)
+        heapify(arr, n, i);
+    
+    // 逐个提取元素
+    for (int i = n - 1; i &gt; 0; i--) {
+        swap(arr[0], arr[i]);
+        heapify(arr, i, 0);
+    }
+}
+</code></pre>
+<h2>算法复杂度总结</h2>
+<table>
+<thead>
+<tr>
+<th>算法</th>
+<th>平均时间复杂度</th>
+<th>空间复杂度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>快速排序</td>
+<td>O(n log n)</td>
+<td>O(log n)</td>
+</tr>
+<tr>
+<td>归并排序</td>
+<td>O(n log n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td>堆排序</td>
+<td>O(n log n)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>DFS/BFS</td>
+<td>O(V+E)</td>
+<td>O(V)</td>
+</tr>
+<tr>
+<td>Dijkstra</td>
+<td>O(V²)</td>
+<td>O(V)</td>
+</tr>
+<tr>
+<td>Prim</td>
+<td>O(V²)</td>
+<td>O(V)</td>
+</tr>
+</tbody>
+</table>
+<h2>备考要点</h2>
+<ol>
+<li><strong>重点掌握</strong>：链表操作、树遍历、快速排序、DFS/BFS</li>
+<li><strong>常考题型</strong>：链表反转合并、二叉树重建、图遍历、排序算法实现</li>
+<li><strong>注意要点</strong>：边界条件处理、指针判空、递归终止条件</li>
+<li><strong>复杂度分析</strong>：每个算法都要能分析时间/空间复杂度</li>
+</ol>
+<hr />
+<p>void DFS_AL_Recursive(ALGraph G, int v, bool visited[]) {
+EdgeNode* p;
+visited[v] = true;           // 标记当前顶点已访问
+cout &lt;&lt; v &lt;&lt; " ";            // 输出顶点信息</p>
+<pre><code>// 遍历顶点v的所有邻接点
+p = G.adjList[v].firstEdge;
+while (p != NULL) {
+    int w = p-&gt;adjVertex;    // 获取邻接顶点编号
+    
+    // 如果邻接点未被访问，递归访问
+    if (!visited[w]) {
+        DFS_AL_Recursive(G, w, visited);
+    }
+    p = p-&gt;next;  // 指向下一个邻接点
+}
+</code></pre>
+<p>}</p>
+<hr />
+<p>void BFS_AL(ALGraph G, int v, bool visited[]) {
+queue&lt;int&gt; q;           // 队列用于存储待访问顶点
+EdgeNode* p;</p>
+<pre><code>visited[v] = true;      // 标记起始顶点已访问
+q.push(v);              // 起始顶点入队
+    
+while (!q.empty()) {
+    int current = q.front();  // 获取队首顶点
+    q.pop();                  // 队首顶点出队
+    cout &lt;&lt; current &lt;&lt; " ";    // 输出顶点
+    
+    // 遍历顶点current的所有邻接点
+    p = G.adjList[current].firstEdge;
+    while (p != NULL) {
+        int w = p-&gt;adjVertex;  // 获取邻接顶点编号
+        
+        // 如果邻接点未被访问
+        if (!visited[w]) {
+            visited[w] = true;  // 标记为已访问
+            q.push(w);          // 入队
+        }
+        p = p-&gt;next;  // 指向下一个邻接点
+    }
+}
+cout &lt;&lt; endl;
+</code></pre>
+<p>}</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-12-19T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常见概率分布统筹]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-probability-01/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-probability-01/"/>
+        <updated>2025-12-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[定义 ：一次伯努利试验中，事件A发生的次数X的分布。X只取0或1。 符号表示 ： $X \sim B(1, p)$ 或 $X \sim Bernoulli(p)$ 分布律 ： $$P\{X = k\} = p^k (1 p)^{1 k}, \quad k = 0, 1$$ 期望 ： $E(X) = ]]></summary>
+        <content type="html"><![CDATA[<h2>一、离散型随机变量及其分布</h2>
+<h3>1. 0-1分布（伯努利分布）</h3>
+<ul>
+<li><strong>定义</strong>：一次伯努利试验中，事件A发生的次数X的分布。X只取0或1。</li>
+<li><strong>符号表示</strong>： $X \sim B(1, p)$ 或 $X \sim Bernoulli(p)$</li>
+<li><strong>分布律</strong>： $$P{X = k} = p^k (1-p)^{1-k}, \quad k = 0, 1$$</li>
+<li><strong>期望</strong>： $E(X) = p$</li>
+<li><strong>方差</strong>： $D(X) = p(1-p)$</li>
+</ul>
+<h3>2. 二项分布</h3>
+<ul>
+<li><strong>定义</strong>：n重伯努利试验中，事件A发生的次数X的分布。</li>
+<li><strong>符号表示</strong>： $X \sim B(n, p)$</li>
+<li><strong>分布律</strong>： $$P{X = k} = C_n^k p^k (1-p)^{n-k}, \quad k = 0,1,2,...,n$$</li>
+<li><strong>期望</strong>： $$E(X) = np$$</li>
+<li><strong>方差</strong>： $$D(X) = np(1-p)$$</li>
+<li><strong>注</strong>：当 $n=1$ 时，二项分布退化为<strong>0-1分布</strong>。</li>
+</ul>
+<h3>3. 泊松分布</h3>
+<ul>
+<li><strong>定义</strong>：单位时间（或面积、体积）内稀有事件发生次数的分布。</li>
+<li><strong>符号表示</strong>： $X \sim P(\lambda)$</li>
+<li><strong>分布律</strong>： $$P{X = k} = \frac{\lambda^k}{k!} e^{-\lambda}, \quad k = 0,1,2,...$$</li>
+<li><strong>期望</strong>： $E(X) = \lambda$</li>
+<li><strong>方差</strong>： $D(X) = \lambda$</li>
+<li><strong>泊松定理</strong>：当n很大，p很小，且 $\lambda = np$ 适中时，二项分布可以用泊松分布近似：$$C_n^k p^k (1-p)^{n-k} \approx \frac{\lambda^k}{k!} e^{-\lambda}$$。</li>
+</ul>
+<h3>4. 几何分布</h3>
+<ul>
+<li><strong>符号表示</strong>： $X \sim Geom(p)$</li>
+<li><strong>分布律</strong>： $$P{X = k} = (1-p)^{k-1} p, \quad k = 1,2,3,...$$</li>
+<li><strong>期望</strong>： $$E(X) = \frac{1}{p}$$</li>
+<li><strong>方差</strong>： $$D(X) = \frac{1-p}{p^2}$$</li>
+<li><strong>无记忆性</strong>： $$P{X &gt; m+n | X &gt; m} = P{X &gt; n}$$</li>
+</ul>
+<h3>5. 超几何分布</h3>
+<ul>
+<li><strong>定义</strong>：从N个产品（其中M个次品）中抽取n个，抽到的次品数X的分布。</li>
+<li><strong>符号表示</strong>： $X \sim H(N, M, n)$</li>
+<li><strong>分布律</strong>： $$P{X = k} = \frac{C_M^k C_{N-M}^{n-k}}{C_N^n}, \quad k = \max(0, n-N+M), ..., \min(n, M)$$</li>
+<li><strong>期望</strong>： $$E(X) = n \frac{M}{N}$$</li>
+<li><strong>方差</strong>： $$D(X) = n \frac{M}{N} (1 - \frac{M}{N}) \frac{N-n}{N-1}$$</li>
+<li><strong>注</strong>：当 $N \to \infty$ 时，超几何分布趋于<strong>二项分布</strong>。</li>
+</ul>
+<hr />
+<h2>二、连续型随机变量及其分布</h2>
+<h3>1. 均匀分布</h3>
+<ul>
+<li><strong>定义</strong>：在区间 [a, b] 上，随机变量X落入等长度子区间的概率相等。</li>
+<li><strong>符号表示</strong>： $X \sim U(a, b)$</li>
+<li><strong>概率密度函数</strong>：
+$$
+f(x) = \begin{cases}
+\frac{1}{b-a}, &amp; a &lt; x &lt; b \
+0, &amp; \text{其他}
+\end{cases}
+$$</li>
+<li><strong>分布函数</strong>：
+$$
+F(x) = \begin{cases}
+0, &amp; x &lt; a \
+\frac{x-a}{b-a}, &amp; a \le x &lt; b \
+1, &amp; x \ge b
+\end{cases}
+$$</li>
+<li><strong>期望</strong>： $$E(X) = \frac{a+b}{2}$$</li>
+<li><strong>方差</strong>： $$D(X) = \frac{(b-a)^2}{12}$$</li>
+</ul>
+<h3>2. 指数分布</h3>
+<ul>
+<li><strong>定义</strong>：常用于描述寿命、排队等待时间等。</li>
+<li><strong>符号表示</strong>： $X \sim Exp(\lambda)$</li>
+<li><strong>概率密度函数</strong>：
+$$
+f(x) = \begin{cases}
+\lambda e^{-\lambda x}, &amp; x &gt; 0 \
+0, &amp; x \le 0
+\end{cases}
+$$</li>
+<li><strong>分布函数</strong>：
+$$
+F(x) = \begin{cases}
+1 - e^{-\lambda x}, &amp; x &gt; 0 \
+0, &amp; x \le 0
+\end{cases}
+$$</li>
+<li><strong>期望</strong>： $$E(X) = \frac{1}{\lambda}$$</li>
+<li><strong>方差</strong>： $$D(X) = \frac{1}{\lambda^2}$$</li>
+<li><strong>无记忆性</strong>： $$P{X &gt; s+t | X &gt; s} = P{X &gt; t}$$</li>
+</ul>
+<h3>3. 正态分布（高斯分布）</h3>
+<ul>
+<li><strong>定义</strong>：最重要的连续分布，许多随机现象都服从或近似服从正态分布。</li>
+<li><strong>符号表示</strong>： $X \sim N(\mu, \sigma^2)$</li>
+<li><strong>概率密度函数</strong>：
+$$
+f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}}, \quad -\infty &lt; x &lt; +\infty
+$$</li>
+<li><strong>性质</strong>：
+<ul>
+<li>密度函数曲线关于 $x=\mu$ 对称。</li>
+<li>在 $x=\mu$ 处取得最大值 $$\frac{1}{\sqrt{2\pi}\sigma}$$。</li>
+</ul>
+</li>
+<li><strong>期望</strong>： $E(X) = \mu$</li>
+<li><strong>方差</strong>： $D(X) = \sigma^2$</li>
+<li><strong>标准正态分布</strong>：当 $\mu=0, \sigma=1$ 时，记为 $X \sim N(0,1)$，其密度函数为 $\varphi(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2/2}$，分布函数为 $\Phi(x)$。</li>
+<li><strong>标准化</strong>：若 $$X \sim N(\mu, \sigma^2)，则 Z = \frac{X-\mu}{\sigma} \sim N(0,1)$$</li>
+<li><strong>“3σ”法则</strong>： $P{|X-\mu| &lt; \sigma} \approx 0.6826$, $P{|X-\mu| &lt; 2\sigma} \approx 0.9544$, $P{|X-\mu| &lt; 3\sigma} \approx 0.9974$。</li>
+</ul>
+<hr />
+<h2>三、分布之间的关系</h2>
+<ol>
+<li><strong>二项分布与0-1分布</strong>： $X \sim B(n, p)$ 是n个独立同分布的 $B(1, p)$ 随机变量之和。</li>
+<li><strong>二项分布与泊松分布</strong>：当n很大p很小时，$B(n, p) \approx P(\lambda=np)$。</li>
+<li><strong>二项分布与正态分布</strong>：当n很大时（德莫弗-拉普拉斯中心极限定理），$B(n, p)$ 近似于 $N(np, np(1-p))$。</li>
+<li><strong>超几何分布与二项分布</strong>：当N很大时，$H(N, M, n) \approx B(n, \frac{M}{N})$。</li>
+<li><strong>指数分布与泊松分布</strong>：泊松过程下，事件发生的时间间隔服从指数分布。</li>
+</ol>
+<hr />
+<h2>四、总结表格</h2>
+<table>
+<thead>
+<tr>
+<th>分布名称</th>
+<th>类型</th>
+<th>参数</th>
+<th>分布律 / 概率密度</th>
+<th>期望</th>
+<th>方差</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0-1分布</strong></td>
+<td>离散</td>
+<td>$p$</td>
+<td>$P(X=k)=p^k(1-p)^{1-k}$</td>
+<td>$p$</td>
+<td>$p(1-p)$</td>
+</tr>
+<tr>
+<td><strong>二项分布</strong></td>
+<td>离散</td>
+<td>$n, p$</td>
+<td>$P(X=k)=C_n^k p^k (1-p)^{n-k}$</td>
+<td>$np$</td>
+<td>$np(1-p)$</td>
+</tr>
+<tr>
+<td><strong>泊松分布</strong></td>
+<td>离散</td>
+<td>$\lambda$</td>
+<td>$P(X=k)=\frac{\lambda^k}{k!}e^{-\lambda}$</td>
+<td>$\lambda$</td>
+<td>$\lambda$</td>
+</tr>
+<tr>
+<td><strong>几何分布</strong></td>
+<td>离散</td>
+<td>$p$</td>
+<td>$P(X=k)=(1-p)^{k-1}p$</td>
+<td>$\frac{1}{p}$</td>
+<td>$\frac{1-p}{p^2}$</td>
+</tr>
+<tr>
+<td><strong>超几何分布</strong></td>
+<td>离散</td>
+<td>$N, M, n$</td>
+<td>$P(X=k)=\frac{C_M^k C_{N-M}^{n-k}}{C_N^n}$</td>
+<td>$n\frac{M}{N}$</td>
+<td>$n\frac{M}{N}(1-\frac{M}{N})\frac{N-n}{N-1}$</td>
+</tr>
+<tr>
+<td><strong>均匀分布</strong></td>
+<td>连续</td>
+<td>$a, b$</td>
+<td>$f(x)=\frac{1}{b-a}, x\in(a,b)$</td>
+<td>$\frac{a+b}{2}$</td>
+<td>$\frac{(b-a)^2}{12}$</td>
+</tr>
+<tr>
+<td><strong>指数分布</strong></td>
+<td>连续</td>
+<td>$\lambda$</td>
+<td>$f(x)=\lambda e^{-\lambda x}, x&gt;0$</td>
+<td>$\frac{1}{\lambda}$</td>
+<td>$\frac{1}{\lambda^2}$</td>
+</tr>
+<tr>
+<td><strong>正态分布</strong></td>
+<td>连续</td>
+<td>$\mu, \sigma^2$</td>
+<td>$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$</td>
+<td>$\mu$</td>
+<td>$\sigma^2$</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-12-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[事件A与B独立的条件总结]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-probability-04/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-probability-04/"/>
+        <updated>2025-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[设 $A, B$ 为两个随机事件，称 $A$ 与 $B$ 相互独立 ，如果满足： $$P(AB) = P(A)P(B)$$ 1. 条件概率形式 （要求分母概率非零）： $P(A|B) = P(A)$ $P(B|A) = P(B)$ 2. 条件概率相等 ： $P(A|B) = P(A|\overlin]]></summary>
+        <content type="html"><![CDATA[<h2>1. 基本定义</h2>
+<p>设 $A, B$ 为两个随机事件，称 $A$ 与 $B$ <strong>相互独立</strong>，如果满足：
+$$P(AB) = P(A)P(B)$$</p>
+<h2>2. 等价条件（设 $0 &lt; P(A) &lt; 1, 0 &lt; P(B) &lt; 1$）</h2>
+<ol>
+<li>
+<p><strong>条件概率形式</strong>（要求分母概率非零）：</p>
+<ul>
+<li>$P(A|B) = P(A)$</li>
+<li>$P(B|A) = P(B)$</li>
+</ul>
+</li>
+<li>
+<p><strong>条件概率相等</strong>：</p>
+<ul>
+<li>$P(A|B) = P(A|\overline{B})$</li>
+<li>$P(B|A) = P(B|\overline{A})$</li>
+</ul>
+</li>
+<li>
+<p><strong>条件概率组合形式</strong>（如例题27）：</p>
+<ul>
+<li>$P(A|B) + P(\overline{A}|\overline{B}) = 1$<br />
+（因为 $P(\overline{A}|\overline{B}) = 1 - P(A|\overline{B})$，可推出 $P(A|B) = P(A|\overline{B})$）</li>
+</ul>
+</li>
+<li>
+<p><strong>事件运算概率形式</strong>：</p>
+<ul>
+<li>$P(A \cup B) = P(A) + P(B) - P(A)P(B)$</li>
+<li>$P(A \cup B) = 1 - P(\overline{A})P(\overline{B})$</li>
+<li>$P(A - B) = P(A)P(\overline{B})$（其中 $A-B = A\overline{B}$）</li>
+<li>$P(A \triangle B) = P(A) + P(B) - 2P(A)P(B)$（对称差）</li>
+</ul>
+</li>
+</ol>
+<h2>3. 独立性的继承性</h2>
+<p>若 $A$ 与 $B$ 独立，则以下每一对事件也相互独立：</p>
+<ul>
+<li>$A$ 与 $\overline{B}$</li>
+<li>$\overline{A}$ 与 $B$</li>
+<li>$\overline{A}$ 与 $\overline{B}$</li>
+</ul>
+<p><strong>即独立性在取补运算下保持不变。</strong></p>
+<h2>4. 多个事件的独立性</h2>
+<h3>(1) 两两独立</h3>
+<p>事件 $A, B, C$ <strong>两两独立</strong>是指：
+$$
+\begin{aligned}
+P(AB) &amp;= P(A)P(B), \
+P(BC) &amp;= P(B)P(C), \
+P(AC) &amp;= P(A)P(C).
+\end{aligned}
+$$</p>
+<h3>(2) 相互独立</h3>
+<p>事件 $A, B, C$ <strong>相互独立</strong>是指它们两两独立，并且同时满足：
+$$P(ABC) = P(A)P(B)P(C).$$</p>
+<blockquote>
+<p><strong>注意</strong>：两两独立不一定推出相互独立。相互独立是更强的条件。</p>
+</blockquote>
+<h2>5. 特殊情形</h2>
+<ol>
+<li>
+<p><strong>概率为 0 或 1 的事件</strong>：</p>
+<ul>
+<li>若 $P(A)=0$ 或 $P(A)=1$，则 $A$ 与任意事件 $B$ 独立。</li>
+<li>特别地，$P(A)=1 \Rightarrow P(AB)=P(B)=P(A)P(B)$；<br />
+$P(A)=0 \Rightarrow P(AB)=0=P(A)P(B)$。</li>
+</ul>
+</li>
+<li>
+<p><strong>包含关系下的独立</strong>：</p>
+<ul>
+<li>若 $A \subseteq B$，则 $A$ 与 $B$ 独立的充要条件是 $P(A)=0$ 或 $P(B)=1$。</li>
+</ul>
+</li>
+<li>
+<p><strong>互斥事件与独立</strong>：</p>
+<ul>
+<li>若 $A$ 与 $B$ 互斥（即 $AB=\varnothing$），则 $A$ 与 $B$ 独立的充要条件是 $P(A)=0$ 或 $P(B)=0$。</li>
+<li>当 $P(A)&gt;0$ 且 $P(B)&gt;0$ 时，互斥一定不独立。</li>
+</ul>
+</li>
+<li>
+<p><strong>对立事件与独立</strong>：</p>
+<ul>
+<li>对立事件（$A\cup B=\Omega$ 且 $AB=\varnothing$）在 $P(A)&gt;0, P(B)&gt;0$ 时不独立，除非 $P(A)$ 或 $P(B)$ 为 0 或 1。</li>
+</ul>
+</li>
+</ol>
+<h2>6. 常见题型与解题思路</h2>
+<ol>
+<li><strong>验证独立性</strong>：首选定义 $P(AB)=P(A)P(B)$，或使用条件概率等价形式。</li>
+<li><strong>利用独立性简化计算</strong>：若 $A,B$ 独立，则 $P(A\cup B)=P(A)+P(B)-P(A)P(B)$，$P(\overline{A}\overline{B})=P(\overline{A})P(\overline{B})$ 等。</li>
+<li><strong>识别题干中的隐蔽条件</strong>：如 $P(A|B)+P(\overline{A}|\overline{B})=1$ 往往提示 $P(A|B)=P(A|\overline{B})$，进而可能推出独立。</li>
+<li><strong>注意区分</strong>：
+<ul>
+<li>互斥：$AB=\varnothing$，即 $P(AB)=0$。</li>
+<li>独立：概率乘积关系，无交运算限制。</li>
+<li>互斥与独立一般不能同时成立（除非概率为 0）。</li>
+</ul>
+</li>
+</ol>
+<h2>7. 例题</h2>
+<p><strong>例题27</strong>：已知 $0&lt;P(A)&lt;1, 0&lt;P(B)&lt;1$，且 $P(A|B)+P(\overline{A}|\overline{B})=1$，证明 $A$ 与 $B$ 相互独立。</p>
+<p><strong>推导</strong>：
+由 $P(\overline{A}|\overline{B}) = 1 - P(A|\overline{B})$，代入条件得：
+$$P(A|B) + 1 - P(A|\overline{B}) = 1 \Rightarrow P(A|B) = P(A|\overline{B}).$$
+从而 $P(A|B) = P(A|\overline{B})$，结合 $P(A) = P(A|B)P(B) + P(A|\overline{B})P(\overline{B})$，可得 $P(A|B)=P(A)$，故 $A$ 与 $B$ 独立。</p>
+<hr />
+<p><strong>记忆要点</strong>：独立性核心是“概率乘法”，条件概率“无影响”，以及补运算下的保持性。掌握等价条件，注意特殊概率值（0 或 1）带来的结论。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-12-02T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三大可靠传输协议]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-networks-02/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-networks-02/"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[可靠传输协议通过 确认（ACK） 和 超时重传 机制，确保数据帧能够正确、有序地交付给接收方。主要分为三种协议： 1. 停止 等待协议（Stop and Wait, S W） 2. 后退N帧协议（Go Back N, GBN） 3. 选择重传协议（Selective Repeat, SR） 三者核心]]></summary>
+        <content type="html"><![CDATA[<h2>概述</h2>
+<p>可靠传输协议通过<strong>确认（ACK）</strong> 和<strong>超时重传</strong>机制，确保数据帧能够正确、有序地交付给接收方。主要分为三种协议：</p>
+<ol>
+<li><strong>停止-等待协议（Stop-and-Wait, S-W）</strong></li>
+<li><strong>后退N帧协议（Go-Back-N, GBN）</strong></li>
+<li><strong>选择重传协议（Selective Repeat, SR）</strong></li>
+</ol>
+<p>三者核心区别在于<strong>滑动窗口的大小</strong>以及由此带来的<strong>确认和重传策略</strong>的不同。</p>
+<hr />
+<h2>对比总览</h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th><strong>停止-等待 (S-W)</strong></th>
+<th><strong>后退N帧 (GBN)</strong></th>
+<th><strong>选择重传 (SR)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>发送窗口大小 ($W_T$)</strong></td>
+<td>1</td>
+<td>$1 &lt; W_T \leq 2^n - 1$</td>
+<td>$W_T &gt; 1$, $W_T \leq 2^{n-1}$</td>
+</tr>
+<tr>
+<td><strong>接收窗口大小 ($W_R$)</strong></td>
+<td>1</td>
+<td>1</td>
+<td>$W_R &gt; 1$, $W_R \leq 2^{n-1}$</td>
+</tr>
+<tr>
+<td><strong>确认机制</strong></td>
+<td>逐个确认</td>
+<td><strong>累计确认</strong> (ACKn 代表n及之前所有帧已收)</td>
+<td><strong>逐个确认</strong> (对每个正确接收的帧发ACK)</td>
+</tr>
+<tr>
+<td><strong>重传机制</strong></td>
+<td>超时重发出错帧</td>
+<td>超时后，<strong>重传所有未确认帧</strong> (从第一个出错帧开始)</td>
+<td><strong>仅重传真正出错或丢失的帧</strong> (可为单个帧)</td>
+</tr>
+<tr>
+<td><strong>接收方处理</strong></td>
+<td>按序接收，收到重复帧则丢弃并重发ACK</td>
+<td>按序接收，<strong>丢弃所有失序帧</strong></td>
+<td><strong>缓存失序但正确的帧</strong>，等待缺失帧</td>
+</tr>
+<tr>
+<td><strong>所需缓冲区</strong></td>
+<td>发送方和接收方各需<strong>1个帧</strong>的缓冲区</td>
+<td>发送方需**$W_T$个帧<strong>的缓冲区；接收方需</strong>1个帧**的缓冲区</td>
+<td>发送方需**$W_T$个帧<strong>的缓冲区；接收方需</strong>$W_R$个帧**的缓冲区</td>
+</tr>
+<tr>
+<td><strong>信道利用率</strong></td>
+<td>低</td>
+<td>较高 (误码率高时效率骤降)</td>
+<td>高</td>
+</tr>
+<tr>
+<td><strong>复杂度</strong></td>
+<td>简单</td>
+<td>中等</td>
+<td>复杂</td>
+</tr>
+<tr>
+<td><strong>核心思想</strong></td>
+<td>“发一帧，等一确认”</td>
+<td>“连续发送，出错全部回退”</td>
+<td>“选择性重传，谁错谁重来”</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>分协议详解</h2>
+<h3>1. 停止-等待协议 (S-W)</h3>
+<ul>
+<li><strong>窗口大小</strong>：$W_T = 1$，$W_R = 1$。是<strong>单帧滑动窗口</strong>。</li>
+<li><strong>序号编码</strong>：<strong>1比特</strong> (0和1交替) 即可满足需求。</li>
+<li><strong>运行过程</strong>：
+<ol>
+<li>发送方发送0号帧，启动定时器。</li>
+<li>接收方正确收到0号帧，回发ACK0。</li>
+<li>发送方收到ACK0，停止定时器，发送1号帧，启动新定时器。</li>
+<li>若数据帧或ACK丢失/出错，发送方定时器超时，则<strong>重传上一个帧</strong>。</li>
+</ol>
+</li>
+<li><strong>关键点</strong>：
+<ul>
+<li>发送方必须在其缓存中<strong>保留已发送帧的副本</strong>，直到收到对应的ACK。</li>
+<li>接收方收到重复帧（序号相同）时，将其丢弃，并<strong>重传上一次发送的ACK</strong>（防止ACK丢失）。</li>
+</ul>
+</li>
+<li><strong>缺点</strong>：信道利用率 $$U = \frac{T_D}{T_D + RTT + T_A}$$很低（$T_D$为发送时延，$T_A$为发送确认时延）。</li>
+</ul>
+<h3>2. 后退N帧协议 (GBN)</h3>
+<ul>
+<li><strong>窗口大小</strong>：$W_T &gt; 1$ (通常 $W_T = 2^n - 1$)，$W_R = 1$。</li>
+<li><strong>运行过程</strong>：
+<ol>
+<li>发送方可以连续发送窗口内的所有帧。</li>
+<li>接收方<strong>只按序接收</strong>。如果收到正确的第n帧，则交付上层，回发<strong>累计确认ACKn</strong> (表示n及之前所有帧已正确接收)。</li>
+<li>若第k帧出错或丢失，接收方会丢弃所有后续的帧（k+1, k+2, ...），并持续发送最后一个正确接收的帧的确认（如ACK(k-1)）。</li>
+<li>发送方为<strong>最早发出的未确认帧</strong>维护一个定时器。若定时器超时，则<strong>重传所有已发出但未收到确认的帧</strong>（即从第k帧开始重传）。</li>
+</ol>
+</li>
+<li><strong>命题追踪</strong>：
+<ul>
+<li><strong>GBN工作原理 (2009)</strong>：核心是累计确认和回退N步重传。</li>
+<li><strong>GBN确认号的含义 (2017)</strong>：ACKn是累计确认，代表期望收到n+1号帧。</li>
+<li><strong>GBN发送窗口最大尺寸 (2017)</strong>：$W_T^{max} = 2^n - 1$。若$W_T = 2^n$，会造成接收方无法区分新帧和旧帧（序号产生重叠）。</li>
+</ul>
+</li>
+<li><strong>缺点</strong>：单个帧出错可能导致大量帧被重传，<strong>信道利用率随误码率升高而急剧下降</strong>。</li>
+</ul>
+<h3>3. 选择重传协议 (SR)</h3>
+<ul>
+<li><strong>窗口大小</strong>：$W_T &gt; 1$, $W_R &gt; 1$。且必须满足 <strong>$W_R + W_T \leq 2^n$</strong> 和 <strong>$W_R \leq W_T$</strong> ⇒ <strong>$W_R^{max} = W_T^{max} = 2^{n-1}$</strong>。</li>
+<li><strong>运行过程</strong>：
+<ol>
+<li>发送方连续发送窗口内的帧，并为<strong>每个未确认的帧</strong>单独启动定时器。</li>
+<li>接收方<strong>缓存所有正确接收且序号落在$W_R$内的帧</strong>（无论是否按序）。</li>
+<li>接收方对每个正确接收的帧进行<strong>逐个确认</strong> (发送ACKn)。如果收到乱序的帧，先缓存起来。</li>
+<li>当窗口内序号最小的帧被接收后，就将一连串按序的帧交付上层，接收窗口向前滑动。</li>
+<li>发送方只重传<strong>超时未确认</strong>的帧。接收方还可发送<strong>否定确认NAK</strong>，要求发送方立即重传指定帧。</li>
+</ol>
+</li>
+<li><strong>命题追踪</strong>：
+<ul>
+<li><strong>SR原理及实现 (2011, 2024)</strong>：核心是接收方设置缓存、逐个确认、选择性重传。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：避免了GBN中重复传输正确帧的问题，<strong>信道利用率高</strong>。</li>
+<li><strong>缺点</strong>：<strong>实现最复杂</strong>，发送方和接收方都需要更大的缓存空间来维护窗口中的每个帧。</li>
+</ul>
+<hr />
+<p><strong>总结</strong>：从S-W到GBN再到SR，通过增大窗口和优化重传策略，<strong>信道利用率</strong>和<strong>性能</strong>逐步提升，但<strong>实现复杂度</strong>也相应增加。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-12-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[秩1矩阵的总结]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-linear-algebra-07/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-linear-algebra-07/"/>
+        <updated>2025-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一个$n$阶矩阵$A$的秩为1，当且仅当存在非零列向量$\alpha$和$\beta$，使得： $$A = \alpha \beta^T$$ 其中，$\alpha$和$\beta$是$n$维列向量。 行/列成比例 ：矩阵的任意两行（或两列）均成比例 分解形式 ：能表示为两个向量的外积 行列式 ：当$]]></summary>
+        <content type="html"><![CDATA[<h2>考研数学中秩1矩阵的全面总结</h2>
+<h3>一、秩1矩阵的定义与识别</h3>
+<h4>1. 定义</h4>
+<p>一个$n$阶矩阵$A$的秩为1，当且仅当存在非零列向量$\alpha$和$\beta$，使得：
+$$A = \alpha \beta^T$$
+其中，$\alpha$和$\beta$是$n$维列向量。</p>
+<h4>2. 识别方法</h4>
+<ul>
+<li><strong>行/列成比例</strong>：矩阵的任意两行（或两列）均成比例</li>
+<li><strong>分解形式</strong>：能表示为两个向量的外积</li>
+<li><strong>行列式</strong>：当$n \geq 2$时，秩1矩阵的行列式为0</li>
+</ul>
+<h3>二、秩1矩阵的核心性质</h3>
+<h4>1. 特征值与特征向量</h4>
+<p>设$A = \alpha \beta^T$，则：</p>
+<ul>
+<li><strong>特征值</strong>：
+$$\lambda_1 = \beta^T \alpha,\quad \lambda_2 = \lambda_3 = \cdots = \lambda_n = 0$$</li>
+<li><strong>迹与特征值关系</strong>：
+$$\operatorname{tr}(A) = \beta^T \alpha = \lambda_1$$</li>
+<li><strong>特征向量</strong>：
+<ul>
+<li>属于特征值$\lambda_1 = \beta^T \alpha$的特征向量为$\alpha$</li>
+<li>属于特征值0的特征向量为与$\beta$正交的所有向量</li>
+</ul>
+</li>
+</ul>
+<h4>2. 高次幂的计算公式</h4>
+<p>$$A^k = [\operatorname{tr}(A)]^{k-1} \cdot A = (\beta^T \alpha)^{k-1} \cdot \alpha \beta^T$$
+特别地，当$\operatorname{tr}(A) = 0$时，$A^2 = 0$</p>
+<h4>3. 可对角化性</h4>
+<p><strong>任何秩1矩阵都是可对角化的</strong>（无论是否对称）</p>
+<ul>
+<li>存在可逆矩阵$P$，使得$P^{-1}AP = \operatorname{diag}(\operatorname{tr}(A), 0, \dots, 0)$</li>
+<li>零特征值的几何重数 = 代数重数 = $n-1$</li>
+</ul>
+<h4>4. 其他重要性质</h4>
+<ul>
+<li><strong>秩</strong>：$\operatorname{rank}(A) = 1$</li>
+<li><strong>行列式</strong>：当$n &gt; 1$时，$\det(A) = 0$</li>
+<li><strong>特征多项式</strong>：$|\lambda E - A| = \lambda^{n-1}(\lambda - \operatorname{tr}(A))$</li>
+</ul>
+<h3>三、解题技巧与典型题型</h3>
+<h4>题型1：特征值与高次幂计算</h4>
+<p><strong>解题思路</strong>：</p>
+<ol>
+<li>识别矩阵为秩1矩阵</li>
+<li>计算迹$\operatorname{tr}(A)$，得到非零特征值</li>
+<li>应用高次幂公式$A^k = [\operatorname{tr}(A)]^{k-1} \cdot A$</li>
+</ol>
+<p><strong>例题</strong>：
+设$A = \begin{pmatrix} 1 &amp; 2 &amp; 3 \ 2 &amp; 4 &amp; 6 \ 3 &amp; 6 &amp; 9 \end{pmatrix}$，求$A^{10}$</p>
+<p><strong>解</strong>：</p>
+<ul>
+<li>$\operatorname{tr}(A) = 1 + 4 + 9 = 14$</li>
+<li>$A^{10} = 14^{9} \cdot A$</li>
+</ul>
+<h4>题型2：相似对角化问题</h4>
+<p><strong>解题思路</strong>：</p>
+<ul>
+<li>秩1矩阵必可相似对角化</li>
+<li>相似标准形为$\operatorname{diag}(\operatorname{tr}(A), 0, \dots, 0)$</li>
+</ul>
+<p><strong>例题</strong>：
+证明秩1矩阵$A$可相似对角化</p>
+<p><strong>证明</strong>：</p>
+<ul>
+<li>零特征值的代数重数为$n-1$</li>
+<li>零特征值的几何重数为$n - \operatorname{rank}(A) = n-1$</li>
+<li>几何重数 = 代数重数，故可对角化</li>
+</ul>
+<h4>题型3：与向量、空间结合的综合题</h4>
+<p><strong>解题思路</strong>：</p>
+<ul>
+<li>利用分解形式$A = \alpha \beta^T$</li>
+<li>注意$\operatorname{tr}(A) = \beta^T \alpha$的应用</li>
+</ul>
+<p><strong>例题</strong>：
+设$\alpha, \beta$为3维列向量，$A = \alpha\beta^T$，矩阵$B = 2E + A$，求$B$的特征值</p>
+<p><strong>解</strong>：</p>
+<ul>
+<li>$A$的特征值为$\beta^T\alpha, 0, 0$</li>
+<li>$B = 2E + A$的特征值为$2 + \beta^T\alpha, 2, 2$</li>
+</ul>
+<h4>题型4：矩阵方程与求逆</h4>
+<p><strong>解题思路</strong>：</p>
+<ul>
+<li>利用秩1矩阵的幂等性质：$A^2 = \operatorname{tr}(A) \cdot A$</li>
+<li>构造递推关系或直接公式</li>
+</ul>
+<p><strong>重要公式</strong>：
+若$\operatorname{tr}(A) \neq -1$，则：
+$$(E + A)^{-1} = E - \frac{1}{1 + \operatorname{tr}(A)} A$$</p>
+<p><strong>证明</strong>：
+直接验证$(E + A)(E - \frac{1}{1 + \operatorname{tr}(A)} A) = E$，利用$A^2 = \operatorname{tr}(A) A$</p>
+<h3>四、考研真题中常见考查方式</h3>
+<h4>1. 直接考查型</h4>
+<p>题目明确给出秩1矩阵，要求计算特征值、高次幂等</p>
+<h4>2. 隐含条件型</h4>
+<p>矩阵具有特定形式（如所有行成比例），需要先识别为秩1矩阵</p>
+<h4>3. 综合应用型</h4>
+<p>与其他知识点结合：</p>
+<ul>
+<li>与二次型结合：实对称秩1矩阵$A = k\alpha\alpha^T$</li>
+<li>与向量组线性相关性结合</li>
+<li>与矩阵分解结合</li>
+</ul>
+<h4>4. 证明题</h4>
+<ul>
+<li>证明矩阵的秩为1</li>
+<li>证明矩阵可对角化</li>
+<li>证明特定矩阵等式</li>
+</ul>
+<h3>五、备考建议与注意事项</h3>
+<h4>核心技巧</h4>
+<ol>
+<li><strong>快速识别</strong>：见到行/列成比例或可分解为$uv^T$形式的矩阵，立即想到秩1矩阵</li>
+<li><strong>性质活用</strong>：立即联想特征值$(\operatorname{tr}(A), 0, \dots, 0)$和高次幂公式</li>
+<li><strong>分解思想</strong>：复杂问题尝试表示为$A = \alpha\beta^T$形式</li>
+</ol>
+<h4>易错点提醒</h4>
+<ul>
+<li>注意$\operatorname{tr}(A) = 0$的特殊情况（此时$A^2 = 0$）</li>
+<li>区分实对称秩1矩阵与一般秩1矩阵的性质差异</li>
+<li>验证可逆性时注意：$n \geq 2$的秩1矩阵必定不可逆</li>
+</ul>
+<h4>训练重点</h4>
+<ol>
+<li>熟练掌握特征值、迹、高次幂的快速计算</li>
+<li>熟练运用分解形式$A = \alpha\beta^T$进行推导</li>
+<li>积累与秩1矩阵相关的典型构造和证明方法</li>
+</ol>
+<p>通过系统掌握上述内容，相信你能够在考研数学中游刃有余地解决秩1矩阵相关的各类问题。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奈式与香农公式]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-networks-01/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-networks-01/"/>
+        <updated>2025-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这两个定理是数据通信领域的基石，分别从不同角度描述了信道的极限传输能力。 核心思想 ：在<font color=" ff0000" 理想无噪声</font 的信道中， 带宽 和 码元状态数 共同决定了极限数据传输速率。 关注点 ： 码间串扰 。由于信道带宽有限，高频分量会衰减，导致码元波形失真、相互]]></summary>
+        <content type="html"><![CDATA[<p>这两个定理是数据通信领域的基石，分别从不同角度描述了信道的极限传输能力。</p>
+<hr />
+<h2>一、核心概念总结</h2>
+<h3>1. 奈奎斯特准则 (Nyquist Theorem)</h3>
+<ul>
+<li><strong>核心思想</strong>：在&lt;font color="#ff0000"&gt;理想无噪声&lt;/font&gt;的信道中，<strong>带宽</strong>和<strong>码元状态数</strong>共同决定了极限数据传输速率。</li>
+<li><strong>关注点</strong>：<strong>码间串扰</strong>。由于信道带宽有限，高频分量会衰减，导致码元波形失真、相互重叠。</li>
+<li><strong>适用范围</strong>：<strong>理想低通信道</strong>（带宽有限、无噪声）。</li>
+</ul>
+<h4><strong>公式与关键参数</strong></h4>
+<p>$$C = 2W log₂V$$</p>
+<ul>
+<li><strong>极限码元传输速率 (波特率)</strong>：<code>2W</code> 波特
+<ul>
+<li><code>W</code>：信道的频率带宽 (单位: Hz)</li>
+</ul>
+</li>
+<li><strong>极限数据传输速率 (比特率)</strong>：<code>C = 2W log₂V</code> (单位: b/s)
+<ul>
+<li><code>V</code>：一个码元所携带的<strong>离散电平数量</strong>（即码元的状态数，如2ASK有2种状态，4ASK有4种状态，16QAM有16种状态）。</li>
+<li><code>log₂V</code>：一个码元可以表示的二进制位数。</li>
+</ul>
+</li>
+</ul>
+<p><strong>简单来说：奈氏准则告诉我们，在完美的环境下，一条马路（信道）有多宽（带宽<code>W</code>），以及我们能用多少种不同的信号（码元状态数<code>V</code>），共同决定了单位时间内能运送多少货物（数据）。</strong></p>
+<h3>2. 香农定理 (Shannon's Theorem)</h3>
+<ul>
+<li><strong>核心思想</strong>：在&lt;font color="#ff0000"&gt;有噪声&lt;/font&gt;的实际信道中，<strong>带宽</strong>和<strong>信噪比</strong>共同决定了信道的极限容量。</li>
+<li><strong>关注点</strong>：<strong>随机噪声</strong>。噪声会干扰信号，使得接收端无法正确识别。</li>
+<li><strong>适用范围</strong>：<strong>带宽受限且有高斯白噪声</strong>的信道。</li>
+</ul>
+<h4><strong>公式与关键参数</strong></h4>
+<ul>
+<li><strong>信道极限容量</strong>：<code>C = W log₂(1 + S/N)</code> (单位: b/s)
+<ul>
+<li><code>W</code>：信道的频率带宽 (单位: Hz)</li>
+<li><code>S/N</code>：<strong>信噪比</strong>，即信号平均功率与噪声平均功率的<strong>比值</strong>（<strong>无单位</strong>）。</li>
+</ul>
+</li>
+<li><strong>信噪比的单位转换</strong>：
+<ul>
+<li><strong>比值形式</strong>：<code>S/N</code> (无单位)，用于香农公式计算。</li>
+<li><strong>分贝(dB)形式</strong>：<code>信噪比(dB) = 10 log₁₀(S/N)</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>简单来说：香农定理告诉我们，在现实有干扰的环境下，一条马路（信道）有多宽（带宽<code>W</code>），以及路上的噪音有多大（信噪比<code>S/N</code>），共同决定了这条路理论上能安全通过的最大车流量（数据）。</strong></p>
+<hr />
+<h2>二、两大定理的对比与关系</h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>奈奎斯特准则</th>
+<th>香农定理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>核心限制因素</strong></td>
+<td>码间串扰 (带宽限制)</td>
+<td>信道噪声 (信噪比限制)</td>
+</tr>
+<tr>
+<td><strong>信道环境</strong></td>
+<td><strong>理想无噪声</strong></td>
+<td><strong>有高斯白噪声</strong></td>
+</tr>
+<tr>
+<td><strong>决定速率的参数</strong></td>
+<td>带宽 <code>W</code>、码元状态数 <code>V</code></td>
+<td>带宽 <code>W</code>、信噪比 <code>S/N</code></td>
+</tr>
+<tr>
+<td><strong>理论角色</strong></td>
+<td>定义了<strong>无噪声时</strong>通过增加信号状态能达到的速率上限</td>
+<td>定义了<strong>有噪声时</strong>信道绝对不可逾越的<strong>容量上限</strong></td>
+</tr>
+<tr>
+<td><strong>实际应用</strong></td>
+<td>指导我们如何设计码元（调制技术），如ASK, FSK, PSK, QAM。</td>
+<td>给出了一个信道在现实环境中的性能极限，是通信系统设计的终极目标。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>重要关系</strong>：
+在实际系统设计中，两个定理必须<strong>同时满足</strong>。</p>
+<ul>
+<li>由<strong>香农定理</strong>计算出信道的<strong>绝对最大容量</strong>。</li>
+<li>由<strong>奈奎斯特准则</strong>指导我们选择<strong>调制技术</strong>（即<code>V</code>的值），使得 <code>2W log₂V</code> 尽可能接近但不超过香农容量。</li>
+</ul>
+<hr />
+<h2>三、习题实战解析</h2>
+<h3>(2022统考)</h3>
+<p><strong>题目</strong>：在一条带宽为 200kHz 的无噪声信道上，若采用 4 个幅值的 ASK 调制，则该信道的最大数据传输速率是（ ）。</p>
+<p>A. 200kb/s<br />
+B. 400kb/s<br />
+C. 800kb/s<br />
+D. 1600kb/s</p>
+<p><strong>解析</strong>：</p>
+<ol>
+<li><strong>识别条件</strong>：<strong>无噪声</strong> -&gt; 使用<strong>奈奎斯特准则</strong>。</li>
+<li><strong>提取参数</strong>：
+<ul>
+<li>带宽 <code>W = 200 kHz</code></li>
+<li>4个幅值的ASK调制 -&gt; 码元状态数 <code>V = 4</code></li>
+</ul>
+</li>
+<li><strong>套用公式</strong>：
+<code>C = 2W log₂V = 2 * 200 * 10³ * log₂4</code></li>
+</ol>
+<p><strong>答案：C</strong></p>
+<h3>(2023统考)</h3>
+<p><strong>题目</strong>：某无噪声理想信道带宽为 4MHz，采用 QAM 调制，若该信道的最大数据传输速率是 48Mb/s，则该信道采用的 QAM 调制方案是（ ）。</p>
+<p>A. QAM-16<br />
+B. QAM-32<br />
+C. QAM-64<br />
+D. QAM-128</p>
+<p><strong>解析</strong>：</p>
+<ol>
+<li><strong>识别条件</strong>：<strong>无噪声理想信道</strong> -&gt; 使用<strong>奈奎斯特准则</strong>。</li>
+<li><strong>提取参数</strong>：
+<ul>
+<li>带宽 <code>W = 4 MHz</code></li>
+<li>最大数据速率 <code>C = 48 Mb/s</code></li>
+</ul>
+</li>
+<li><strong>套用公式求 V</strong>：
+<code>C = 2W log₂V</code>
+<code>48 * 10⁶ = 2 * 4 * 10⁶ * log₂V</code>
+<code>48 = 8 * log₂V</code>
+<code>log₂V = 6</code>
+<code>V = 2⁶ = 64</code>
+QAM调制方案通常以状态数命名，<code>V=64</code> 即为 QAM-64。</li>
+</ol>
+<p><strong>答案：C</strong></p>
+<h3>(2017统考)</h3>
+<p><strong>题目</strong>：若信道在无噪声情况下的极限数据传输速率不小于信噪比为30dB条件下的极限数据传输速率，则信号状态数至少是 ( )。</p>
+<p>A. 4<br />
+B. 8<br />
+C. 16<br />
+D. 32</p>
+<p><strong>解析</strong>：</p>
+<ol>
+<li><strong>理解题意</strong>：要求无噪声速率（奈氏准则）≥ 有噪声速率（香农定理）。</li>
+<li><strong>提取参数</strong>：
+<ul>
+<li>无噪声速率：<code>C_nyquist = 2W log₂V</code></li>
+<li>有噪声速率：需要先转换信噪比。30dB -&gt; <code>10 log₁₀(S/N) = 30</code> -&gt; <code>log₁₀(S/N) = 3</code> -&gt; <code>S/N = 10³ = 1000</code></li>
+<li>香农容量：<code>C_shannon = W log₂(1 + 1000) ≈ W log₂1024 = W * 10</code> (因为 2¹⁰=1024)</li>
+</ul>
+</li>
+<li><strong>建立不等式</strong>：
+<code>2W log₂V ≥ W * 10</code>
+<code>2 log₂V ≥ 10</code>
+<code>log₂V ≥ 5</code>
+<code>V ≥ 2⁵ = 32</code></li>
+</ol>
+<p><strong>答案：D</strong></p>
+<hr />
+<h2>四、终极总结</h2>
+<table>
+<thead>
+<tr>
+<th>定理</th>
+<th>公式</th>
+<th>核心变量</th>
+<th>解决的问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>奈奎斯特准则</strong></td>
+<td><code>C = 2W log₂V</code></td>
+<td><code>W</code> (带宽), <code>V</code> (码元状态数)</td>
+<td><strong>无噪声</strong>时，如何通过<strong>调制</strong>提高速率</td>
+</tr>
+<tr>
+<td><strong>香农定理</strong></td>
+<td><code>C = W log₂(1 + S/N)</code></td>
+<td><code>W</code> (带宽), <code>S/N</code> (信噪比)</td>
+<td><strong>有噪声</strong>时，信道的<strong>绝对极限容量</strong>是多少</td>
+</tr>
+</tbody>
+</table>
+<p><strong>做题第一步永远是先判断题目条件：有噪声吗？</strong></p>
+<ul>
+<li><strong>明确说“无噪声”或“理想”</strong> -&gt; 用<strong>奈氏准则</strong>。</li>
+<li><strong>给出了信噪比（dB或比值）</strong> -&gt; 用<strong>香农定理</strong>。</li>
+<li><strong>两者都涉及</strong>（如2017年真题）-&gt; 分别计算并建立关系。</li>
+</ul>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KMP算法中Next【】与NextVal【】]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-data-structures-04/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-data-structures-04/"/>
+        <updated>2025-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[KMP 算法的精髓在于：当模式串与主串发生失配时，模式串能够向右“智能地”滑动多位，而不是仅仅一位。 next 数组和 nextval 数组就是用来指导这个“智能滑动”的。 定义 ： next[j] 表示在模式串的第 j 个字符（下标从 1 开始）与主串发生失配时， 下一次匹配 应该跳转到模式串的哪]]></summary>
+        <content type="html"><![CDATA[<h3>核心思想</h3>
+<p>KMP 算法的精髓在于：当模式串与主串发生失配时，模式串能够向右“智能地”滑动多位，而不是仅仅一位。<code>next</code> 数组和 <code>nextval</code> 数组就是用来指导这个“智能滑动”的。</p>
+<hr />
+<h3>1. next 数组</h3>
+<p><strong>定义</strong>：<code>next[j]</code> 表示在模式串的第 <code>j</code> 个字符（下标从 1 开始）与主串发生失配时，<strong>下一次匹配</strong> 应该跳转到模式串的哪个位置（下标）去与主串当前失配的字符进行比较。</p>
+<p><strong>求法</strong>（手动计算，下标从1开始）：
+<code>next[j]</code> 的值为 <strong>模式串的前 <code>j-1</code> 个字符组成的子串</strong> 中，其 <strong>最长相等真前缀（不包含自身）和真后缀</strong> 的长度 + 1。</p>
+<ul>
+<li><strong>真前缀/后缀</strong>：不包含字符串本身的前缀或后缀。</li>
+<li><strong>最长相等</strong>：找到那个最长的、相同的前缀和后缀。</li>
+</ul>
+<p><strong>计算步骤</strong>：</p>
+<ol>
+<li><code>next[1] = 0</code>。这是一个约定，表示模式串的第一个字符就失配，主串需要向后移动一位，模式串从头开始匹配。</li>
+<li>对于 <code>j &gt; 1</code>，找出子串 <code>P[1 ... j-1]</code> 的最长相等真前缀和真后缀的长度 <code>k</code>，则 <code>next[j] = k + 1</code>。</li>
+<li>如果找不到这样的前后缀（即长度为0），则 <code>next[j] = 1</code>。</li>
+</ol>
+<hr />
+<h4>例子：模式串 <code>"ababaaababaa"</code></h4>
+<p>我们一步步计算其 <code>next</code> 数组（下标从1开始）。</p>
+<table>
+<thead>
+<tr>
+<th>j</th>
+<th>模式串</th>
+<th>前 j-1 个字符组成的子串</th>
+<th>最长相等真前后缀</th>
+<th>长度 k</th>
+<th>next[j] = k+1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>a</td>
+<td>- (空)</td>
+<td>-</td>
+<td>-</td>
+<td><strong>0</strong> (约定)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>a b</td>
+<td>a</td>
+<td>前缀: <code>""</code>&lt;br&gt;后缀: <code>""</code></td>
+<td>0</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>a b a</td>
+<td>ab</td>
+<td>前缀: <code>"a"</code>&lt;br&gt;后缀: <code>"b"</code></td>
+<td>0</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>a b a b</td>
+<td>aba</td>
+<td>前缀: <code>"a"</code>&lt;br&gt;后缀: <code>"a"</code></td>
+<td>1</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>a b a b a</td>
+<td>abab</td>
+<td>前缀: <code>"ab"</code>&lt;br&gt;后缀: <code>"ab"</code></td>
+<td>2</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>a b a b a a</td>
+<td>ababa</td>
+<td>前缀: <code>"aba"</code>&lt;br&gt;后缀: <code>"aba"</code></td>
+<td>3</td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>a b a b a a a</td>
+<td>ababaa</td>
+<td>前缀: <code>"a"</code>&lt;br&gt;后缀: <code>"a"</code></td>
+<td>1</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td>a b a b a a a b</td>
+<td>ababaaa</td>
+<td>前缀: <code>"a"</code>&lt;br&gt;后缀: <code>"a"</code></td>
+<td>1</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td>a b a b a a a b a</td>
+<td>ababaaab</td>
+<td>前缀: <code>"ab"</code>&lt;br&gt;后缀: <code>"ab"</code></td>
+<td>2</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>a b a b a a a b a b</td>
+<td>ababaaaba</td>
+<td>前缀: <code>"aba"</code>&lt;br&gt;后缀: <code>"aba"</code></td>
+<td>3</td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td>11</td>
+<td>a b a b a a a b a b a</td>
+<td>ababaaabab</td>
+<td>前缀: <code>"abab"</code>&lt;br&gt;后缀: <code>"abab"</code></td>
+<td>4</td>
+<td><strong>5</strong></td>
+</tr>
+<tr>
+<td>12</td>
+<td>a b a b a a a b a b a a</td>
+<td>ababaaababa</td>
+<td>前缀: <code>"ababa"</code>&lt;br&gt;后缀: <code>"ababa"</code></td>
+<td>5</td>
+<td><strong>6</strong></td>
+</tr>
+</tbody>
+</table>
+<p>所以，最终的 <code>next</code> 数组为：
+<code>next = [0, 1, 1, 2, 3, 4, 2, 2, 3, 4, 5, 6]</code></p>
+<p><strong>如何使用 <code>next</code> 数组？</strong>
+假设在 <code>j=7</code> (字符 <code>‘a’</code>) 的位置失配。查表 <code>next[7] = 2</code>。这意味着我们不需要从模式串头开始，而是将模式串向右滑动，让模式串的第 <code>2</code> 个字符 <code>‘b’</code> 对齐到主串当前失配的位置，继续进行比较。</p>
+<hr />
+<h3>2. nextval 数组 (next 数组的优化)</h3>
+<p><strong>问题</strong>：<code>next</code> 数组在某些情况下存在“无效跳转”。
+观察上面的例子，当 <code>j=4</code> 时，<code>P[4] = ‘b’</code>，<code>next[4] = 2</code>，而 <code>P[2]</code> 也是 <code>‘b’</code>。如果 <code>P[4]</code> 与主串失配，说明主串当前字符不等于 <code>‘b’</code>。那么跳转到 <code>P[2]</code> (也是 <code>‘b’</code>) 去比较，结果必然还是失配。这次跳转是多余的。</p>
+<p><strong>定义</strong>：<code>nextval</code> 数组在 <code>next</code> 数组的基础上，<strong>消除了这种连续相同字符导致的无效跳转</strong>。</p>
+<p><strong>求法</strong>（基于 <code>next</code> 数组）：</p>
+<ol>
+<li><code>nextval[1] = 0</code>。</li>
+<li>对于 <code>j</code> 从 2 到模式串长度：
+<ul>
+<li>如果 <code>P[j] == P[next[j]]</code>，则 <code>nextval[j] = nextval[next[j]]</code>。</li>
+<li>否则，<code>nextval[j] = next[j]</code>。</li>
+</ul>
+</li>
+</ol>
+<p><strong>解释</strong>：</p>
+<ul>
+<li>如果<strong>失配位置的字符</strong> 与 <strong>它要跳转到的位置的字符</strong> <strong>相同</strong>，那么这个跳转后的比较也必然失败。所以我们可以“提前”进行这个跳转，直接使用跳转后那个位置的 <code>nextval</code> 值。</li>
+<li>如果<strong>不同</strong>，那么这次跳转是有效的，直接使用 <code>next</code> 值即可。</li>
+</ul>
+<hr />
+<h4>例子：使用同一个模式串 <code>"ababaaababaa"</code></h4>
+<p>我们已经有了 <code>next</code> 数组：<code>[0, 1, 1, 2, 3, 4, 2, 2, 3, 4, 5, 6]</code>
+现在我们计算 <code>nextval</code> 数组。</p>
+<table>
+<thead>
+<tr>
+<th>j</th>
+<th>P[j]</th>
+<th>next[j]</th>
+<th>P[j] 与 P[next[j]] 是否相等？</th>
+<th>nextval[j] 计算逻辑</th>
+<th>nextval[j]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>a</td>
+<td>0</td>
+<td>- (与空比较)</td>
+<td>约定为 0</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>b</td>
+<td>1</td>
+<td>P[2] (‘b’) vs P[1] (‘a’)</td>
+<td>不相等，<code>nextval[2] = next[2]</code></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>a</td>
+<td>1</td>
+<td>P[3] (‘a’) vs P[1] (‘a’)</td>
+<td>相等，<code>nextval[3] = nextval[1]</code></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>b</td>
+<td>2</td>
+<td>P[4] (‘b’) vs P[2] (‘b’)</td>
+<td>相等，<code>nextval[4] = nextval[2]</code></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>a</td>
+<td>3</td>
+<td>P[5] (‘a’) vs P[3] (‘a’)</td>
+<td>相等，<code>nextval[5] = nextval[3]</code></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>a</td>
+<td>4</td>
+<td>P[6] (‘a’) vs P[4] (‘b’)</td>
+<td>不相等，<code>nextval[6] = next[6]</code></td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>a</td>
+<td>2</td>
+<td>P[7] (‘a’) vs P[2] (‘b’)</td>
+<td>不相等，<code>nextval[7] = next[7]</code></td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td>b</td>
+<td>2</td>
+<td>P[8] (‘b’) vs P[2] (‘b’)</td>
+<td>相等，<code>nextval[8] = nextval[2]</code></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td>a</td>
+<td>3</td>
+<td>P[9] (‘a’) vs P[3] (‘a’)</td>
+<td>相等，<code>nextval[9] = nextval[3]</code></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>b</td>
+<td>4</td>
+<td>P[10] (‘b’) vs P[4] (‘b’)</td>
+<td>相等，<code>nextval[10] = nextval[4]</code></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>11</td>
+<td>a</td>
+<td>5</td>
+<td>P[11] (‘a’) vs P[5] (‘a’)</td>
+<td>相等，<code>nextval[11] = nextval[5]</code></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>12</td>
+<td>a</td>
+<td>6</td>
+<td>P[12] (‘a’) vs P[6] (‘a’)</td>
+<td>相等，<code>nextval[12] = nextval[6]</code></td>
+<td><strong>4</strong></td>
+</tr>
+</tbody>
+</table>
+<p>所以，最终的 <code>nextval</code> 数组为：
+<code>nextval = [0, 1, 0, 1, 0, 4, 2, 1, 0, 1, 0, 4]</code></p>
+<p><strong>对比 <code>next</code> 和 <code>nextval</code> 的效果</strong>：
+假设在主串 <code>...ababac...</code> 与模式串 <code>"ababaaababaa"</code> 匹配时，在 <code>j=5</code> (字符 <code>‘a’</code>) 的位置与主串的 <code>‘c’</code> 失配。</p>
+<ul>
+<li>使用 <code>next</code>：<code>next[5] = 3</code>，跳转到 <code>j=3</code> 的 <code>‘a’</code> 继续比较。</li>
+<li>使用 <code>nextval</code>：<code>nextval[5] = 0</code>，直接跳转到 <code>j=0</code>。根据规则，<code>j=0</code> 意味着模式串第一个字符也已失配，主串指针后移一位，模式串从头开始。这比 <code>next</code> 数组少了一次必然失败的比较。</li>
+</ul>
+<h3>总结</h3>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>next 数组</th>
+<th>nextval 数组</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>定义</strong></td>
+<td>基于<strong>最长相等前后缀</strong></td>
+<td>基于 <code>next</code> 数组的<strong>优化</strong></td>
+</tr>
+<tr>
+<td><strong>目的</strong></td>
+<td>确定失配时模式串的滑动位置</td>
+<td>消除因跳转后字符相同导致的<strong>无效比较</strong></td>
+</tr>
+<tr>
+<td><strong>性能</strong></td>
+<td>已比朴素算法快很多</td>
+<td>比 <code>next</code> 数组更优，避免了不必要的回溯</td>
+</tr>
+<tr>
+<td><strong>关系</strong></td>
+<td><code>nextval</code> 的计算依赖于 <code>next</code></td>
+<td><code>nextval</code> 是 <code>next</code> 的改进版</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[设备分配过程]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-operating-systems-01/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-operating-systems-01/"/>
+        <updated>2025-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[设备分配依赖以下四类数据结构，用于记录资源状态及从属关系： | 数据结构 | 作用 | 关键字段 | | | | | | 设备控制表（DCT） | 记录单个设备的属性及状态。 | 设备类型、设备标识符、设备状态（忙/闲）、指向控制器表的指针、设备队列指针等。 | | 控制器控制表（COCT） | 记]]></summary>
+        <content type="html"><![CDATA[<hr />
+<h4><strong>一、设备分配核心数据结构</strong></h4>
+<p>设备分配依赖以下四类数据结构，用于记录资源状态及从属关系：</p>
+<table>
+<thead>
+<tr>
+<th><strong>数据结构</strong></th>
+<th><strong>作用</strong></th>
+<th><strong>关键字段</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>设备控制表（DCT）</strong></td>
+<td>记录单个设备的属性及状态。</td>
+<td>设备类型、设备标识符、设备状态（忙/闲）、指向控制器表的指针、设备队列指针等。</td>
+</tr>
+<tr>
+<td><strong>控制器控制表（COCT）</strong></td>
+<td>记录控制器的状态及连接的通道信息。</td>
+<td>控制器状态、通道表指针、控制器队列指针等。</td>
+</tr>
+<tr>
+<td><strong>通道控制表（CHCT）</strong></td>
+<td>记录通道的状态及连接的控制器信息。</td>
+<td>通道状态、控制器表首址、通道队列指针等。</td>
+</tr>
+<tr>
+<td><strong>系统设备表（SDT）</strong></td>
+<td>全局表，记录系统中所有物理设备的信息。</td>
+<td>设备类型、设备标识符、指向DCT的指针等。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>二、设备分配流程</strong></h4>
+<p>设备分配需依次检查<strong>设备→控制器→通道</strong>的可用性，具体步骤如下：</p>
+<h5><strong>1. 分配设备</strong></h5>
+<ul>
+<li><strong>输入</strong>：进程的I/O请求（物理设备名或逻辑设备名）。</li>
+<li><strong>操作</strong>：
+<ol>
+<li><strong>按物理设备名分配</strong>：直接通过SDT找到对应设备的DCT，检查其状态。</li>
+<li><strong>按逻辑设备名分配</strong>：在SDT中遍历该类设备的DCT，依次检查状态，直到找到可用设备。</li>
+</ol>
+</li>
+<li><strong>结果</strong>：
+<ul>
+<li><strong>设备忙</strong>：将进程PCB挂到设备队列等待。</li>
+<li><strong>设备空闲</strong>：标记设备为“忙”，进入下一步。</li>
+</ul>
+</li>
+</ul>
+<h5><strong>2. 分配控制器</strong></h5>
+<ul>
+<li><strong>输入</strong>：已分配设备的DCT中指向的COCT。</li>
+<li><strong>操作</strong>：检查控制器的状态（通过COCT）。</li>
+<li><strong>结果</strong>：
+<ul>
+<li><strong>控制器忙</strong>：将进程PCB挂到控制器队列等待。</li>
+<li><strong>控制器空闲</strong>：标记控制器为“忙”，进入下一步。</li>
+</ul>
+</li>
+</ul>
+<h5><strong>3. 分配通道</strong></h5>
+<ul>
+<li><strong>输入</strong>：已分配控制器的COCT中指向的CHCT。</li>
+<li><strong>操作</strong>：检查通道的状态（通过CHCT）。</li>
+<li><strong>结果</strong>：
+<ul>
+<li><strong>通道忙</strong>：将进程PCB挂到通道队列等待。</li>
+<li><strong>通道空闲</strong>：标记通道为“忙”，完成分配。</li>
+</ul>
+</li>
+</ul>
+<h5><strong>4. 启动I/O操作</strong></h5>
+<ul>
+<li><strong>条件</strong>：设备、控制器、通道均分配成功。</li>
+<li><strong>操作</strong>：通过驱动程序启动设备，执行数据传输。</li>
+<li><strong>后续</strong>：
+<ul>
+<li>若采用<strong>安全分配方式</strong>：进程阻塞，直到I/O完成。</li>
+<li>若采用<strong>不安全分配方式</strong>：进程继续执行，可能引发死锁风险。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h4><strong>三、关键影响因素</strong></h4>
+<ol>
+<li>
+<p><strong>设备的固有属性</strong></p>
+<ul>
+<li><strong>独占设备</strong>：必须独占分配（如打印机）。</li>
+<li><strong>共享设备</strong>：可多进程共享（如磁盘）。</li>
+<li><strong>虚拟设备</strong>：通过SPOOLing技术模拟共享（如虚拟打印机）。</li>
+</ul>
+</li>
+<li>
+<p><strong>分配算法</strong></p>
+<ul>
+<li><strong>FCFS（先来先服务）</strong>：按请求顺序分配。</li>
+<li><strong>最高优先级优先</strong>：优先分配高优先级进程。</li>
+</ul>
+</li>
+<li>
+<p><strong>安全性策略</strong></p>
+<ul>
+<li><strong>安全分配</strong>：进程阻塞直至I/O完成，避免死锁，但效率低。</li>
+<li><strong>不安全分配</strong>：进程继续运行，可能死锁，但并行性高。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h4><strong>四、流程对比与优化</strong></h4>
+<table>
+<thead>
+<tr>
+<th><strong>分配方式</strong></th>
+<th><strong>特点</strong></th>
+<th><strong>适用场景</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>物理设备名分配</strong></td>
+<td>直接指定设备，分配失败率高，缺乏灵活性。</td>
+<td>设备独立性要求低的场景。</td>
+</tr>
+<tr>
+<td><strong>逻辑设备名分配</strong></td>
+<td>按类型查找设备，提高设备利用率，支持设备独立性。</td>
+<td>多设备共享的高并发场景。</td>
+</tr>
+<tr>
+<td><strong>安全分配</strong></td>
+<td>进程串行执行，无死锁风险。</td>
+<td>对安全性要求高的系统。</td>
+</tr>
+<tr>
+<td><strong>不安全分配</strong></td>
+<td>进程并行执行，需结合死锁检测与恢复机制。</td>
+<td>高吞吐量、实时性强的系统。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>五、总结</strong></h4>
+<ol>
+<li><strong>流程核心</strong>：通过<strong>SDT→DCT→COCT→CHCT</strong>的逐层检查，确保设备、控制器、通道均可用。</li>
+<li><strong>设备独立性</strong>：使用逻辑设备名分配，提升系统灵活性和资源利用率。</li>
+<li><strong>安全与效率平衡</strong>：根据场景选择安全或不安全分配策略，权衡死锁风险与系统性能。</li>
+<li><strong>数据结构支撑</strong>：SDT、DCT、COCT、CHCT是资源管理的基石，需理解其字段与关联关系。</li>
+</ol>
+<p><strong>复习重点</strong>：掌握分配流程的每一步骤，理解逻辑设备名与物理设备名的差异，对比安全/不安全分配的优缺点。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多处理器的基本概念]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-architecture-05/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-architecture-05/"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[基于指令流和数据流的数量，计算机体系结构分为四类： 1. SISD（单指令流单数据流） 传统串行计算机结构（如单处理器）。 一个处理器 + 一个存储器，指令顺序串行执行。 可通过流水线、多功能部件、存储器交叉存取提速。 2. SIMD（单指令流多数据流） 数据级并行 ：一个指令控制部件 + 多个处理]]></summary>
+        <content type="html"><![CDATA[<h4>5.7.1 SISD、SIMD、MIMD 的基本概念</h4>
+<p>基于指令流和数据流的数量，计算机体系结构分为四类：</p>
+<ol>
+<li>
+<p><strong>SISD（单指令流单数据流）</strong></p>
+<ul>
+<li>传统串行计算机结构（如单处理器）。</li>
+<li>一个处理器 + 一个存储器，指令顺序串行执行。</li>
+<li>可通过流水线、多功能部件、存储器交叉存取提速。</li>
+</ul>
+</li>
+<li>
+<p><strong>SIMD（单指令流多数据流）</strong></p>
+<ul>
+<li><strong>数据级并行</strong>：一个指令控制部件 + 多个处理单元。</li>
+<li>所有单元执行<strong>同一指令</strong>，但处理<strong>不同数据</strong>（各自地址寄存器独立）。</li>
+<li>优势：高效处理数组循环（如16个ALU同时运算16对数据）。</li>
+<li>劣势：<code>case</code>/<code>switch</code>语句效率低（需按数据分支执行）。</li>
+<li><strong>向量处理器</strong>：SIMD变体，直接操作一维数组（向量），通过流水化提升数值计算性能。</li>
+</ul>
+</li>
+<li>
+<p><strong>MISD（多指令流单数据流）</strong></p>
+<ul>
+<li>多条指令处理同一数据 → <strong>实际不存在此类计算机</strong>。</li>
+</ul>
+</li>
+<li>
+<p><strong>MIMD（多指令流多数据流）</strong></p>
+<ul>
+<li><strong>线程级并行</strong>：多条指令同时处理多个数据。</li>
+<li>分为两类：
+<ul>
+<li><strong>多计算机系统</strong>（消息传递MIMD）：
+<ul>
+<li>各节点私有存储器，独立地址空间。</li>
+<li>通过<strong>消息传递</strong>访问其他节点数据。</li>
+</ul>
+</li>
+<li><strong>多处理器系统</strong>（共享存储MIMD/SMP）：
+<ul>
+<li>共享单一地址空间，通过<strong>存取指令</strong>访问所有存储器。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>SIMD vs MIMD</strong>：</p>
+<ul>
+<li>SIMD：数据级并行（单指令多数据）。</li>
+<li>MIMD：线程级或更高级并行（多指令多数据）。</li>
+</ul>
+</blockquote>
+<hr />
+<h4>5.7.2 硬件多线程的基本概念</h4>
+<p><strong>目标</strong>：减少传统线程切换的开销（如寄存器保存/恢复）。<br />
+<strong>实现</strong>：为每个线程提供独立资源（通用寄存器组、程序计数器等），切换时只需激活寄存器组。</p>
+<table>
+<thead>
+<tr>
+<th><strong>实现方式</strong></th>
+<th><strong>特点</strong></th>
+<th><strong>指令级并行</strong></th>
+<th><strong>线程级并行</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>细粒度多线程</strong></td>
+<td>每个时钟周期切换线程（交叉执行指令）</td>
+<td>✔️</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>粗粒度多线程</strong></td>
+<td>阻塞时切换线程（如Cache缺失），需清空流水线 → <strong>切换开销较大</strong></td>
+<td>✔️</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>同时多线程(SMT)</strong></td>
+<td>同一时钟周期发射<strong>多个线程</strong>的指令 → <strong>指令级+线程级并行</strong>（如超线程技术）</td>
+<td>✔️</td>
+<td>✔️</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>5.7.3 多核处理器的基本概念</h4>
+<ul>
+<li><strong>定义</strong>：多个处理单元（核）集成到单个CPU，共享主存储器。</li>
+<li><strong>结构特点</strong>：
+<ul>
+<li>每个核可有私有Cache或共享Cache。</li>
+<li>示例：不共享Cache的双核CPU（下图）：<pre><code>[CPU] → Core1（私有L1 Cache）  
+     → Core2（私有L1 Cache）  
+     ↗ 共享主存 ↘  
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h4>补充：处理器执行方式对比</h4>
+<table>
+<thead>
+<tr>
+<th><strong>类型</strong></th>
+<th><strong>特点</strong></th>
+<th><strong>CPI</strong></th>
+<th><strong>指令执行关系</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>单周期处理器</strong></td>
+<td>所有指令固定1个周期完成 → <strong>周期时长=最慢指令时间</strong></td>
+<td>CPI=1</td>
+<td>串行执行</td>
+</tr>
+<tr>
+<td><strong>多周期处理器</strong></td>
+<td>不同指令不同周期数 → <strong>动态分配周期</strong></td>
+<td>CPI≥1</td>
+<td>串行执行</td>
+</tr>
+<tr>
+<td><strong>流水线处理器</strong></td>
+<td>指令并行执行 → <strong>理想CPI=1</strong>（每周期完成1条指令）</td>
+<td>≈1（理想）</td>
+<td>并行执行</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>注</strong>：</p>
+<ul>
+<li>单周期：效率低（快指令需等待慢指令周期）。</li>
+<li>流水线：通过重叠执行（取指、译码、执行等阶段）提升吞吐率。</li>
+</ul>
+</blockquote>
+<hr />
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写回策略的组合解析]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-architecture-06/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-architecture-06/"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 写命中： CPU 要写入的数据地址 正好在 缓存中找到（缓存命中）。 2. 写未命中： CPU 要写入的数据地址 不在 缓存中（缓存未命中）。 3. 数据块/行： 缓存和主存之间数据传输的基本单位。缓存是按块/行组织的。 | 策略 | 写命中时的行为 | 写未命中时的行为 | | : | : ]]></summary>
+        <content type="html"><![CDATA[<h2>核心概念定义</h2>
+<ol>
+<li><strong>写命中：</strong> CPU 要写入的数据地址<strong>正好在</strong>缓存中找到（缓存命中）。</li>
+<li><strong>写未命中：</strong> CPU 要写入的数据地址<strong>不在</strong>缓存中（缓存未命中）。</li>
+<li><strong>数据块/行：</strong> 缓存和主存之间数据传输的基本单位。缓存是按块/行组织的。</li>
+</ol>
+<h2>四种策略的行为解析</h2>
+<table>
+<thead>
+<tr>
+<th>策略</th>
+<th>写命中时的行为</th>
+<th>写未命中时的行为</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. 全写法</strong></td>
+<td><strong>同时写入</strong>缓存中的对应块<strong>和</strong>主存中的对应位置。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2. 写回法</strong></td>
+<td><strong>只写入</strong>缓存中的对应块。将该块标记为“<strong>脏</strong>”（表示与主存内容不一致）。<strong>不立即写回主存</strong>。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>3. 写分配法</strong></td>
+<td></td>
+<td><strong>加载主存块到缓存，然后更新缓存块</strong>。</td>
+</tr>
+<tr>
+<td><strong>4. 非写分配法</strong></td>
+<td></td>
+<td><strong>直接写入主存，不加载到缓存</strong>。</td>
+</tr>
+</tbody>
+</table>
+<h2>重点解析：为什么 1(全写) 和 4(非写分配) 通常合用？为什么 2(写回) 和 3(写分配) 通常合用？</h2>
+<p>这种组合主要是为了<strong>逻辑一致性</strong>和<strong>性能优化</strong>，避免冗余操作和浪费。</p>
+<ol>
+<li>
+<p><strong>全写法 + 非写分配法 (Write-Through + No-Write-Allocate)</strong></p>
+<ul>
+<li><strong>逻辑一致性：</strong>
+<ul>
+<li>全写法 的核心思想是：<strong>任何写操作（无论命中与否）都必须立即或最终反映到主存上</strong>，以保证缓存和主存数据的高度一致性。写命中时立即写入主存保证了这点。</li>
+<li>如果写未命中时采用 <strong>写分配法</strong>（即先加载主存块到缓存，再更新缓存块），那么：
+<ul>
+<li>加载这个块到缓存后，你紧接着会根据全写法的规则，在更新缓存的同时<strong>又立即把刚更新的数据写回主存</strong>。</li>
+<li>这个“<strong>加载</strong>”操作是<strong>多余的</strong>！因为你最终的目的只是更新主存中的那个字（word/byte），而全写法要求你直接写主存就能实现这个目的。加载整个块（可能包含很多你不关心的数据）进来只是为了写其中一个字然后又立刻把它写回去，浪费了时间和宝贵的缓存空间、总线带宽。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>性能优化：</strong>
+<ul>
+<li>非写分配法 在写未命中时直接写主存，<strong>避免了加载无用数据块的开销</strong>（内存访问延迟、占用缓存行、占用总线带宽）。对于一次性的写入或者后续不会立即读取的写入，这通常是更高效的做法。</li>
+<li>全写法本身每次写命中都写主存，开销已经很大。非写分配法避免了在写未命中时引入额外的、通常不必要的加载开销。</li>
+</ul>
+</li>
+<li><strong>总结：</strong> 全写法强制保持主存最新，非写分配法在未命中时直接更新主存而不引入缓存加载，两者配合避免了冗余操作（加载无用块+立即写回），逻辑清晰一致，减少了不必要的缓存污染和总线流量。适用于写操作相对不频繁或对一致性要求极高的场景（如共享内存系统）。</li>
+</ul>
+</li>
+<li>
+<p><strong>写回法 + 写分配法 (Write-Back + Write-Allocate)</strong></p>
+<ul>
+<li><strong>逻辑一致性 &amp; 利用局部性：</strong>
+<ul>
+<li>写回法 的核心思想是：<strong>推迟写回主存</strong>，只在必要时（如缓存块被替换且为脏）才写回。这大大减少了总线流量和访问主存的次数，<strong>利用了程序的空间局部性</strong>（一个块内的数据可能被多次读写）。</li>
+<li>如果写未命中时采用 <strong>非写分配法</strong>（即直接写主存）：
+<ul>
+<li>你只是更新了主存中的那个字。<strong>但该地址所在的整个数据块仍然不在缓存中</strong>。</li>
+<li>如果 CPU <strong>紧接着要读取或写入同一块内的其他地址</strong>（空间局部性），它<strong>会再次发生缓存未命中</strong>！需要再次访问主存加载整个块。这导致了<strong>额外的、可能完全可避免的缓存未命中</strong>。</li>
+</ul>
+</li>
+<li>写分配法 在写未命中时，<strong>将整个数据块加载到缓存</strong>，然后更新目标字（并标记为脏）。这样：
+<ul>
+<li><strong>后续对该块内任何地址的读或写操作都将在缓存中命中</strong>，速度极快。</li>
+<li>利用了空间局部性，一次加载服务多次访问。</li>
+<li>推迟写回的特性得到了充分发挥：该块后续的多次写操作都只发生在缓存中（标记脏），直到被替换时才需要一次写回主存。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>性能优化：</strong>
+<ul>
+<li>写分配法 在未命中时加载块，虽然有一次加载开销，但<strong>为后续可能的多次访问（尤其是写）创造了缓存命中的机会</strong>，显著减少了总的内存访问延迟和总线流量。</li>
+<li>写回法的延迟写回特性与写分配法加载后多次命中的优势完美契合，共同实现了最小化主存访问次数的目标。</li>
+<li>避免了非写分配法可能导致的“写后立即读/写同一块”的额外未命中惩罚。</li>
+</ul>
+</li>
+<li><strong>总结：</strong> 写回法利用延迟写回减少主存访问，写分配法在未命中时加载块以利用空间局部性并为后续访问（特别是写）服务。两者配合最大化缓存命中率，最小化总线流量和主存访问次数。适用于写操作频繁或对带宽敏感的场景（现代通用处理器缓存的主流选择）。</li>
+</ul>
+</li>
+</ol>
+<h2>总结</h2>
+<ul>
+<li><strong>全写法 (WT)</strong> + <strong>非写分配法 (NWA)</strong>： 追求强一致性，避免写未命中时引入无用的缓存加载开销。逻辑：写操作的目标是更新主存，直接做就好。</li>
+<li><strong>写回法 (WB)</strong> + <strong>写分配法 (WA)</strong>： 追求高性能和低带宽消耗，利用空间局部性。逻辑：写未命中时把整个块拿进来，后续访问很可能命中，多次写操作只需一次最终写回。</li>
+</ul>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DFS经典例题]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-data-structures-03/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-data-structures-03/"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[6. 修改递归方式实现的图的深度优先搜索（DFS）算法，将输出（访问）顶点信息的语句移到退出递归前（即执行输出语句后立刻退出递归）。采用修改后的算法遍历有向无环图 \( G \)，若输出结果中包含 \( G \) 中的全部顶点，则输出的顶点序列是 \( G \) 的（ ）。 A. 拓扑有序序列 B.]]></summary>
+        <content type="html"><![CDATA[<h2>真题题目</h2>
+<ol>
+<li>修改递归方式实现的图的深度优先搜索（DFS）算法，将输出（访问）顶点信息的语句移到退出递归前（即执行输出语句后立刻退出递归）。采用修改后的算法遍历有向无环图 ( G )，若输出结果中包含 ( G ) 中的全部顶点，则输出的顶点序列是 ( G ) 的（ ）。</li>
+</ol>
+<p>A. 拓扑有序序列<br />
+B. 逆拓扑有序序列<br />
+C. 广度优先搜索序列<br />
+D. 深度优先搜索序列</p>
+<p><strong>答案：B</strong></p>
+<h2>算法代码对比</h2>
+<h3>标准DFS实现（先访问后递归）</h3>
+<pre><code>void DFS(Graph &amp;G, int v, bool visited[]) {
+    visited[v] = true;
+    visit(v);  // 在这里输出顶点 v
+    for (int w = G.FirstNeighbor(v); w &gt;= 0; w = G.NextNeighbor(v, w)) {
+        if (!visited[w]) {
+            DFS(G, w, visited);
+        }
+    }
+}
+</code></pre>
+<h3>修改后的DFS实现（先递归后访问）</h3>
+<pre><code>void DFS_mod(Graph &amp;G, int v, bool visited[]) {
+    visited[v] = true;
+    for (int w = G.FirstNeighbor(v); w &gt;= 0; w = G.NextNeighbor(v, w)) {
+        if (!visited[w]) {
+            DFS_mod(G, w, visited);
+        }
+    }
+    visit(v);  // 在递归返回前输出顶点 v
+}
+</code></pre>
+<h2>关键分析</h2>
+<h3>执行顺序差异</h3>
+<ul>
+<li><strong>标准DFS</strong>：进入顶点立即访问 → 递归处理邻接点</li>
+<li><strong>修改后DFS</strong>：先递归处理所有邻接点 → 返回前访问当前顶点</li>
+</ul>
+<h3>对有向无环图(DAG)的影响</h3>
+<p>对于边 <code>v → w</code>：</p>
+<ul>
+<li>修改后的DFS会先递归处理 <code>w</code> 及其后继</li>
+<li>输出顺序：<code>w</code> 先于 <code>v</code> 被输出</li>
+</ul>
+<h3>与拓扑排序的关系</h3>
+<ul>
+<li><strong>拓扑排序</strong>：如果 <code>v → w</code>，则 <code>v</code> 在 <code>w</code> 之前</li>
+<li><strong>逆拓扑排序</strong>：如果 <code>v → w</code>，则 <code>w</code> 在 <code>v</code> 之前</li>
+</ul>
+<p>修改后的DFS输出顺序正好满足<strong>逆拓扑排序</strong>的条件。</p>
+<h2>核心结论</h2>
+<blockquote>
+<p>在DAG中，将DFS的输出语句移到递归返回前，得到的顶点序列是原图的<strong>逆拓扑有序序列</strong>。</p>
+</blockquote>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-11-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一、“主频”是什么？我们从直觉 + 本质 + 类比来理解。]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-architecture-02/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-architecture-02/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[主频（Clock Rate / Clock Frequency） 是指 CPU每秒钟发出多少个时钟信号 ，单位是 Hz（赫兹）。 例如： 1 GHz = 10⁹ Hz = 每秒 10亿 个时钟周期 计算机 CPU 的操作由一个“节拍器”控制，这个节拍器就是 系统时钟 。 主频就像这个节拍器的“速度”]]></summary>
+        <content type="html"><![CDATA[<h1>一、“主频”是什么？我们从直觉 + 本质 + 类比来理解。</h1>
+<hr />
+<h3>1、定义：</h3>
+<p><strong>主频（Clock Rate / Clock Frequency）</strong><br />
+是指 <strong>CPU每秒钟发出多少个时钟信号</strong>，单位是 Hz（赫兹）。</p>
+<p>例如：</p>
+<ul>
+<li>1 GHz = 10⁹ Hz = <strong>每秒 10亿 个时钟周期</strong></li>
+</ul>
+<hr />
+<h3>2、本质解释：</h3>
+<p>计算机 CPU 的操作由一个“节拍器”控制，这个节拍器就是<strong>系统时钟</strong>。<br />
+主频就像这个节拍器的“速度”，它控制了 <strong>每一个时钟周期的长短</strong>。</p>
+<p>CPU 在每一个周期里，执行指令的一个步骤（比如取指、译码、执行等）。</p>
+<p>所以：</p>
+<ul>
+<li><strong>主频越高</strong> → 一个周期越短 → 一秒内能执行的周期（和指令）越多 → 理论性能越强</li>
+</ul>
+<hr />
+<h3>3、主频与时钟周期时间的关系：</h3>
+<p>$$周期时间（Cycle Time）= \frac{1}{\text{主频（Hz）}}$$</p>
+<p>例如：</p>
+<ul>
+<li>主频 2 GHz → 一个周期是 $\frac{1}{2 \times 10^9} = 0.5\ \text{ns}$</li>
+</ul>
+<hr />
+<h3>4、形象类比：</h3>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>类比对象</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主频</td>
+<td>节拍器的速度</td>
+<td>每秒打几次节拍（Hz）</td>
+</tr>
+<tr>
+<td>CPI</td>
+<td>每件事需几次节拍</td>
+<td>每件事（指令）平均需要几次节拍</td>
+</tr>
+<tr>
+<td>指令数</td>
+<td>要完成的事情数</td>
+<td>要执行的任务数量（指令总数）</td>
+</tr>
+<tr>
+<td>CPU时间</td>
+<td>完成这些事所花的总时间</td>
+<td>用节拍器控制，做完所有事的总时间</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>5、为什么主频不能无限提高？</h3>
+<p>因为：</p>
+<ul>
+<li>
+<p>电子电路有物理极限（比如信号传输延迟、功耗、发热）</p>
+</li>
+<li>
+<p>指令执行时间有瓶颈，不是所有指令都能在一个周期内完成</p>
+</li>
+<li>
+<p>所以现代 CPU 更多通过<strong>多核、多级流水线、乱序执行</strong>等方式提速</p>
+</li>
+</ul>
+<hr />
+<h3>6、总结一句话记忆（一秒有多少个时钟周期）：</h3>
+<blockquote>
+<p><strong>主频</strong>就是<strong>CPU一秒钟内可以“跳几次”来驱动指令的每一步</strong>，它决定了<strong>时钟周期的快慢</strong>，直接影响CPU运行速度。</p>
+</blockquote>
+<hr />
+<hr />
+<h1>二、计算机性能指标单位换算表与公式</h1>
+<h2>1、时间单位换算（秒为基础单位）</h2>
+<table>
+<thead>
+<tr>
+<th>单位</th>
+<th>换算公式</th>
+<th>含义说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>秒（s）</td>
+<td>基准单位</td>
+<td>—</td>
+</tr>
+<tr>
+<td>毫秒（ms）</td>
+<td>$1\ \text{ms} = 10^{-3}\ \text{s}$</td>
+<td>千分之一秒</td>
+</tr>
+<tr>
+<td>微秒（μs）</td>
+<td>$1\ \mu\text{s} = 10^{-6}\ \text{s}$</td>
+<td>百万分之一秒</td>
+</tr>
+<tr>
+<td>纳秒（ns）</td>
+<td>$1\ \text{ns} = 10^{-9}\ \text{s}$</td>
+<td>十亿分之一秒</td>
+</tr>
+<tr>
+<td>皮秒（ps）</td>
+<td>$1\ \text{ps} = 10^{-12}\ \text{s}$</td>
+<td>万亿分之一秒</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>2、”K M G“在频率和存储容量中的对比</h2>
+<table>
+<thead>
+<tr>
+<th>单位前缀</th>
+<th>含义</th>
+<th>在频率中（十进制）</th>
+<th>在存储容量中（二进制）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K / kilo</td>
+<td>千</td>
+<td>$1\ \text{kHz} = 10^3\ \text{Hz}$</td>
+<td>$1\ \text{KB} = 2^{10} = 1024\ \text{B}$</td>
+</tr>
+<tr>
+<td>M / mega</td>
+<td>百万</td>
+<td>$1\ \text{MHz} = 10^6\ \text{Hz}$</td>
+<td>$1\ \text{MB} = 2^{20} = 1,!048,!576\ \text{B}$</td>
+</tr>
+<tr>
+<td>G / giga</td>
+<td>十亿</td>
+<td>$1\ \text{GHz} = 10^9\ \text{Hz}$</td>
+<td>$1\ \text{GB} = 2^{30} = 1,!073,!741,!824\ \text{B}$</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>常用性能计算公式</h2>
+<h3>1. CPU 执行时间（CPU Time）</h3>
+<p>$$
+\text{CPU Time} = \text{指令条数} \times \text{CPI} \times \text{时钟周期时间}
+$$</p>
+<p>或者换一种写法：</p>
+<p>$$
+\text{CPU Time} = \frac{\text{指令条数} \times \text{CPI}}{\text{主频（Hz）}}
+$$</p>
+<hr />
+<h3>2. 每条指令平均耗时（Average Instruction Time）</h3>
+<p>$$
+\text{每条指令耗时} = \text{CPI} \times \text{时钟周期时间}
+$$</p>
+<hr />
+<h3>3. 主频与周期时间的关系</h3>
+<p>$$
+\text{时钟周期时间} = \frac{1}{\text{主频（Hz）}}
+$$</p>
+<p>例如，主频为 2 GHz，则周期时间为：</p>
+<p>$$
+\frac{1}{2 \times 10^9} = 0.5\ \text{ns}
+$$</p>
+<hr />
+<h3>4. 指令执行速率（MIPS/GIPS）</h3>
+<p>$$
+\text{GIPS} = \frac{\text{指令数}}{\text{CPU 时间} \times 10^9}
+$$
+$$
+\text{MIPS} = \frac{\text{指令数}}{\text{CPU 时间} \times 10^6}
+$$
+如果知道 CPI、时钟频率 $f$ 和总指令数 $I$，则：</p>
+<p>$$
+\text{CPU 时间} = \frac{\text{CPI} \times I}{f}
+\quad \Rightarrow \quad
+\text{MIPS} = \frac{f}{\text{CPI} \times 10^6}
+$$</p>
+<hr />
+<h2>总结与提示</h2>
+<ul>
+<li><strong>主频越高</strong>，周期时间越短，理论性能越强；</li>
+<li><strong>CPI 越小</strong>，说明 CPU 每条指令执行效率更高；</li>
+<li>解题时常见单位有 ms、μs、ns，请注意换算；</li>
+<li>注意：频率单位通常是 GHz（$10^9$），时间单位通常是 ns（$10^{-9}$）；</li>
+<li>主频再高，CPI 不优秀也没用，要综合考虑性能公式。</li>
+</ul>
+<hr />
+<p>$$
+[-2^n]_{n=1,00\ldots0} \ (n\ \text{个}\ 0)\ \text{，即}\ n+1\ \text{位补码能表示的最小整数。}
+$$</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[定点数的机器数表示总结]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-architecture-03/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-architecture-03/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[定点数的移位操作 $$[x] {\text{原}} = \begin{cases} x, & 0 \leq x < 2^n \\ 2^n x = 2^n + |x|, & 2^n < x \leq 0 \end{cases}$$ 符号位 ：最高位（0正1负） 数值位 ：绝对值二进制 表示范围 ：$ ]]></summary>
+        <content type="html"><![CDATA[<p>定点数的移位操作</p>
+<h1>定点数的机器数表示总结</h1>
+<h2>1. 原码表示法</h2>
+<h3>定义</h3>
+<p>$$[x]_{\text{原}} =
+\begin{cases}
+x, &amp; 0 \leq x &lt; 2^n \
+2^n - x = 2^n + |x|, &amp; -2^n &lt; x \leq 0
+\end{cases}$$</p>
+<h3>特点</h3>
+<ul>
+<li><strong>符号位</strong>：最高位（0正1负）</li>
+<li><strong>数值位</strong>：绝对值二进制</li>
+<li><strong>表示范围</strong>：$-(2^n-1) \leq x \leq 2^n-1$（对称）</li>
+<li><strong>零的表示</strong>：$+0=0,00...0$，$-0=1,00...0$（不唯一）</li>
+</ul>
+<h3>示例（8位）</h3>
+<ul>
+<li>$+6$ → <code>0,0000110</code></li>
+<li>$-6$ → <code>1,0000110</code></li>
+</ul>
+<hr />
+<h2>2. 补码表示法</h2>
+<p>补码来回转换时：符号位到底参不参与取反？</p>
+<h3>定义</h3>
+<p>$$[x]_补 =
+\begin{cases}
+x, &amp; 0 \leq x &lt; 2^n \
+2^{n+1} + x, &amp; -2^n \leq x &lt; 0
+\end{cases} \quad (\text{mod } 2^{n+1})$$</p>
+<h3>特点</h3>
+<ul>
+<li><strong>符号位参与运算</strong></li>
+<li><strong>表示范围(n+1位)</strong>：$-2^n \leq x \leq 2^n-1$（比原码多表示$-2^n$）</li>
+<li><strong>零唯一</strong>：<code>0,00...0</code></li>
+<li><strong>特殊值</strong>：
+<ul>
+<li>$-1$ → <code>1,11...1</code>
+$-2^n$ → <code>1,00...0</code></li>
+</ul>
+</li>
+</ul>
+<h3>转换规则</h3>
+<ol>
+<li>正数：同原码</li>
+<li>负数：<strong>符号位不变，数值位取反+1</strong></li>
+</ol>
+<h3>示例（8位）</h3>
+<ul>
+<li>$-6$ → <code>1,1111010</code>（原码<code>1,0000110</code> → 反码<code>1,1111001</code> → +1）</li>
+</ul>
+<hr />
+<h2>3. 变形补码（模4补码）</h2>
+<h3>特点</h3>
+<ul>
+<li><strong>双符号位</strong>：(左为符号位，右为溢出位)
+<ul>
+<li><code>00</code>：正数</li>
+<li><code>11</code>：负数</li>
+<li><code>01</code>/<code>10</code>：溢出</li>
+</ul>
+</li>
+<li><strong>判断溢出</strong>：符号位异或</li>
+</ul>
+<hr />
+<h2>4. 反码表示法</h2>
+<h3>定义</h3>
+<p>负数：原码<strong>符号位不变，数值位取反</strong>
+正数：<strong>原码=补码=反码</strong></p>
+<h3>特点</h3>
+<ul>
+<li><strong>零不唯一</strong>：$+0=0,00...0$，$-0=1,11...1$</li>
+<li><strong>范围</strong>：$-(2^n-1) \leq x \leq 2^n-1$（比补码少$-2^n$）</li>
+</ul>
+<hr />
+<h2>5. 移码表示法</h2>
+<h3>定义</h3>
+<p>$[x]_移 = 2^n + x$（偏置值$2^n$）</p>
+<h3>特点</h3>
+<ul>
+<li><strong>符号位取反</strong>：与补码符号位相反</li>
+<li><strong>表示唯一</strong>：零=<code>1,00...0</code></li>
+<li><strong>单调性</strong>：移码大小直接反映真值大小</li>
+<li><strong>范围</strong>：$-2^n \leq x \leq 2^n-1$</li>
+</ul>
+<hr />
+<h2>对比总结</h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>原码</th>
+<th>补码</th>
+<th>反码</th>
+<th>移码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>零的表示</strong></td>
+<td>±0</td>
+<td>唯一0</td>
+<td>±0</td>
+<td>唯一0</td>
+</tr>
+<tr>
+<td><strong>范围</strong></td>
+<td>$-(2^n-1) \sim 2^n-1$</td>
+<td>$-2^n \sim 2^n-1$</td>
+<td>$-(2^n-1) \sim 2^n-1$</td>
+<td>$-2^n \sim 2^n-1$</td>
+</tr>
+<tr>
+<td><strong>符号位</strong></td>
+<td>最高位</td>
+<td>最高位</td>
+<td>最高位</td>
+<td>补码符号取反</td>
+</tr>
+<tr>
+<td><strong>用途</strong></td>
+<td>人类易读</td>
+<td>运算核心</td>
+<td>过渡表示</td>
+<td>浮点阶码</td>
+</tr>
+</tbody>
+</table>
+<h3>关键结论</h3>
+<ol>
+<li>补码的$-2^n$**利用<code>1,00...0</code>表示，比原码多一个负数</li>
+<li>负数补码的数值位<strong>不等于绝对值</strong>（需转换）</li>
+<li>移码保持真值顺序，适合比较大小</li>
+</ol>
+<p>你提到的 <strong>OF（溢出标志位）</strong> 是 <strong>符号位进位与最高数位进位的异或结果</strong>，并且公式为：<br />
+$OF= C_n \oplus C_{n-1}$</p>
+<p>这条规则解释了溢出标志位如何通过进位的变化来决定。我们接下来详细分析一下其中的概念。</p>
+<h3><strong>1. 溢出标志位 (OF) 的定义</strong></h3>
+<ul>
+<li>
+<p><strong>OF（Overflow Flag）</strong>：是用来表示 <strong>有符号运算</strong> 中是否发生了溢出。</p>
+<ul>
+<li>
+<p>在 <strong>有符号数</strong> 运算中，溢出表示结果超出了有符号数的表示范围（比如 8 位有符号数的表示范围是 -128 到 127）。</p>
+</li>
+<li>
+<p>当加法或减法导致结果的符号发生错误时（例如，两个正数相加结果为负数，或两个负数相加结果为正数），就会设置 <strong>OF = 1</strong>，表示溢出。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3><strong>2. 进位的角色：符号位进位与最高数位进位</strong></h3>
+<ul>
+<li>
+<p>在有符号数运算中，最高位（符号位）是至关重要的，因为它决定了数的符号。</p>
+<ul>
+<li>
+<p>对于 <strong>8 位有符号数</strong>，最高位（第 7 位）决定了数的符号：</p>
+<ul>
+<li>
+<p>如果最高位为 <strong>0</strong>，表示正数；</p>
+</li>
+<li>
+<p>如果最高位为 <strong>1</strong>，表示负数。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>进位的概念在有符号加法中起到重要作用：</p>
+<ul>
+<li>
+<p><strong>符号位进位（$C_n$）</strong>：指的是 <strong>最高位的进位</strong>，也就是在计算时，符号位是否发生了进位。</p>
+</li>
+<li>
+<p><strong>最高数位进位（$C_{n-1}$）</strong>：指的是在整个加法过程的进位传递过程中，结果中最高数位（即符号位）是否发生了进位。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3><strong>3. 溢出判断的核心：进位异或</strong></h3>
+<ul>
+<li>
+<p><strong>溢出</strong>的发生通常是因为符号位的进位和高位进位的变化导致的。当符号位进位和最高数位进位的状态不一致时，表示发生了溢出。</p>
+</li>
+<li>
+<p>公式：$OF= C_n \oplus C_{n-1}$
+其中，</p>
+<ul>
+<li>
+<p>$C_n$ 是 <strong>符号位进位</strong>，即运算中符号位是否产生了进位；</p>
+</li>
+<li>
+<p>$C_{n-1}$ 是 <strong>最高数位进位</strong>，即整个加法过程中，是否有进位传递到符号位。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4><strong>为什么要用异或（XOR）？</strong></h4>
+<ul>
+<li>
+<p>这里使用异或（XOR）是因为只有在符号位和最高数位的进位不一致时，才会发生溢出。</p>
+<ul>
+<li>
+<p><strong>XOR 特性</strong>：只有当两个值不相同（一个为 1，另一个为 0）时，异或结果为 1，这正好符合溢出的条件。</p>
+</li>
+<li>
+<p>如果 $C_n$ 和 $C_{n-1}$ 相同（即都为 1 或都为 0），则表示符号位和最高位的进位是协调的，溢出没有发生。</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3><strong>4. 举例说明</strong></h3>
+<h4><strong>加法例子：</strong></h4>
+<p>假设我们有两个 8 位有符号数：</p>
+<ul>
+<li>
+<p>A=01111111A = 01111111（127）</p>
+</li>
+<li>
+<p>B=00000001B = 00000001（1）</p>
+</li>
+</ul>
+<p>加法：<br />
+A+B=01111111+00000001=10000000A + B = 01111111 + 00000001 = 10000000</p>
+<ul>
+<li>
+<p><strong>符号位进位</strong> CnC_n 是加法操作中符号位的进位。</p>
+<ul>
+<li>
+<p>在此例中，符号位从 0（表示正数）变成了 1（表示负数），表示溢出。</p>
+</li>
+<li>
+<p>Cn=1C_n = 1</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>最高数位进位</strong> Cn−1C_{n-1} 是整个加法运算中是否有进位传递到符号位。</p>
+<ul>
+<li>此时，进位传递到了符号位，因此 Cn−1=0C_{n-1} = 0（无进位到符号位）。</li>
+</ul>
+</li>
+</ul>
+<p>根据公式：<br />
+OF=Cn⊕Cn−1=1⊕0=1OF = C_n \oplus C_{n-1} = 1 \oplus 0 = 1<br />
+所以，<strong>OF = 1</strong>，表示发生了溢出。</p>
+<h4><strong>减法例子：</strong></h4>
+<p>假设我们有两个 8 位有符号数：</p>
+<ul>
+<li>
+<p>A=10000000A = 10000000（-128）</p>
+</li>
+<li>
+<p>B=00000001B = 00000001（1）</p>
+</li>
+</ul>
+<p>减法：<br />
+A−B=10000000−00000001=11111111A - B = 10000000 - 00000001 = 11111111</p>
+<ul>
+<li>
+<p><strong>符号位进位</strong> CnC_n：符号位发生了改变，从负数变为正数，因此 Cn=1C_n = 1。</p>
+</li>
+<li>
+<p><strong>最高数位进位</strong> Cn−1C_{n-1}：进位到符号位的传递，Cn−1=1C_{n-1} = 1。</p>
+</li>
+</ul>
+<p>根据公式：<br />
+OF=Cn⊕Cn−1=1⊕1=0OF = C_n \oplus C_{n-1} = 1 \oplus 1 = 0<br />
+所以，<strong>OF = 0</strong>，表示没有发生溢出。</p>
+<hr />
+<h3><strong>5. 总结</strong></h3>
+<ul>
+<li>
+<p>**OF（溢出标志位）**通过符号位进位（$C_n$）和最高数位进位（$C_{n-1}$）的异或结果来判断溢出：</p>
+<ul>
+<li>
+<p><strong>OF = 1</strong> 表示溢出发生（符号位进位和最高数位进位不一致）；</p>
+</li>
+<li>
+<p><strong>OF = 0</strong> 表示没有发生溢出（符号位进位和最高数位进位一致）。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>为什么使用异或？</strong> 因为溢出只发生在符号位和最高数位进位不一致时，异或可以正确反映这一点。</p>
+</li>
+</ul>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[逻辑移位]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-architecture-04/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-architecture-04/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[将操作数视为无符号整数： 左移：高位移出，低位补0 右移：低位移出，高位补零（此时若高位的1移出，则发生溢出） 将操作数视为有符号数（补码表示）： 左移：高位移出，低位补0；（此时若移出前的高位和移出后补上来的高位不同，则溢出） 右移：低位移出，高位补符号位（此时若低位的1移出，则影响精度） 如：1]]></summary>
+        <content type="html"><![CDATA[<h1>逻辑移位</h1>
+<p>将操作数视为无符号整数：</p>
+<p><strong>左移：高位移出，低位补0</strong>
+<strong>右移：低位移出，高位补零（此时若高位的1移出，则发生溢出）</strong></p>
+<hr />
+<h1>算术移位：</h1>
+<p>将操作数视为有符号数（补码表示）：</p>
+<p><strong>左移：高位移出，低位补0；（此时若移出前的高位和移出后补上来的高位不同，则溢出）</strong></p>
+<p><strong>右移：低位移出，高位补符号位（此时若低位的1移出，则影响精度）</strong></p>
+<p>如：1001和0101左移会溢出，右移会丢失精度</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一、ARP协议]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-computer-networks-03/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-computer-networks-03/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[核心问题 ：网络层使用 IP地址 进行寻址，而数据链路层使用 MAC地址 （硬件地址）来实际传输帧。一台主机如何知道目标IP地址对应的MAC地址？ 解决方案 ： 地址解析协议 (Address Resolution Protocol, ARP) 应运而生。它负责根据本网内的 IP地址 解析出其对应的]]></summary>
+        <content type="html"><![CDATA[<hr />
+<h1>一、ARP协议</h1>
+<h2>1. 概述：ARP的作用</h2>
+<ul>
+<li><strong>核心问题</strong>：网络层使用<strong>IP地址</strong>进行寻址，而数据链路层使用<strong>MAC地址</strong>（硬件地址）来实际传输帧。一台主机如何知道目标IP地址对应的MAC地址？</li>
+<li><strong>解决方案</strong>：<strong>地址解析协议 (Address Resolution Protocol, ARP)</strong> 应运而生。它负责根据本网内的<strong>IP地址</strong>解析出其对应的<strong>MAC地址</strong>。</li>
+<li><strong>工作层次</strong>：虽然ARP的功能是为网络层服务，但它严格来说是一个工作在<strong>数据链路层</strong>之上的协议，它的报文是直接封装在<strong>数据链路层帧</strong>中传输的。</li>
+</ul>
+<hr />
+<h2>2. ARP的工作原理与报文</h2>
+<h3>2.1 基本原理</h3>
+<ol>
+<li><strong>ARP缓存表</strong>：每台主机和路由器都维护一个<strong>ARP缓存表</strong>，存放着<code>{IP地址 : MAC地址}</code>的映射关系，并设有生存时间（TTL）。</li>
+<li><strong>ARP请求 (广播)</strong>：当需要解析一个未知的IP地址时，主机会在本局域网内广播一个 <strong>“ARP请求报文”</strong> ，内容大致是：<strong>“我的IP和MAC是XX，谁的IP是YY？请告诉你的MAC地址。”</strong></li>
+<li><strong>ARP响应 (单播)</strong>：局域网内所有主机都会收到该请求，但只有IP地址匹配的目标主机会响应该请求，向请求方<strong>单播</strong>一个 <strong>“ARP响应报文”</strong> ，告知其MAC地址。</li>
+<li><strong>更新缓存</strong>：请求方收到响应后，将得到的<code>IP:MAC</code>映射存入自己的ARP缓存表，以备后续使用。</li>
+</ol>
+<h3>2.2 ARP报文封装</h3>
+<ul>
+<li>ARP报文是直接封装在<strong>数据链路层的帧</strong>中进行传输的。</li>
+<li>封装时，帧首部的<strong>类型字段 (Type)</strong> 会设置为 <code>0x0806</code>，以表明帧的数据部分是一个ARP报文。</li>
+</ul>
+<hr />
+<h2>3. ARP的四种典型应用场景</h2>
+<p>这四种场景是理解ARP和整个网络通信过程的关键。我们假设有一个由两个路由器互联的三个网络组成的拓扑（<code>网1 -- R1 -- 网2 -- R2 -- 网3</code>）。</p>
+<pre><code>flowchart TD
+    subgraph Net1 [网 1]
+        H1[主机H1]
+    end
+
+    subgraph Net2 [网 2]
+        H3[主机H3]
+    end
+
+    subgraph Net3 [网 3]
+        H4[主机H4]
+    end
+
+    R1[路由器R1&lt;br&gt;（接口L1, L2）]
+    R2[路由器R2&lt;br&gt;（接口L3, L4）]
+
+    H1 -- 网1 --- R1
+    R1 -- 网2 --- H3
+    R1 -- 网2 --- R2
+    R2 -- 网3 --- H4
+</code></pre>
+<p>参考上图，有以下四种场景</p>
+<h3>场景一：本网络内，主机到主机</h3>
+<ul>
+<li><strong>描述</strong>：发送方是主机（如 <code>H1</code>），要把IP数据报发送到<strong>本网络</strong>上的另一台主机（如 <code>H3</code>，假设H3在网1）。</li>
+<li><strong>ARP过程</strong>：<code>H1</code> 首先检查目标IP地址 <code>H3</code> 是否在同一网段。确认后，<code>H1</code> 在<strong>网1</strong>内广播ARP请求，询问 <code>H3</code> 的MAC地址。<code>H3</code> 收到后，单播回应自己的MAC地址。</li>
+<li><strong>后续操作</strong>：<code>H1</code> 获取到 <code>H3</code> 的MAC地址后，将IP数据报封装成目的地址为 <code>H3-MAC</code> 的帧，直接发送给 <code>H3</code>。</li>
+</ul>
+<h3>场景二：跨网络，主机到主机（需经过网关）</h3>
+<ul>
+<li><strong>描述</strong>：发送方是主机（如 <code>H1</code>），要把IP数据报发送到<strong>其他网络</strong>上的一台主机（如 <code>H4</code>，在网3）。</li>
+<li><strong>ARP过程</strong>：<code>H1</code> 通过计算，发现目标IP <code>H4</code> 不在本网段。因此，它不会去解析 <code>H4</code> 的MAC地址（因为也解析不到），而是需要将数据报先发给<strong>默认网关</strong>（即 <code>R1</code> 的接口 <code>L1</code>）。于是，<code>H1</code> 在<strong>网1</strong>内广播ARP请求，询问<strong>网关 <code>L1</code> 的IP地址对应的MAC地址</strong>。</li>
+<li><strong>后续操作</strong>：<code>H1</code> 获取到 <code>L1</code> 的MAC地址后，将IP数据报封装成目的地址为 <code>L1-MAC</code>、但目的IP仍是 <code>H4</code> 的帧，发送给路由器 <code>R1</code>。&lt;font color="#ff0000"&gt;剩下的工作由路由器 R1来完成。&lt;/font&gt;</li>
+</ul>
+<h3>场景三：路由器到本网络主机</h3>
+<ul>
+<li><strong>描述</strong>：发送方是路由器（如 <code>R1</code>），需要把IP数据报转发到与它<strong>直接相连的网络</strong>（网2）上的一台主机（如 <code>H3</code>）。</li>
+<li><strong>ARP过程</strong>：路由器 <code>R1</code> 查询路由表后，确定下一跳就是目标主机 <code>H3</code> 本身。于是，<code>R1</code> 在<strong>网2</strong>内广播ARP请求，询问 <code>H3</code> 的MAC地址。<code>H3</code> 回应。</li>
+<li><strong>后续操作</strong>：<code>R1</code> 获取到 <code>H3</code> 的MAC地址后，将IP数据报封装成目的地址为 <code>H3-MAC</code> 的帧，从它的 <code>L2</code> 接口直接发送给 <code>H3</code>。</li>
+</ul>
+<h3>场景四：路由器到路由器（下一跳）</h3>
+<ul>
+<li><strong>描述</strong>：发送方是路由器（如 <code>R1</code>），需要把IP数据报转发给<strong>另一个路由器</strong>（如 <code>R2</code>），以最终到达目标网络（网3）。</li>
+<li><strong>ARP过程</strong>：路由器 <code>R1</code> 查询路由表后，确定下一跳是路由器 <code>R2</code> 的接口 <code>L3</code>。于是，<code>R1</code> 在<strong>网2</strong>内广播ARP请求，询问下一跳地址 <code>L3-IP</code> 对应的MAC地址（即 <code>L3-MAC</code>）。<code>R2</code> 的 <code>L3</code> 接口回应。</li>
+<li><strong>后续操作</strong>：<code>R1</code> 获取到 <code>L3-MAC</code> 后，将IP数据报封装成目的地址为 <code>L3-MAC</code>、但目的IP仍是最终目标 <code>H4</code> 的帧，发送给路由器 <code>R2</code>。&lt;font color="#ff0000"&gt;剩下的工作由 R2 来完成。&lt;/font&gt;</li>
+</ul>
+<blockquote>
+<p><strong>关键点总结</strong>：</p>
+<ol>
+<li><strong>通信双方是否在同一网段，决定了ARP解析的目标是谁</strong>。</li>
+<li>只要跨网络通信，源主机ARP解析的目标一定是其<strong>默认网关</strong>的MAC地址。</li>
+<li>路由器在转发时，每跳都会<strong>重新封装MAC帧</strong>，源和目的MAC地址都会改变，但内部的IP首部（源IP和目的IP）<strong>始终不变</strong>。</li>
+</ol>
+</blockquote>
+<hr />
+<h1>二、DHCP协议</h1>
+<hr />
+<h2>1. 概述：为什么需要DHCP？</h2>
+<ul>
+<li><strong>核心问题</strong>：为局域网内的每一台主机<strong>手动配置</strong>IP地址、子网掩码、默认网关和DNS服务器地址是一项繁琐且容易出错的工作。</li>
+<li><strong>解决方案</strong>：<strong>动态主机配置协议 (Dynamic Host Configuration Protocol, DHCP)</strong> 应运而生。它允许一台主机从网络中的DHCP服务器<strong>自动获取</strong>IP地址等配置信息。</li>
+<li><strong>工作模式</strong>：<strong>即插即用</strong>。主机接入网络后，无需任何手动配置即可上网。</li>
+<li><strong>工作层次</strong>：DHCP是一个<strong>应用层</strong>协议，它使用<strong>UDP</strong>作为其传输层协议。DHCP服务器侦听<strong>67端口</strong>，DHCP客户端使用<strong>68端口</strong>。</li>
+</ul>
+<hr />
+<h2>2. DHCP的工作过程（DORA）</h2>
+<p>DHCP客户机与服务器的交互过程遵循经典的<strong>DORA</strong>四步流程（Discover, Offer, Request, Acknowledge）。整个过程都使用<strong>广播</strong>进行。</p>
+<pre><code>sequenceDiagram
+    participant Client as DHCP客户端
+    participant Server as DHCP服务器
+    Note over Client: 初始化状态&lt;br&gt;IP: 0.0.0.0
+    Client-&gt;&gt;Server: 1. DHCP Discover&lt;br&gt;广播: 谁他妈有IP？
+    Note left of Client: 源: 0.0.0.0:68&lt;br&gt;目的: 255.255.255.255:67
+    Server-&gt;&gt;Client: 2. DHCP Offer&lt;br&gt;广播: 我他妈有一个IP！
+    Note right of Server: 源: 服务器IP:67&lt;br&gt;目的: 255.255.255.255:68
+    Client-&gt;&gt;Server: 3. DHCP Request&lt;br&gt;广播: 我他妈要用这个IP！
+    Note left of Client: 源: 0.0.0.0:68&lt;br&gt;目的: 255.255.255.255:67
+    Server-&gt;&gt;Client: 4. DHCP ACK&lt;br&gt;广播: 给他妈你！
+    Note right of Server: 源: 服务器IP:67&lt;br&gt;目的: 255.255.255.255:68
+    Note over Client: 绑定IP地址&lt;br&gt;配置完成
+</code></pre>
+<h3>步骤一：DHCP发现 (DHCP Discover)</h3>
+<ul>
+<li><strong>发起者</strong>：DHCP客户端。</li>
+<li><strong>时机</strong>：客户端启动时（或租约到期需要续约时）。</li>
+<li><strong>操作</strong>：客户端在本地物理子网内<strong>广播</strong>一个 <strong><code>DHCP Discover</code></strong> 报文。</li>
+<li><strong>报文细节</strong>：
+<ul>
+<li><strong>源IP地址</strong>：<code>0.0.0.0</code> （因为客户端还没有IP地址）</li>
+<li><strong>目的IP地址</strong>：<code>255.255.255.255</code> （受限广播地址）</li>
+<li><strong>源MAC地址</strong>：客户端自己的MAC地址</li>
+<li><strong>目的MAC地址</strong>：<code>FF:FF:FF:FF:FF:FF</code> （广播MAC地址）</li>
+</ul>
+</li>
+<li><strong>目的</strong>：寻找网络中的DHCP服务器，并请求一个IP地址。</li>
+</ul>
+<h3>步骤二：DHCP提供 (DHCP Offer)</h3>
+<ul>
+<li><strong>发起者</strong>：DHCP服务器。</li>
+<li><strong>操作</strong>：收到<code>DHCP Discover</code>报文的服务器，从自己的IP地址池中选择一个<strong>可用的IP地址</strong>，然后<strong>广播</strong>一个 <strong><code>DHCP Offer</code></strong> 报文作为响应。</li>
+<li><strong>报文细节</strong>：
+<ul>
+<li><strong>源IP地址</strong>：DHCP服务器自己的IP地址</li>
+<li><strong>目的IP地址</strong>：<code>255.255.255.255</code> （仍然是广播）</li>
+<li><strong>报文内容</strong>：包含为客户端<strong>预分配</strong>的IP地址、子网掩码、租期（Lease Time）、默认网关、DNS服务器等配置信息。</li>
+</ul>
+</li>
+<li><strong>目的</strong>：告知客户端，“我可以为你提供这个IP地址”。</li>
+</ul>
+<blockquote>
+<p><strong>注意</strong>：<strong>为什么第二步还是广播？因为此时客户端还没有IP地址，如果服务器单播回复，客户端无法识别是否是发给自己的</strong>。</p>
+</blockquote>
+<h3>步骤三：DHCP请求 (DHCP Request)</h3>
+<ul>
+<li><strong>发起者</strong>：DHCP客户端。</li>
+<li><strong>操作</strong>：客户端可能会收到多个服务器的<code>DHCP Offer</code>（如果网络中有多个DHCP服务器）。它会选择<strong>第一个</strong>或<strong>最好的</strong>一个Offer，然后向网络<strong>广播</strong>一个 <strong><code>DHCP Request</code></strong> 报文。</li>
+<li><strong>报文细节</strong>：
+<ul>
+<li><strong>源IP地址</strong>：<code>0.0.0.0</code></li>
+<li><strong>目的IP地址</strong>：<code>255.255.255.255</code></li>
+<li><strong>报文内容</strong>：明确指明它选择接受哪个服务器的哪个IP地址。</li>
+</ul>
+</li>
+<li><strong>目的</strong>：
+<ol>
+<li>告知被选中的服务器：“我决定使用你提供的IP地址”。</li>
+<li>告知其他未被选中的服务器：“谢谢你们的Offer，但我现在不需要了”，以便它们释放预分配的IP地址。</li>
+</ol>
+</li>
+</ul>
+<h3>步骤四：DHCP确认 (DHCP ACK)</h3>
+<ul>
+<li><strong>发起者</strong>：被选中的DHCP服务器。</li>
+<li><strong>操作</strong>：服务器收到<code>DHCP Request</code>后，确认该IP地址的分配，并向客户端<strong>广播</strong>一个 <strong><code>DHCP ACK</code></strong> 报文。</li>
+<li><strong>报文细节</strong>：
+<ul>
+<li><strong>源IP地址</strong>：服务器自己的IP地址</li>
+<li><strong>目的IP地址</strong>：<code>255.255.255.255</code></li>
+<li><strong>报文内容</strong>：包含客户端所请求的IP地址的所有正式配置参数。</li>
+</ul>
+</li>
+<li><strong>目的</strong>：正式完成IP地址的分配过程。客户端收到<code>DHCP ACK</code>后，即可使用该IP地址进行网络通信。</li>
+</ul>
+<hr />
+<h2>3. 租期与续租</h2>
+<p>DHCP分配的IP地址是有<strong>租期 (Lease Time)</strong> 的（如8天）。租期到了之后，地址会被服务器收回。</p>
+<ol>
+<li><strong>租期过半 (T1)</strong>：客户端会尝试向原服务器<strong>单播</strong>一个<code>DHCP Request</code>来续租。如果原服务器同意，则会回复一个<code>DHCP ACK</code>，并重置租期。</li>
+<li><strong>租期过87.5% (T2)</strong>：如果第一次续租失败，客户端会<strong>广播</strong>一个<code>DHCP Request</code>，请求任何DHCP服务器延长租期。</li>
+<li><strong>租期到期</strong>：如果两次续租都失败，客户端必须停止使用当前IP地址，并重新发起<code>DHCP Discover</code>过程。</li>
+</ol>
+<hr />
+<h2>4. 为什么全程使用广播？</h2>
+<p>这是理解DHCP的关键。根本原因在于：<strong>在完成整个DORA过程之前，客户端没有一个有效的IP地址</strong>。因此，服务器无法通过单播IP数据报与之通信。使用广播（MAC层广播和IP层广播）确保了通信双方在地址未知的情况下依然能够完成交互。</p>
+<hr />
+<h1>三、难点题出发的各种报文传播方式汇总</h1>
+<h2>核心概念辨析</h2>
+<p>在分析具体协议之前，必须牢记两个关键点：</p>
+<ol>
+<li><strong>网络层广播</strong>：指目的<strong>IP地址</strong>是广播地址（如<code>255.255.255.255</code>或<code> Net-id.255.255.255</code>）。</li>
+<li><strong>数据链路层广播</strong>：指目的<strong>MAC地址</strong>是广播地址（<code>FF:FF:FF:FF:FF:FF</code>）。</li>
+<li><strong>单播</strong>：目的IP和目的MAC都是某一个特定设备的地址。</li>
+</ol>
+<p>这两种广播在不同层级独立工作，一个报文可以同时是IP广播和MAC广播，也可以是IP广播但MAC单播。</p>
+<hr />
+<h2>ARP报文传播类型</h2>
+<h3>1. ARP请求 (ARP Request)</h3>
+<ul>
+<li><strong>网络层 (IP)</strong>：
+<ul>
+<li><strong>目的IP地址</strong>：<strong>要解析的目标IP地址</strong>（这是一个<strong>单播IP地址</strong>）。</li>
+<li>例如，H1要解析H2的MAC，目的IP就是H2的IP。</li>
+</ul>
+</li>
+<li><strong>数据链路层 (MAC)</strong>：
+<ul>
+<li><strong>目的MAC地址</strong>：<strong><code>FF:FF:FF:FF:FF:FF</code></strong> （<strong>广播MAC地址</strong>）。</li>
+<li>因为此时H1还不知道H2的MAC，所以必须广播让所有人都听到。</li>
+</ul>
+</li>
+<li><strong>结论</strong>：<strong>目的IP是单播，目的MAC是广播</strong>。</li>
+</ul>
+<h3>2. ARP响应 (ARP Reply)</h3>
+<ul>
+<li><strong>网络层 (IP)</strong>：
+<ul>
+<li><strong>目的IP地址</strong>：<strong>发起请求的主机的IP地址</strong>（这是一个<strong>单播IP地址</strong>）。</li>
+<li>例如，H2回应H1，目的IP就是H1的IP。</li>
+</ul>
+</li>
+<li><strong>数据链路层 (MAC)</strong>：
+<ul>
+<li><strong>目的MAC地址</strong>：<strong>发起请求的主机的MAC地址</strong>（这是一个<strong>单播MAC地址</strong>）。</li>
+<li>因为H2已经从请求报文中知道了H1的MAC地址，可以直接回复。</li>
+</ul>
+</li>
+<li><strong>结论</strong>：<strong>目的IP是单播，目的MAC是单播</strong>。</li>
+</ul>
+<hr />
+<h2>DHCP报文传播类型 (DORA过程)</h2>
+<p>DHCP的过程更特殊，因为客户端在获得配置之前<strong>没有IP地址</strong>。</p>
+<h3>1. DHCP发现 (DHCP Discover) &amp; 3. DHCP请求 (DHCP Request)</h3>
+<p>这两个报文的发送方和地址特性完全相同。</p>
+<ul>
+<li><strong>发送方</strong>：<strong>客户端</strong>（无IP地址状态）。</li>
+<li><strong>网络层 (IP)</strong>：
+<ul>
+<li><strong>目的IP地址</strong>：<strong><code>255.255.255.255</code></strong> （<strong>受限广播IP地址</strong>）。</li>
+<li>因为客户端不知道网络中存在谁，只能向全世界喊话。</li>
+</ul>
+</li>
+<li><strong>数据链路层 (MAC)</strong>：
+<ul>
+<li><strong>目的MAC地址</strong>：<strong><code>FF:FF:FF:FF:FF:FF</code></strong> （<strong>广播MAC地址</strong>）。</li>
+<li>同样是因为不知道服务器的MAC地址。</li>
+</ul>
+</li>
+<li><strong>结论</strong>：<strong>目的IP是广播，目的MAC是广播</strong>。</li>
+</ul>
+<h3>2. DHCP提供 (DHCP Offer) &amp; 4. DHCP确认 (DHCP ACK)</h3>
+<p>这两个报文的发送方和地址特性完全相同。</p>
+<ul>
+<li><strong>发送方</strong>：<strong>DHCP服务器</strong>。</li>
+<li><strong>网络层 (IP)</strong>：
+<ul>
+<li><strong>目的IP地址</strong>：<strong><code>255.255.255.255</code></strong> （<strong>受限广播IP地址</strong>）。</li>
+<li><strong>为什么？</strong> 因为此时客户端还没有正式获得IP地址。如果服务器使用单播IP（如预分配的<code>192.168.1.100</code>）回复，这个数据包到达客户端后，客户端的IP协议栈会认为这个目标是别人的地址而将其丢弃。因此，必须使用IP广播，确保所有主机（包括没有IP的客户端）都会处理这个包。</li>
+</ul>
+</li>
+<li><strong>数据链路层 (MAC)</strong>：
+<ul>
+<li><strong>目的MAC地址</strong>：<strong>客户端的MAC地址</strong>（<strong>单播MAC地址</strong>）。</li>
+<li><strong>为什么？</strong> 服务器在第一步收到的<code>DHCP Discover</code>报文中，已经看到了客户端的<strong>源MAC地址</strong>。因此它知道客户端的物理地址，可以直接进行链路层的单播。</li>
+</ul>
+</li>
+<li><strong>结论</strong>：<strong>目的IP是广播，目的MAC是单播</strong>。<strong>这正是题目所问的情况</strong>。</li>
+</ul>
+<hr />
+<h2>总结表格</h2>
+<table>
+<thead>
+<tr>
+<th>协议报文</th>
+<th>发送方</th>
+<th>目的 IP 地址</th>
+<th>目的 MAC 地址</th>
+<th>传播类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ARP Request</strong></td>
+<td>客户端</td>
+<td><strong>单播</strong> (目标IP)</td>
+<td><strong>广播</strong> (<code>FF:FF:...</code>)</td>
+<td>IP单播, MAC广播</td>
+</tr>
+<tr>
+<td><strong>ARP Reply</strong></td>
+<td>目标主机</td>
+<td><strong>单播</strong> (请求者IP)</td>
+<td><strong>单播</strong> (请求者MAC)</td>
+<td><strong>IP单播, MAC单播</strong></td>
+</tr>
+<tr>
+<td><strong>DHCP Discover</strong></td>
+<td>客户端</td>
+<td><strong>广播</strong> (<code>255.255.255.255</code>)</td>
+<td><strong>广播</strong> (<code>FF:FF:...</code>)</td>
+<td><strong>IP广播, MAC广播</strong></td>
+</tr>
+<tr>
+<td><strong>DHCP Offer</strong></td>
+<td>服务器</td>
+<td><strong>广播</strong> (<code>255.255.255.255</code>)</td>
+<td><strong>单播</strong> (客户端MAC)</td>
+<td><strong>IP广播, MAC单播</strong></td>
+</tr>
+<tr>
+<td><strong>DHCP Request</strong></td>
+<td>客户端</td>
+<td><strong>广播</strong> (<code>255.255.255.255</code>)</td>
+<td><strong>广播</strong> (<code>FF:FF:...</code>)</td>
+<td><strong>IP广播, MAC广播</strong></td>
+</tr>
+<tr>
+<td><strong>DHCP ACK</strong></td>
+<td>服务器</td>
+<td><strong>广播</strong> (<code>255.255.255.255</code>)</td>
+<td><strong>单播</strong> (客户端MAC)</td>
+<td><strong>IP广播, MAC单播</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>记忆技巧与常见考点</h2>
+<ul>
+<li><strong>考题-ARP/DHCP地址类型</strong>：这是最高频的考题形式，要求准确判断不同报文的目的IP和MAC地址类型。</li>
+<li><strong>理解为什么DHCP Offer/ACK是IP广播</strong>：这是最容易错的地方。关键记住<strong>客户端在收到ACK前都没有正式IP</strong>，服务器无法对其进行IP单播。</li>
+<li><strong>理解为什么DHCP Offer/ACK是MAC单播</strong>：因为服务器已经从Discover/Request报文中知道了客户端的MAC地址，无需再进行MAC广播。</li>
+</ul>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1) 基本定义]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-data-structures-01/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-data-structures-01/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[设有有环无环图（DAG），弧 $((u\to v))$ 表示一个活动（duration 为 $w {uv}$），顶点表示事件（事件发生意味着所有进入该事件的活动都完成）。 顶点的 最早发生时间 $E(v)$：在不违反前置约束的前提下，事件 $v$ 最早可以发生的时间。 递推公式： $$ E(v)=\]]></summary>
+        <content type="html"><![CDATA[<h1>1) 基本定义</h1>
+<p>设有有环无环图（DAG），弧 $((u\to v))$ 表示一个活动（duration 为 $w_{uv}$），顶点表示事件（事件发生意味着所有进入该事件的活动都完成）。</p>
+<ul>
+<li>
+<p>顶点的<strong>最早发生时间</strong> $E(v)$：在不违反前置约束的前提下，事件 $v$ 最早可以发生的时间。<br />
+递推公式：<br />
+$$<br />
+E(v)=\max_{(u\to v)}{E(u)+w_{uv}},<br />
+$$<br />
+起点（没有入弧）的 $E=0$。</p>
+</li>
+<li>
+<p>顶点的<strong>最迟发生时间</strong> $L(v)$：为了不延误整个项目（把终点的最早发生时间作为项目工期），事件 $v$ 最晚可以发生的时间而不使项目延长。<br />
+递推公式（从终点向回）：<br />
+$$<br />
+L(v)=\min_{(v\to s)}{L(s)-w_{vs}},<br />
+$$<br />
+终点 $t$ 的 $L(t)=E(t)$（项目工期）。</p>
+</li>
+<li>
+<p>弧（活动）$((u\to v))$ 的<strong>最早开始时间</strong>（ES）就是活动可以最早开始的时刻，等于尾事件的最早发生时间：<br />
+$$<br />
+ES(u\to v)=E(u).<br />
+$$<br />
+它的最早完成时间是 $E(u)+w_{uv}$。</p>
+</li>
+<li>
+<p>弧（活动）$((u\to v))$ 的<strong>最迟开始时间</strong>（LS）就是在不延误项目的情况下该活动最晚能开始的时刻：<br />
+$$<br />
+LS(u\to v)=L(v)-w_{uv}.<br />
+$$<br />
+它的最迟完成时间是 $L(v)$。</p>
+</li>
+<li>
+<p><strong>时差/松弛（slack 或 float）</strong>：<br />
+$$<br />
+\text{slack}(u\to v)=LS-ES = L(v)-w_{uv}-E(u).<br />
+$$<br />
+当 slack = 0 时该活动位于<strong>关键路径</strong>上（不能延迟）。</p>
+</li>
+</ul>
+<h1>2) 直观含义（用语言解释）</h1>
+<ul>
+<li>
+<p>$E(v)$ 用“<strong>必须等待所有前置活动完成</strong>”来理解：事件 $v$ 要发生，所有通向 $v$ 的活动都要结束——因此要等“最慢（耗时最长）的一条路径”到达 $v$。这就是用 <strong>max</strong> 的原因。</p>
+</li>
+<li>
+<p>$L(v)$ 用“<strong>为了不延长后续最紧约束，事件 $v$ 最晚不能超过某个时间</strong>”来理解：看 $v$ 的所有出弧，每一条出弧通向某个后继事件 $s$，为了不拖延 $s$（以及最终项目），$v$ 最晚只能到 $L(s)-w_{vs}$。因为 $v$ 要同时满足所有后继的约束，所以取这些值的 <strong>min</strong>。</p>
+</li>
+<li>
+<p>活动（弧）的最早开始就是“<strong>尾事件一旦发生就可以立刻开始</strong>”，因为尾事件发生意味着它的所有前置都已完成；活动的最迟开始是“<strong>必须在某个时刻之前启动，才能保证到达头事件 $v$ 时不超过 $L(v)$</strong>”，这就是 $L(v)-w$ 的意义。</p>
+</li>
+</ul>
+<h1>3) 纠正 / 明确你原来的推理</h1>
+<p>你写的：</p>
+<blockquote>
+<p>顶点的最早发生时间是指到达该顶点的各个路径中的最大值，因为只有花费最大的那个事件完成，整个活动才能开始。<br />
+这句话<strong>完全正确</strong>（就是 $E(v)=\max(E(u)+w_{uv})$ 的直观）。</p>
+</blockquote>
+<p>然后你说：</p>
+<blockquote>
+<p>在最早发生时间的基础上，从该顶点 m 往回看，减去其路径上上一个节点 n 到达该节点 m 的边权值，即是上一个顶点 n 的最晚发生时间，其本质含义在于，为了按最早发生时间到达下一个节点 m，必须把到 m 的弧值算在内，然后 n 必须最迟按这个时间发生。</p>
+</blockquote>
+<p>这条<strong>需要补充</strong>：对于某一对 $n\to m$，确实有一个约束 $L(n)\le L(m)-w_{nm}$，也就是说“为了保证按 $L(m)$ 到达 $m$，$n$ 最迟不能晚于 $L(m)-w_{nm}$”。但如果顶点 $n$ 有多个后继（多个出弧），那么 $L(n)$ 必须同时满足<strong>所有</strong>这些后继的约束，因此取所有后继给出的上界中的最小值：<br />
+$$<br />
+L(n)=\min_{(n\to s)} (L(s)-w_{ns}).<br />
+$$<br />
+所以你关于“从 m 往回减去边权得到前一个顶点的最晚发生时间”<strong>在单条路径上的推理是对的</strong>，但要注意如果前一个顶点有多条出路，需要取这些约束的 <strong>最紧（最小）</strong> 那个。</p>
+<h1>4) 总结 — 本质一言以蔽之</h1>
+<ul>
+<li>
+<p>顶点（事件）的<strong>最早</strong>时间是“必须等到所有前置活动中<strong>最晚完成</strong>的那一个” —— 所以用 <strong>最大值</strong>。</p>
+</li>
+<li>
+<p>顶点（事件）的<strong>最迟</strong>时间是“为了不影响后续事件/最终工期，所能容忍的<strong>最紧约束</strong>” —— 所以用 <strong>最小值</strong>（看所有出弧产生的限制并取最小）。</p>
+</li>
+<li>
+<p>弧（活动）的最早开始 = 尾事件的最早发生；弧的最迟开始 = 头事件的最迟发生减去该活动耗时。</p>
+</li>
+<li>
+<p>若某条活动的最早开始等于最迟开始（slack=0），则该活动在关键路径上，不能被延迟。</p>
+</li>
+</ul>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[漫谈线代：Section 3 — 两个核心方程问题]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-linear-algebra-03/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-linear-algebra-03/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本节聚焦线性代数中最核心的两个方程： 1. 齐次系统 $A\vec{x}=0$ —— 零空间 & 基础解系 2. 非齐次系统 $A\vec{x}=\vec b$ —— 列空间 & 通解结构 它们不仅是方程求解的基石，更为 特征值/特征向量 等高级主题打下坚实几何与代数基础。 求解 $$ A\vec{]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>本节聚焦线性代数中最核心的两个方程：</p>
+<ol>
+<li>齐次系统 $A\vec{x}=0$ —— 零空间 &amp; 基础解系</li>
+<li>非齐次系统 $A\vec{x}=\vec b$ —— 列空间 &amp; 通解结构</li>
+</ol>
+<p>它们不仅是方程求解的基石，更为 <strong>特征值/特征向量</strong> 等高级主题打下坚实几何与代数基础。</p>
+</blockquote>
+<hr />
+<h2>3.1 齐次系统 $A\vec{x}=0$ —— 零空间与基础解系</h2>
+<h3>具体详见：问题一：Ax=0</h3>
+<h3>3.1.1 问题背景</h3>
+<p>求解
+$$
+A\vec{x} = \vec{0},\qquad A\in\mathbb{R}^{m\times n}.
+$$</p>
+<p>所有解构成矩阵 $A$ 的 <strong>零空间</strong> $\mathrm{Null}(A)$，它是一个向量 <strong>子空间</strong>。</p>
+<blockquote>
+<p>🗣 <strong>Strang</strong>：“The solution to $A\vec{x}=0$ lives in the null space. That’s a whole subspace.”</p>
+</blockquote>
+<h3>3.1.2 几何视角</h3>
+<ul>
+<li><strong>Null$(A)$</strong> 是通过原点的线/面/超平面（维度 = $n-r$）。</li>
+<li>每个自由变量对应一个“方向”：向量组 ${\vec{v}<em>1,\dots,\vec{v}</em>{n-r}}$ 张成该空间。</li>
+<li>若 $r=n$，则 Null$(A)={\vec0}$ ⇒ 唯一解。</li>
+</ul>
+<hr />
+<h2>3.2 非齐次系统 $A\vec{x}=\vec b$ —— 列空间与通解结构</h2>
+<h2>具体详见：问题二：Ax=b</h2>
+<h3>3.2.1 问题背景</h3>
+<p>求解
+$$
+A\vec{x} = \vec b,\qquad A\in\mathbb{R}^{m\times n},~\vec b\in\mathbb{R}^m.
+$$</p>
+<p>解的存在性 &amp; 结构由 <strong>列空间</strong> Col$(A)$ 与 Null$(A)$ 决定。</p>
+<blockquote>
+<p>🗣 <strong>Strang</strong>：“The column space tells you which $\vec b$ are possible.”</p>
+</blockquote>
+<h3>3.2.3 几何视角</h3>
+<ul>
+<li><strong>列空间</strong> Col$(A)$ 是 $A\vec{x}$ 能达到的所有点。</li>
+<li>解存在 ⇔ $\vec b\in\mathrm{Col}(A)$。</li>
+<li>通解 = <strong>特解</strong>（一个点） + <strong>Null$(A)$</strong>（穿过该点的平移子空间）。</li>
+</ul>
+<hr />
+<h2>3.3 为特征值/特征向量做铺垫</h2>
+<h3>3.3.1 齐次系统推广</h3>
+<ul>
+<li><strong>特征向量</strong> $v$ 满足
+$$
+A v = \lambda v
+;\Longleftrightarrow;
+(A - \lambda I)v = 0.
+$$</li>
+<li>这恰是齐次系统 $(A-\lambda I)v=0$ 有非零解的条件 ⇒ <strong>$\det(A-\lambda I)=0$</strong>。</li>
+</ul>
+<h3>3.3.2 本质联系</h3>
+<table>
+<thead>
+<tr>
+<th>主题</th>
+<th>解空间</th>
+<th>自由度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Null$(A)$</td>
+<td>$A x = 0$</td>
+<td>$n - r$</td>
+</tr>
+<tr>
+<td>Eigen$(A)$</td>
+<td>$(A-\lambda I)x=0$</td>
+<td>几何重数</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>特征值出现时，$(A-\lambda I)$ 的 Null 空间突然<strong>维度增大</strong>。</li>
+<li>理解 Null 空间机制，有助迅速掌握特征向量构造与重数概念。</li>
+</ul>
+<hr />
+<h2>🔗 小结链接</h2>
+<p><strong>承上启下：</strong></p>
+<ul>
+<li>漫谈线代：Section 1—向量</li>
+<li>漫谈线代：Section 2—矩阵</li>
+<li><strong>本章：Section 3—两个核心方程问题</strong></li>
+<li>漫谈线代：Section 4—特征值与特征向量</li>
+</ul>
+<hr />
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全景解析：从向量空间到二次型]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-linear-algebra-04/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-linear-algebra-04/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2025年7月5日 正式过完张宇线代全书后，笔者准备结合《MIT18.06》课程的底子，写一篇题为《漫谈线性代数》的笔记，以统筹纵横，高山看海的视角，兼顾局部细节和实战计算的手法，来将整个线性代数在考研范围内的知识向第三者能够讲解清楚。同时在后两轮的学习实战中不断回顾复看兼完善哺育，到最后也算留下一]]></summary>
+        <content type="html"><![CDATA[<p><strong>2025年7月5日</strong>
+<strong>正式过完张宇线代全书后，笔者准备结合《MIT18.06》课程的底子，写一篇题为《漫谈线性代数》的笔记，以统筹纵横，高山看海的视角，兼顾局部细节和实战计算的手法，来将整个线性代数在考研范围内的知识向第三者能够讲解清楚。同时在后两轮的学习实战中不断回顾复看兼完善哺育，到最后也算留下一笔颇有成就感的资产。</strong></p>
+<hr />
+<p>&lt;div style="border: none; padding: 1.5em; background: #f8f9fa; position: relative; font-family: 'Noto Serif SC Black', 'Source Han Serif SC', serif;"&gt;<br />
+&lt;p style="font-size: 1.4em; color: #333; margin: 0; line-height: 1.5; text-shadow: 0 1px 0 #ccc, 1px 2px 0 #999; letter-spacing: 0.05em;"&gt;<br />
+“雄关漫道真如铁，而今迈步从头越。&lt;br&gt;<br />
+&lt;span style="display: inline-block; margin-top: 0.3em;"&gt;从头越，苍山如海，残阳如血。”&lt;/span&gt;<br />
+&lt;/p&gt;<br />
+&lt;div style="border-top: 2px solid #8b0000; margin-top: 1em; padding-top: 0.5em; text-align: right; color: #8b0000; font-weight: bold;"&gt;——毛泽东&lt;/div&gt;<br />
+&lt;/div&gt;</p>
+<h3>谨引用，以怀念我的人生导师毛泽东同志，在无数沉默的时刻给我以力量和决心。</h3>
+<hr />
+<hr />
+<h2>大致思路：</h2>
+<blockquote>
+<p>这篇笔记先从<strong>向量和空间</strong>讲起，再到<strong>矩阵</strong>，再结合 <strong>$Ax=0,Ax=b$</strong> 这两个问题将相关核心基础知识例如“秩”串联进去，最后利用解这两个方程的问题去处理<strong>特征值和特征向量</strong>，同时搞懂特征值和特征向量相关问题背后的本质是什么，最后综合运用前面所有知识去深入浅出的讲解<strong>二次型</strong>。而行列式则作为计算和某些性质保证来贯穿始终。
+<strong>总之，要先抓理解和本质，再去扎扎实实解决每一部分的”基本问题“，基本问题解决了，其他的所谓复杂问题也都是纸老虎。</strong></p>
+</blockquote>
+<ol>
+<li>
+<p><strong>由向量→空间→矩阵→方程组→特征→二次型</strong></p>
+<ul>
+<li>
+<p>向量空间是所有概念的<strong>语境</strong></p>
+</li>
+<li>
+<p>矩阵是<strong>线性变换</strong>的坐标表示</p>
+</li>
+<li>
+<p>解方程组（$Ax=0$, $Ax=b$）既考察<strong>秩/基底</strong>，又引入<strong>投影/最小二乘</strong></p>
+</li>
+<li>
+<p>特征值/特征向量是对变换的<strong>本征方向</strong>探索</p>
+</li>
+<li>
+<p>二次型则是对所有前面工具的<strong>综合应用</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>行列式贯穿始终</strong></p>
+<ul>
+<li>行列式既是“可逆性”判据，也是几何体积伸缩因子，完全可以在“可逆矩阵”“体积”“特征多项式”乃至“配方法”中多次提及</li>
+</ul>
+</li>
+<li>
+<p><strong>本质先行，之后解决基本问题</strong></p>
+<ul>
+<li>先打通“为什么学”与“它背后在描述什么”的思路，再用“怎么做”来填实细节——非常符合MIT/3B1B的教学理念，也契合考研“理解+计算”双重要求</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h1>全景解析：从向量空间到二次型</h1>
+<h1>Row operation :Left</h1>
+<h2>Column operation ：Right</h2>
+<h2>🧭 第一章 向量：线性代数的原子 漫谈线代：Section 1—向量</h2>
+<p><strong>核心概念</strong></p>
+<ul>
+<li><strong>向量本质</strong>：有序数组 $\vec{v} \in \mathbb{R}^n$，兼具<strong>大小</strong>与<strong>方向</strong>的几何对象。</li>
+<li><strong>线性组合</strong>：$c_1\vec{v_1} + \cdots + c_n\vec{v_n}$，是矩阵乘法的本质。</li>
+<li><strong>张成空间</strong>：$\text{span}{\vec{v_1}, \dots, \vec{v_n}}$ 的几何形态（线/面/体）由线性无关性决定：
+<ul>
+<li>$\mathbb{R}^2$ 中：1个向量→直线；2个无关向量→平面；相关向量→退化。</li>
+</ul>
+</li>
+<li><strong>秩</strong> = 极大线性无关组向量个数 = 张成空间的维度。</li>
+<li><strong>基</strong>：线性无关且能张成全空间的向量组（如 $\mathbb{R}^3$ 的标准基 $[1,0,0]^T, [0,1,0]^T, [0,0,1]^T$）。</li>
+</ul>
+<blockquote>
+<p><strong>几何洞见</strong>：</p>
+<ul>
+<li>线性无关向量是“硬气独立”的；相关向量是“冗余窝囊”的。</li>
+<li>基是空间的坐标系，维度是坐标轴的个数。</li>
+</ul>
+</blockquote>
+<hr />
+<h2>🧮 第二章 矩阵：线性变换的代数表示 漫谈线代：Section 2—矩阵</h2>
+<p><strong>核心概念</strong></p>
+<ul>
+<li><strong>矩阵视角</strong>：
+<ul>
+<li>列视角：$A = [\vec{a_1}, \dots, \vec{a_n}]$，矩阵乘法 $A\vec{x}$ 是列的线性组合。</li>
+<li>行视角：$A = [\vec{r_1}^T; \dots; \vec{r_m}^T]$，$\vec{y}^T A$ 是行的线性组合。</li>
+</ul>
+</li>
+<li><strong>秩的几何</strong>：$\text{rank}(A) = \dim(\text{col}(A))$，表示变换后空间的维度（如秩为1将平面压缩到直线）。<br />
+<strong>逆矩阵</strong></li>
+<li><strong>存在条件</strong>：$\det(A) \neq 0 \iff \text{rank}(A)=n \iff A$ 列无关。</li>
+<li><strong>几何意义</strong>：可逆变换保持空间维度（双射），不可逆变换压缩空间。</li>
+</ul>
+<blockquote>
+<p><strong>本质思考</strong>：矩阵是线性变换的坐标表示，如同向量是点的坐标表示。</p>
+</blockquote>
+<hr />
+<h2>⚖️ 第三章 两个核心方程问题  漫谈线代：Section 3 — 两个核心方程问题</h2>
+<h4>1. 齐次系统 $A\vec{x}=0$</h4>
+<ul>
+<li><strong>解空间</strong>：零空间 $\text{null}(A)$，维度 $n-r$。</li>
+<li><strong>基础解系</strong>：自由变量对应的线性无关解向量。</li>
+</ul>
+<h4>2. 非齐次系统 $A\vec{x}=\vec{b}$</h4>
+<ul>
+<li><strong>解存在</strong>：$\vec{b} \in \text{col}(A)$。</li>
+<li><strong>通解结构</strong>：特解 + 零空间平移（$\vec{x} = \vec{x_p} + \text{null}(A)$）。</li>
+</ul>
+<blockquote>
+<p><strong>承上启下</strong>：<br />
+特征值问题 $(A-\lambda I)\vec{v}=0$ 是齐次系统的推广，解空间维度跃升处对应 $\lambda$ 的几何重数。</p>
+</blockquote>
+<hr />
+<h2>🔍 第四章 特征值与特征向量 漫谈线代：Section 4—特征值与特征向量</h2>
+<p><strong>核心定义</strong></p>
+<ul>
+<li>$A\vec{v} = \lambda \vec{v} \iff (A-\lambda I)\vec{v}=0$，非零解存在的 $\lambda$ 为特征值。</li>
+<li><strong>几何意义</strong>：
+<ul>
+<li>特征向量 $\vec{v}$：变换后方向不变的本征方向。</li>
+<li>特征值 $\lambda$：沿 $\vec{v}$ 的伸缩因子（$|\lambda|&gt;1$ 拉伸，$\lambda&lt;0$ 反向）。</li>
+</ul>
+</li>
+</ul>
+<p><strong>对角化与相似变换</strong></p>
+<ul>
+<li><strong>条件</strong>：$A$ 有 $n$ 个线性无关特征向量。</li>
+<li><strong>形式</strong>：$A = Q\Lambda Q^{-1}$，其中 $\Lambda = \text{diag}(\lambda_1,\dots,\lambda_n)$。</li>
+<li><strong>本质</strong>：换基到特征向量坐标系，变换退化为纯伸缩。</li>
+</ul>
+<p><strong>实对称矩阵特性</strong></p>
+<ul>
+<li>特征值全为实数，特征向量正交 → 可正交对角化 $A=Q\Lambda Q^T$。</li>
+</ul>
+<blockquote>
+<p><strong>示例</strong>：<br />
+$A = \begin{bmatrix} 3&amp;1&amp;0 \ 1&amp;3&amp;0 \ 0&amp;0&amp;2 \end{bmatrix}$ 的特征值 $\lambda=4,2,2$，特征向量 $[1,1,0]^T, [1,-1,0]^T, [0,0,1]^T$，可对角化。</p>
+</blockquote>
+<hr />
+<h2>📐 第五章 行列式：体积因子与可逆判据 漫谈线代：Section 5 — 行列式</h2>
+<p><strong>三大定义等价</strong></p>
+<ol>
+<li><strong>体积定义</strong>：$|\det(A)|$ 是列向量张成的平行六面体体积。</li>
+<li><strong>置换定义</strong>：$\det(A) = \sum_{\sigma} \text{sgn}(\sigma) \prod a_{i,\sigma(i)}$。</li>
+<li><strong>展开定义</strong>：按行展开 $\det(A) = \sum (-1)^{i+j} a_{ij} M_{ij}$。</li>
+</ol>
+<p><strong>关键性质与特殊行列式</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>公式</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>三角矩阵</td>
+<td>$\prod a_{ii}$</td>
+<td>$\det \begin{bmatrix} 2&amp;1 \ 0&amp;3 \end{bmatrix} = 6$</td>
+</tr>
+<tr>
+<td>范德蒙德</td>
+<td>$\prod_{i&lt;j}(x_j-x_i)$</td>
+<td>$\det \begin{bmatrix} 1&amp;1 \ 1&amp;2 \end{bmatrix} = 1$</td>
+</tr>
+<tr>
+<td>副对角线</td>
+<td>$(-1)^{n(n-1)/2} \prod b_i$</td>
+<td>$\det \begin{bmatrix} 0&amp;2 \ 3&amp;0 \end{bmatrix} = -6$</td>
+</tr>
+</tbody>
+</table>
+<p><strong>克拉默法则</strong>：$x_i = \det(A_i(\vec{b})) / \det(A)$，其中 $A_i(\vec{b})$ 是 $A$ 的第 $i$ 列替换为 $\vec{b}$。</p>
+<hr />
+<h2>🧩 第六章 二次型：矩阵合同的综合应用漫谈线代：Section 6 — 二次型</h2>
+<p><strong>核心概念</strong></p>
+<ul>
+<li><strong>二次型</strong>：$Q(\vec{x}) = \vec{x}^T A \vec{x}$（$A$ 对称）。</li>
+<li><strong>合同变换</strong>：$B = P^T A P$，保持惯性指数 $(p,q)$（正/负特征值个数）。</li>
+</ul>
+<p><strong>标准化方法</strong></p>
+<ol>
+<li><strong>配方法</strong>（示例）：<br />
+$$
+Q = 2x^2 + 4xy + 2y^2 + 4xz + z^2 = 2U^2 - 2V^2 + 2W^2 \quad (U=x+y+z, V=y+z, W=y).
+$$</li>
+<li><strong>正交变换法</strong>（特征值法）：
+<ul>
+<li>对 $A$ 正交对角化 $A = Q\Lambda Q^T$，令 $\vec{x} = Q\vec{y}$，则 $Q(\vec{x}) = \lambda_1 y_1^2 + \lambda_2 y_2^2 + \lambda_3 y_3^2$。</li>
+</ul>
+</li>
+</ol>
+<p><strong>正定判别</strong><br />
+$Q(\vec{x}) &gt; 0 \iff A$ 的特征值全正 $\iff$ 所有顺序主子式 $&gt;0$。</p>
+<blockquote>
+<p><strong>示例</strong>：<br />
+$f = kx_1^2 + 2x_2^2 - 2x_3^2 + 2m x_1 x_3$，由特征值和为1、积为-12得 $k=1, m=2$，正交变换后标准形 $2y_1^2 + 2y_2^2 - 3y_3^2$。</p>
+</blockquote>
+<hr />
+<h2>💎 总结：线性代数的统一框架</h2>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>代数意义</th>
+<th>几何意义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>向量</td>
+<td>有序数组</td>
+<td>空间中的有向线段</td>
+</tr>
+<tr>
+<td>矩阵</td>
+<td>线性变换表示</td>
+<td>空间的旋转/伸缩/投影</td>
+</tr>
+<tr>
+<td>行列式</td>
+<td>可逆判据</td>
+<td>体积缩放因子</td>
+</tr>
+<tr>
+<td>特征值</td>
+<td>本征方向伸缩率</td>
+<td>变换的不动方向</td>
+</tr>
+<tr>
+<td>二次型</td>
+<td>二次齐次函数</td>
+<td>高维空间的二次曲面</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>贯穿始终的洞见</strong>：</p>
+<ul>
+<li><strong>列视角</strong>：矩阵是列向量的有序组合，矩阵乘法是列的线性组合。</li>
+<li><strong>秩</strong>：衡量变换后空间维度的标尺，串联零空间、列空间、特征值重数。</li>
+<li><strong>相似 vs 合同</strong>：
+<ul>
+<li>相似 $B=P^{-1}AP$ 保留特征值（同一变换不同基）；</li>
+<li>合同 $B=P^TAP$ 保留二次型惯性指数（同一二次型不同坐标）。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📐 Strang 教授讲解的矩阵乘法（列运算法）]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-linear-algebra-06/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-linear-algebra-06/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[——by Aexplorer 矩阵乘法 $AB$ 的第 $j$ 列，是 $A$ 的列向量按 $B$ 第 $j$ 列的系数加权求和。 定义两个矩阵： $$ A = \begin{bmatrix} 1 & 0 & 2 \\ 2 & 1 & 0 \\ 0 & 3 & 1 \end{bmatrix}, \q]]></summary>
+        <content type="html"><![CDATA[<p><em><strong>——by Aexplorer</strong></em></p>
+<h1>列视角思路总览</h1>
+<blockquote>
+<p><strong>矩阵乘法 $AB$ 的第 $j$ 列，是 $A$ 的列向量按 $B$ 第 $j$ 列的系数加权求和。</strong></p>
+</blockquote>
+<hr />
+<h2>✏️ 示例：两个 $3 \times 3$ 矩阵相乘</h2>
+<p>定义两个矩阵：</p>
+<p>$$
+A = \begin{bmatrix}
+1 &amp; 0 &amp; 2 \
+2 &amp; 1 &amp; 0 \
+0 &amp; 3 &amp; 1
+\end{bmatrix}, \quad
+B = \begin{bmatrix}
+1 &amp; 2 &amp; 0 \
+0 &amp; -1 &amp; 4 \
+3 &amp; 1 &amp; 5
+\end{bmatrix}
+$$</p>
+<p>我们要计算：</p>
+<p>$$
+C = AB
+$$</p>
+<p><strong>列运算时：盯住右边矩阵，即B</strong>。</p>
+<hr />
+<h2>🧮 第一步：看 $B$ 的第一列</h2>
+<p>$$
+\vec{b}_1 = \begin{bmatrix} 1 \ 0 \ 3 \end{bmatrix}
+$$</p>
+<p>我们用这个向量告诉我们如何线性组合 $A$ 的三列：</p>
+<p>$$
+C_1 = 1 \cdot A_1 + 0 \cdot A_2 + 3 \cdot A_3
+$$</p>
+<p>即：</p>
+<p>$$
+C_1 = 1 \cdot
+\begin{bmatrix} 1 \ 2 \ 0 \end{bmatrix}</p>
+<ul>
+<li>3 \cdot
+\begin{bmatrix} 2 \ 0 \ 1 \end{bmatrix}
+=
+\begin{bmatrix} 1 \ 2 \ 0 \end{bmatrix}</li>
+<li></li>
+</ul>
+<h1>\begin{bmatrix} 6 \ 0 \ 3 \end{bmatrix}</h1>
+<p>\begin{bmatrix} 7 \ 2 \ 3 \end{bmatrix}
+$$</p>
+<hr />
+<h2>🧮 第二步：看 $B$ 的第二列</h2>
+<p>$$
+\vec{b}_2 = \begin{bmatrix} 2 \ -1 \ 1 \end{bmatrix}
+$$</p>
+<p>对应线性组合：</p>
+<p>$$
+C_2 = 2 \cdot A_1 - 1 \cdot A_2 + 1 \cdot A_3
+$$</p>
+<p>计算：</p>
+<p>$$
+\begin{aligned}
+2 \cdot A_1 &amp;= \begin{bmatrix} 2 \ 4 \ 0 \end{bmatrix} \
+-1 \cdot A_2 &amp;= \begin{bmatrix} 0 \ -1 \ -3 \end{bmatrix} \
+1 \cdot A_3 &amp;= \begin{bmatrix} 2 \ 0 \ 1 \end{bmatrix}
+\end{aligned}
+$$</p>
+<p>相加得：</p>
+<p>$$
+C_2 = \begin{bmatrix} 4 \ 3 \ -2 \end{bmatrix}
+$$</p>
+<hr />
+<h2>🧮 第三步：看 $B$ 的第三列</h2>
+<p>$$
+\vec{b}_3 = \begin{bmatrix} 0 \ 4 \ 5 \end{bmatrix}
+$$</p>
+<p>对应线性组合：</p>
+<p>$$
+C_3 = 0 \cdot A_1 + 4 \cdot A_2 + 5 \cdot A_3
+$$</p>
+<p>计算：</p>
+<h1>$$
+C_3 =
+\begin{bmatrix} 0 \ 4 \ 12 \end{bmatrix}
++
+\begin{bmatrix} 10 \ 0 \ 5 \end{bmatrix}</h1>
+<p>\begin{bmatrix} 10 \ 4 \ 17 \end{bmatrix}
+$$</p>
+<hr />
+<h2>✅ 最终结果矩阵</h2>
+<p>$$
+AB = C =
+\begin{bmatrix}
+7 &amp; 4 &amp; 10 \
+2 &amp; 3 &amp; 4 \
+3 &amp; -2 &amp; 17
+\end{bmatrix}
+$$</p>
+<hr />
+<h2>📌 总结</h2>
+<ul>
+<li>每一列 $\vec{b}_j$ 告诉你该怎么组合 $A$ 的列；</li>
+<li>把 $A$ 的列当“材料”，$B$ 的列当“配方”；</li>
+<li>用 $B$ 的每一列，对 $A$ 的所有列做线性组合，就得到结果矩阵的每一列。</li>
+</ul>
+<hr />
+<hr />
+<h1>矩阵乘法的“行视角”理解法（Row Picture）</h1>
+<hr />
+<h2>🎯 核心思想</h2>
+<blockquote>
+<p><strong>结果矩阵 $C = AB$ 的第 $i$ 行，是 $A$ 的第 $i$ 行 与 $B$ 的每一列做点积所得。</strong></p>
+</blockquote>
+<hr />
+<h2>✏️ 示例：两个 $3 \times 3$ 矩阵相乘</h2>
+<p>设：</p>
+<p>$$
+A = \begin{bmatrix}
+1 &amp; 0 &amp; 2 \
+2 &amp; 1 &amp; 0 \
+0 &amp; 3 &amp; 1
+\end{bmatrix}, \quad
+B = \begin{bmatrix}
+1 &amp; 2 &amp; 0 \
+0 &amp; -1 &amp; 4 \
+3 &amp; 1 &amp; 5
+\end{bmatrix}
+$$</p>
+<p>我们要计算：</p>
+<p>$$
+C = AB
+$$
+<strong>行运算时：盯住左边矩阵，即A</strong>。</p>
+<hr />
+<h3>步骤1：计算 $C$ 的第一行</h3>
+<p>$A$ 的第一行 $A_{1*} = \begin{bmatrix} 1 &amp; 0 &amp; 2 \end{bmatrix}$<br />
+$C$ 的第一行为 $B$ 的行向量的线性组合：
+$$
+\begin{aligned}
+C_{1*} &amp;= 1 \cdot B_{1*} + 0 \cdot B_{2*} + 2 \cdot B_{3*} \
+&amp;= 1 \cdot \begin{bmatrix} 1 &amp; 2 &amp; 0 \end{bmatrix} + 2 \cdot \begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix} \
+&amp;= \begin{bmatrix} 1 &amp; 2 &amp; 0 \end{bmatrix} + \begin{bmatrix} 6 &amp; 2 &amp; 10 \end{bmatrix} \
+&amp;= \begin{bmatrix} 7 &amp; 4 &amp; 10 \end{bmatrix}
+\end{aligned}
+$$</p>
+<h3>步骤2：计算 $C$ 的第二行</h3>
+<p>$A$ 的第二行 $A_{2*} = \begin{bmatrix} 2 &amp; 1 &amp; 0 \end{bmatrix}$<br />
+$$
+\begin{aligned}
+C_{2*} &amp;= 2 \cdot B_{1*} + 1 \cdot B_{2*} + 0 \cdot B_{3*} \
+&amp;= 2 \cdot \begin{bmatrix} 1 &amp; 2 &amp; 0 \end{bmatrix} + 1 \cdot \begin{bmatrix} 0 &amp; -1 &amp; 4 \end{bmatrix} \
+&amp;= \begin{bmatrix} 2 &amp; 4 &amp; 0 \end{bmatrix} + \begin{bmatrix} 0 &amp; -1 &amp; 4 \end{bmatrix} \
+&amp;= \begin{bmatrix} 2 &amp; 3 &amp; 4 \end{bmatrix}
+\end{aligned}
+$$</p>
+<h3>步骤3：计算 $C$ 的第三行</h3>
+<p>$A$ 的第三行 $A_{3*} = \begin{bmatrix} 0 &amp; 3 &amp; 1 \end{bmatrix}$<br />
+$$
+\begin{aligned}
+C_{3*} &amp;= 0 \cdot B_{1*} + 3 \cdot B_{2*} + 1 \cdot B_{3*} \
+&amp;= 3 \cdot \begin{bmatrix} 0 &amp; -1 &amp; 4 \end{bmatrix} + 1 \cdot \begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix} \
+&amp;= \begin{bmatrix} 0 &amp; -3 &amp; 12 \end{bmatrix} + \begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix} \
+&amp;= \begin{bmatrix} 3 &amp; -2 &amp; 17 \end{bmatrix}
+\end{aligned}
+$$</p>
+<hr />
+<h2>结果验证</h2>
+<p>$$
+C = \begin{bmatrix}
+7 &amp; 4 &amp; 10 \
+2 &amp; 3 &amp; 4 \
+3 &amp; -2 &amp; 17
+\end{bmatrix}
+$$
+与列视角计算结果一致。</p>
+<hr />
+<hr />
+<h2>行视角与列视角的数学对偶性</h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>列视角</th>
+<th>行视角</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>计算单元</strong></td>
+<td>$B$ 的列向量</td>
+<td>$A$ 的行向量</td>
+</tr>
+<tr>
+<td><strong>组合方式</strong></td>
+<td>$A$ 的列向量的线性组合</td>
+<td>$B$ 的行向量的线性组合</td>
+</tr>
+<tr>
+<td><strong>结果结构</strong></td>
+<td>$C$ 的列是 $\mathbb{R}^m$ 中的向量</td>
+<td>$C$ 的行是 $\mathbb{R}^p$ 中的余向量</td>
+</tr>
+<tr>
+<td><strong>代数操作</strong></td>
+<td>矩阵右乘向量</td>
+<td>矩阵左乘行向量</td>
+</tr>
+<tr>
+<td><strong>空间映射</strong></td>
+<td>$\text{col}(AB) \subseteq \text{col}(A)$</td>
+<td>$\text{row}(AB) \subseteq \text{row}(B)$</td>
+</tr>
+</tbody>
+</table>
+<p>这种对偶性反映了线性代数中列空间与行空间的对称关系，也是秩等式 $\text{rank}(A) = \text{rank}(A^T)$ 的深层体现。</p>
+<hr />
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[设备驱动程序理解]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-operating-systems-02/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-operating-systems-02/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[设备驱动程序 是操作系统I/O系统的核心模块，负责 高层软件（如文件系统）与设备控制器之间的通信 ，将抽象的I/O请求（如 read 、 write ）转换为具体的硬件操作指令，并管理设备的运行状态。 1. 抽象到具体的转换 将上层发来的 抽象I/O请求 转换为设备控制器能识别的 具体操作序列 。 ]]></summary>
+        <content type="html"><![CDATA[<h4><strong>1. 设备驱动程序概述</strong></h4>
+<p><strong>设备驱动程序</strong>是操作系统I/O系统的核心模块，负责<strong>高层软件（如文件系统）与设备控制器之间的通信</strong>，将抽象的I/O请求（如<code>read</code>、<code>write</code>）转换为具体的硬件操作指令，并管理设备的运行状态。</p>
+<hr />
+<h4><strong>2. 设备驱动程序的功能</strong></h4>
+<ol>
+<li>
+<p><strong>抽象到具体的转换</strong></p>
+<ul>
+<li>将上层发来的<strong>抽象I/O请求</strong>转换为设备控制器能识别的<strong>具体操作序列</strong>。</li>
+<li><strong>示例</strong>：将逻辑盘块号转换为磁盘的物理地址（盘面、磁道、扇区）。</li>
+</ul>
+</li>
+<li>
+<p><strong>I/O请求的合法性校验</strong></p>
+<ul>
+<li>检查用户请求是否合法（如禁止从打印机读取数据）。</li>
+<li>验证设备是否支持当前操作（如以只读模式打开设备时拒绝写请求）。</li>
+</ul>
+</li>
+<li>
+<p><strong>设备状态管理</strong></p>
+<ul>
+<li>通过读取设备控制器的<strong>状态寄存器</strong>，判断设备是否就绪（空闲/忙碌）。</li>
+<li>若设备忙碌，将请求加入设备队列等待。</li>
+</ul>
+</li>
+<li>
+<p><strong>中断处理</strong></p>
+<ul>
+<li>响应设备控制器发来的<strong>中断请求</strong>，调用对应的中断处理程序。</li>
+<li><strong>示例</strong>：数据读取完成后触发中断，唤醒等待进程。</li>
+</ul>
+</li>
+<li>
+<p><strong>参数传递与设备初始化</strong></p>
+<ul>
+<li>向设备控制器传递操作参数（如波特率、数据格式）。</li>
+<li>设置设备的工作方式（如DMA传输模式）。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h4><strong>3. 设备驱动程序的特点</strong></h4>
+<table>
+<thead>
+<tr>
+<th><strong>特点</strong></th>
+<th><strong>说明</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>与硬件紧密相关</strong></td>
+<td>不同类型的设备需要不同的驱动程序（如打印机与显示器驱动不同）。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>与I/O控制方式相关</strong></td>
+<td>支持中断驱动、DMA等I/O控制方式。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>部分用汇编语言实现</strong></td>
+<td>直接操作硬件寄存器，部分代码需用汇编编写（部分固化在ROM中）。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>可重入性</strong></td>
+<td>允许在未完成前被再次调用（需处理共享资源竞争问题）。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>分层设计</strong></td>
+<td>分为与设备无关层（通用逻辑）和与设备相关层（硬件操作）。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>4. 设备处理方式</strong></h4>
+<ol>
+<li>
+<p><strong>每类设备一个进程</strong></p>
+<ul>
+<li><strong>示例</strong>：为所有终端设备设置一个终端进程。</li>
+<li><strong>适用场景</strong>：大型系统，需要高并发管理。</li>
+</ul>
+</li>
+<li>
+<p><strong>全局I/O进程</strong></p>
+<ul>
+<li>系统设置一个I/O进程（或输入/输出分离进程）统一处理所有设备I/O操作。</li>
+<li><strong>优点</strong>：简化管理；<strong>缺点</strong>：可能成为性能瓶颈。</li>
+</ul>
+</li>
+<li>
+<p><strong>无专门进程，仅驱动程序</strong></p>
+<ul>
+<li>用户进程直接调用驱动程序完成I/O操作（当前主流方式）。</li>
+<li><strong>优点</strong>：灵活高效；<strong>缺点</strong>：需处理同步问题。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h4><strong>5. 设备驱动程序的处理流程</strong></h4>
+<ol>
+<li>
+<p><strong>抽象请求转具体操作</strong></p>
+<ul>
+<li>解析上层命令，转换为设备控制器寄存器能识别的指令（如磁盘寻址参数）。</li>
+</ul>
+</li>
+<li>
+<p><strong>校验请求合法性</strong></p>
+<ul>
+<li>检查请求是否与设备能力匹配（如禁止向只读设备写入）。</li>
+</ul>
+</li>
+<li>
+<p><strong>检查设备状态</strong></p>
+<ul>
+<li>读取状态寄存器，若设备“忙”则挂起请求；若“就绪”则继续。</li>
+</ul>
+</li>
+<li>
+<p><strong>传递参数</strong></p>
+<ul>
+<li>向控制器的寄存器写入控制参数（如波特率、DMA地址、传输长度）。</li>
+</ul>
+</li>
+<li>
+<p><strong>启动设备</strong></p>
+<ul>
+<li>发送启动命令至命令寄存器，设备开始执行操作。</li>
+<li><strong>后续动作</strong>：
+<ul>
+<li>驱动程序阻塞，等待中断唤醒（中断驱动方式）。</li>
+<li>设备控制器独立完成数据传输（DMA方式）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>中断处理</strong></p>
+<ul>
+<li>中断发生时，驱动程序处理结果（如读取数据或报告错误）。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h4><strong>6. 关键概念对比</strong></h4>
+<table>
+<thead>
+<tr>
+<th><strong>概念</strong></th>
+<th><strong>说明</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>中断驱动</strong></td>
+<td>设备完成操作后通过中断通知CPU，适用于小数据量传输（如键盘输入）。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>DMA方式</strong></td>
+<td>设备控制器直接与内存交互，无需CPU干预，适合大数据块传输（如磁盘读写）。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>状态寄存器</strong></td>
+<td>存储设备当前状态（如就绪、忙碌、错误），驱动程序通过读取其值进行判断。</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>命令寄存器</strong></td>
+<td>接收驱动程序发送的控制命令（如读、写、复位）。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>7. 总结</strong></h4>
+<ul>
+<li><strong>核心作用</strong>：实现硬件操作的抽象化，隔离上层软件与设备差异。</li>
+<li><strong>关键流程</strong>：请求转换→校验→状态检查→参数传递→启动设备→中断处理。</li>
+<li><strong>设计难点</strong>：硬件兼容性、中断竞争、同步与异步操作管理。</li>
+<li><strong>联系其他技术</strong>：
+<ul>
+<li>与<strong>缓冲池</strong>配合，减少I/O等待时间。</li>
+<li>通过<strong>SPOOLing技术</strong>实现设备虚拟化（如共享打印机）。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<p><strong>复习提示</strong>：重点理解驱动程序如何<strong>桥接软硬件</strong>，掌握中断与DMA的工作机制，并结合实际场景（如磁盘读写、终端输入）分析处理流程。</p>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[连续随机变量函数分布 —— 定义法（CDF法）]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-probability-02/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-probability-02/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[设随机变量 $X$ 的概率密度为： $$ f X(x)= \begin{cases} \frac12, & 1<x<0,\\ \frac14, & 0\le x<2,\\ 0, & \text{其他}. \end{cases} $$ 令 $Y = X^2$，求 $Y$ 的概率密度 $f Y(y)$。]]></summary>
+        <content type="html"><![CDATA[<h1>连续随机变量函数分布 —— 定义法（CDF法）</h1>
+<hr />
+<h2>一、例题描述</h2>
+<p>设随机变量 $X$ 的概率密度为：</p>
+<p>$$
+f_X(x)=
+\begin{cases}
+\frac12, &amp; -1&lt;x&lt;0,\
+\frac14, &amp; 0\le x&lt;2,\
+0, &amp; \text{其他}.
+\end{cases}
+$$</p>
+<p>令 $Y = X^2$，求 $Y$ 的概率密度 $f_Y(y)$。</p>
+<hr />
+<h2>二、分布函数法（定义法）本质</h2>
+<ol>
+<li><strong>目标</strong>：求 $F_Y(y)=P{Y\le y}$，再对 $y$ 求导得密度 $f_Y(y)=F_Y'(y)$。</li>
+<li><strong>核心思想</strong>：把关于 $Y$ 的事件“拉回”到 $X$ 轴上，用已有的 $f_X(x)$ 做积分：</li>
+</ol>
+<p>$$
+F_Y(y)
+= P{g(X)\le y}
+= \int_{{x: g(x)\le y}} f_X(x),dx.
+$$</p>
+<ol>
+<li>
+<p><strong>可视化理解</strong>：</p>
+<ul>
+<li>在 $y=g(x)$ 曲线上画水平线 $y=y_0$；</li>
+<li>看这条线以下的图像映射到 $x$ 轴上的哪些区域；</li>
+<li>用 $f_X(x)$ 在这些区间积分。</li>
+</ul>
+</li>
+<li>
+<p><strong>注意非单调情形</strong>：</p>
+<ul>
+<li>若 $g(x)$ 非单调（如 $g(x)=x^2$），则需分段求解；</li>
+<li>解 $g(x)=y$ 得到多根，结合 $f_X(x)$ 的支持集筛选有效解。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>三、步骤详解（以 $Y = X^2$ 为例）</h2>
+<ol>
+<li>
+<p>写出分布函数：
+$$
+F_Y(y) = P(Y \le y) = P(X^2 \le y)
+$$</p>
+</li>
+<li>
+<p>解不等式 $X^2 \le y$：</p>
+<ul>
+<li>等价于 $-\sqrt y \le X \le \sqrt y$；</li>
+<li>结合 $X$ 的支持集 $(-1,0)\cup[0,2)$，对不同 $y$ 分段讨论。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3>（1）当 $y&lt;0$ 时：</h3>
+<p>无解，$F_Y(y) = 0$。</p>
+<hr />
+<h3>（2）当 $0 \le y &lt; 1$ 时：</h3>
+<p>两个根都在支持集内：</p>
+<p>$$
+F_Y(y) = P(-\sqrt y \le X \le \sqrt y)
+= \int_{-\sqrt y}^0 \frac12,dx + \int_0^{\sqrt y} \frac14,dx
+= \frac12 \sqrt y + \frac14 \sqrt y
+= \frac34 \sqrt y
+$$</p>
+<hr />
+<h3>（3）当 $1 \le y &lt; 4$ 时：</h3>
+<p>$-\sqrt y &lt; -1$ 不在支持中，只保留正根：</p>
+<p>$$
+F_Y(y) = P(0 \le X \le \sqrt y)
+= \int_0^{\sqrt y} \frac14,dx
+= \frac14 \sqrt y
+$$</p>
+<hr />
+<h3>（4）当 $y \ge 4$ 时：</h3>
+<p>整个支持区间都被覆盖：</p>
+<p>$$
+F_Y(y) = 1
+$$</p>
+<hr />
+<h2>四、汇总 $F_Y(y)$ 表达式</h2>
+<p>$$
+F_Y(y) =
+\begin{cases}
+0, &amp; y &lt; 0, \\
+\frac34 \sqrt y, &amp; 0 \le y &lt; 1, \\
+\frac14 \sqrt y, &amp; 1 \le y &lt; 4, \\
+1, &amp; y \ge 4.
+\end{cases}
+$$</p>
+<hr />
+<h2>五、求概率密度函数 $f_Y(y)$</h2>
+<p>$$
+f_Y(y) = \frac{d}{dy}F_Y(y)
+= \begin{cases}
+\frac{3}{8\sqrt y}, &amp; 0 &lt; y &lt; 1, \\
+\frac{1}{8\sqrt y}, &amp; 1 &lt; y &lt; 4, \\
+0, &amp; \text{其他}.
+\end{cases}
+$$</p>
+<hr />
+<h2>六、本质小结</h2>
+<p>本质上是在把原来由 $f_X(x)$ 刻画的“概率微元”</p>
+<p>$$
+f_X(x),dx
+$$</p>
+<p>通过映射</p>
+<p>$$
+y = g(x)
+$$</p>
+<p>“搬运”到 $y$ 轴上，变成</p>
+<p>$$
+f_Y(y),dy
+$$</p>
+<p>——只是中间要经过两步：</p>
+<hr />
+<h3>1. <strong>拉回事件</strong></h3>
+<p>$$
+F_Y(y)=P{Y\le y}
+=P{g(X)\le y}
+=\int_{{x:g(x)\le y}} f_X(x),dx.
+$$</p>
+<p>这一步把“在 $y$ 轴上看 $Y\le y$”的事件，转换成“在 $x$ 轴上 $g(x)\le y$”的区间积分。</p>
+<hr />
+<h3>2. <strong>求密度</strong></h3>
+<p>$$
+f_Y(y)
+=\frac{d}{dy}F_Y(y),
+$$</p>
+<p>或者更快捷地用 Jacobian 公式：</p>
+<p>$$
+f_Y(y)
+=\sum_{x_i:g(x_i)=y}\frac{f_X(x_i)}{\bigl|g'(x_i)\bigr|}.
+$$</p>
+<hr />
+<p>所以，你的理解很到位 —— 我们只是把原来的概率密度“按 $g$”搬到新的坐标系里，但为了保证“概率不变”，中间要把事件预像找出来（CDF法），或者算上局部伸缩因子（Jacobian法）。</p>
+<hr />
+<blockquote>
+<p>✅ 提示：此法适用于所有连续随机变量的函数变换问题，尤其当函数 $g(x)$ 非单调时更应优先使用定义法。</p>
+</blockquote>
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[例题]]></title>
+        <id>https://aexplorer1.github.io/posts/obsidian-probability-03/</id>
+        <link href="https://aexplorer1.github.io/posts/obsidian-probability-03/"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[题目 ：假设大型设备在任意长度为 $t$ 的时间内发生故障的次数 $N(t)$ 服从参数为 $\lambda$ 的泊松过程（速率为 $\lambda$）。 (1) 求相邻两次故障之间时间间隔 $T$ 的分布函数 $F T(t)$。 (2) 若设备已经无故障工作 $8$ 小时，继续无故障运行 $10$]]></summary>
+        <content type="html"><![CDATA[<h1>例题</h1>
+<blockquote>
+<p><strong>题目</strong>：假设大型设备在任意长度为 $t$ 的时间内发生故障的次数 $N(t)$ 服从参数为 $\lambda$ 的泊松过程（速率为 $\lambda$）。<br />
+(1) 求相邻两次故障之间时间间隔 $T$ 的分布函数 $F_T(t)$。<br />
+(2) 若设备已经无故障工作 $8$ 小时，继续无故障运行 $10$ 小时的条件概率是多少？</p>
+</blockquote>
+<hr />
+<h2>记号与直观说明</h2>
+<ul>
+<li>
+<p>$N(t)$：时间区间 $(0,t]$ 内故障的个数，已知 $N(t)\sim\operatorname{Poisson}(\lambda t)$。</p>
+</li>
+<li>
+<p>$T$：相邻两次故障的时间间隔（从某一时刻起到下一次故障的等待时间）。</p>
+</li>
+</ul>
+<hr />
+<h2>（1）求 $T$ 的分布函数 $F_T(t)$</h2>
+<ol>
+<li>
+<p>事件等价：<br />
+$${T&gt;t}\Longleftrightarrow{\text{在 }(0,t]\ \text{内没有故障}}={N(t)=0}.$$</p>
+</li>
+<li>
+<p>因为 $N(t)\sim\operatorname{Poisson}(\lambda t)$，所以<br />
+$$P(T&gt;t)=P{N(t)=0}=e^{-\lambda t},\qquad t\ge0.$$</p>
+</li>
+<li>
+<p>因而分布函数为<br />
+$$F_T(t)=P(T\le t)=\begin{cases}0,&amp;t&lt;0,\[4pt]1-e^{-\lambda t},&amp;t\ge0,\end{cases}$$<br />
+即 $T\sim\operatorname{Exp}(\lambda)$（指数分布，参数 $\lambda$）。</p>
+</li>
+</ol>
+<hr />
+<h2>（2）条件概率（利用指数分布的无记忆性）</h2>
+<p>指数分布的无记忆性：<br />
+$$P(T&gt;s+t\mid T&gt;s)=P(T&gt;t),\qquad s,t\ge0.$$<br />
+因此当设备已无故障工作 $8$ 小时时，继续无故障 $10$ 小时的条件概率为<br />
+$$<br />
+\begin{aligned}<br />
+P(\text{再无故障 10 小时}\mid\text{已无故障 8 小时})  \
+=P(T&gt;8+10\mid T&gt;8)<br />
+=P(T&gt;10)\ =1-P(T\leq10) \
+=e^{-\lambda\cdot 10}.<br />
+\end{aligned}<br />
+$$</p>
+<hr />
+<h2>备注</h2>
+<p>计数分布：<br />
+$$P{N(t)=k}=\frac{(\lambda t)^k}{k!}e^{-\lambda t},\qquad k=0,1,2,\dots$$</p>
+<p>两种常见推导（可选写入答案加分）：</p>
+<ul>
+<li><strong>二项→泊松极限法</strong>（直观）<br />
+将 $[0,t]$ 划分为 $n$ 段，每段长度 $\Delta=t/n$。令每段内发生 1 次故障的概率约为 $p=\lambda\Delta=\lambda t/n$（短段发生多次为高阶小量可忽略）。于是<br />
+$$N(t)\approx\operatorname{Bin}\big(n,p\big).$$<br />
+当 $n\to\infty$，$p\to0$ 且 $np=\lambda t$ 固定时，二项分布极限为泊松分布：<br />
+$$\lim_{n\to\infty}\binom{n}{k}p^k(1-p)^{n-k}=\frac{(\lambda t)^k}{k!}e^{-\lambda t}.$$</li>
+</ul>
+<hr />
+<h1>泊松分布的本质理解与补充</h1>
+<h2>泊松分布 —— 定义与常用公式</h2>
+<p><strong>定义（概率质量函数）</strong><br />
+若随机变量 $X$ 表示单位时间（或单位空间）内发生某类稀疏独立事件的次数，参数 $\lambda&gt;0$ 表示平均发生率，则称 $X$ 服从参数为 $\lambda$ 的泊松分布，记作<br />
+$$X\sim\operatorname{Poisson}(\lambda).$$<br />
+其概率质量函数（PMF）为<br />
+$$<br />
+P(X=k)=\frac{\lambda^k}{k!}e^{-\lambda},\qquad k=0,1,2,\dots<br />
+$$</p>
+<p><strong>累积分布函数（CDF）</strong><br />
+$$<br />
+F_X(x)=P(X\le x)=\sum_{k=0}^{\lfloor x\rfloor}\frac{\lambda^k}{k!}e^{-\lambda}.<br />
+$$</p>
+<p><strong>数学期望与方差</strong><br />
+$$\mathbb{E}[X]=\lambda,\qquad \operatorname{Var}(X)=\lambda.$$</p>
+<p><strong>概率生成函数（PGF） / 矩母函数（MGF） / 特征函数</strong><br />
+$$G_X(s)=\mathbb{E}[s^X]=\exp\big(\lambda(s-1)\big),\quad s\in\mathbb{R}.$$<br />
+$$M_X(t)=\mathbb{E}[e^{tX}]=\exp\big(\lambda(e^{t}-1)\big).$$<br />
+$$\varphi_X(t)=\mathbb{E}[e^{itX}]=\exp\big(\lambda(e^{it}-1)\big).$$</p>
+<p><strong>重要性质（要点）</strong></p>
+<ul>
+<li>
+<p>支持：$k=0,1,2,\dots$。</p>
+</li>
+<li>
+<p>加法性：若 $X\sim\operatorname{Poisson}(\lambda_1)$，$Y\sim\operatorname{Poisson}(\lambda_2)$ 且独立，则 $X+Y\sim\operatorname{Poisson}(\lambda_1+\lambda_2)$.</p>
+</li>
+<li>
+<p>稀疏极限（常用近似）：当 $n\to\infty,\ p\to0$ 且 $np\to\lambda$ 时，<br />
+$$\operatorname{Bin}(n,p)\xrightarrow{d}\operatorname{Poisson}(\lambda).$$</p>
+</li>
+<li>
+<p>与泊松过程的关系：若事件随时间为速率 $\lambda$ 的泊松过程，则在时长 $t$ 的区间内事件数 $N(t)\sim\operatorname{Poisson}(\lambda t)$；相邻到达间隔服从指数分布 $\operatorname{Exp}(\lambda)$（注意：<strong>无记忆性</strong>是指数分布的性质，而非泊松计数的直接性质）。</p>
+</li>
+</ul>
+<h2>一、两种等价刻画（核心）</h2>
+<ul>
+<li>
+<p><strong>计数视角（Poisson）</strong>：在任意长度为 $t$ 的时间窗内，事件次数 $N(t)\sim\operatorname{Poisson}(\lambda t)$；不重叠区间独立（Independent increments），且均值、方差均为 $\lambda t$。</p>
+</li>
+<li>
+<p><strong>间隔视角（Exponential）</strong>：相邻事件之间的时间间隔独立同分布，服从指数分布 $T\sim\operatorname{Exp}(\lambda)$。<br />
+两者等价地刻画同一个泊松过程（这是理解题目中 $T$ 与 $N(t)$ 关系的关键）。</p>
+</li>
+</ul>
+<h2>二、二项分布近似泊松</h2>
+<p><strong>结论</strong>（常用近似条件）：当试验次数 $n$ 很大、单次成功概率 $p$ 很小、且 $np=\lambda$（有限常数）时，<br />
+$$\operatorname{Bin}(n,p)\approx\operatorname{Poisson}(\lambda),$$<br />
+即<br />
+$$\lim_{n\to\infty}\binom{n}{k}p^k(1-p)^{n-k}=\frac{\lambda^k}{k!}e^{-\lambda}.$$</p>
+<p>**证明要点：</p>
+<ul>
+<li>
+<p>写出二项项：<br />
+$$\binom{n}{k}p^k(1-p)^{n-k}<br />
+=\frac{n!}{k!(n-k)!}\Big(\frac{np}{n}\Big)^k\Big(1-\frac{np}{n}\Big)^{n-k}.$$</p>
+</li>
+<li>
+<p>令 $np=\lambda$，并做 $n\to\infty$ 的极限，利用<br />
+$$\frac{n!}{(n-k)!}\sim n^k\quad (n\to\infty),\qquad \Big(1-\frac{\lambda}{n}\Big)^n\to e^{-\lambda},$$<br />
+得到右端 $\frac{\lambda^k}{k!}e^{-\lambda}$。<br />
+（考试写法：强调 $n\to\infty$ 时组合项收敛为 $n^k/k!$，并使用 $(1-\lambda/n)^n\to e^{-\lambda}$。）</p>
+</li>
+</ul>
+<p><strong>与教材图中语句对应</strong>：把单位时间段分为 $n$ 个小单元，每单元发生事件的概率很小且相互独立 → 总发生次数近似二项 → 极限为泊松。此为泊松“稀疏独立事件的极限定律”。</p>
+<h2>三、指数分布的无记忆性</h2>
+<ul>
+<li>
+<p>指数分布满足：对任意 $s,t\ge0$，<br />
+$$P(T&gt;s+t\mid T&gt;s)=\frac{P(T&gt;s+t)}{P(T&gt;s)}=e^{-\lambda t}=P(T&gt;t).$$</p>
+</li>
+<li>
+<p><strong>唯一性</strong>：只有指数分布具有无记忆性（考研理论题中常提到）。</p>
+</li>
+<li>
+<p><strong>应用</strong>：在条件概率题中（例题第（2）问），已过去时间不改变未来的生存概率。</p>
+</li>
+</ul>
+<h2>四、重要性质速记</h2>
+<ul>
+<li>
+<p><strong>均值 = 方差 = $\lambda t$</strong>（刻画平均速率与波动）。</p>
+</li>
+<li>
+<p><strong>独立增量（Independent increments）</strong>：不重叠时间区间内的计数相互独立。</p>
+</li>
+<li>
+<p><strong>可加性（Additivity）</strong>：若两个独立泊松过程速率分别为 $\lambda_1,\lambda_2$，其叠加仍为泊松，速率为 $\lambda_1+\lambda_2$。</p>
+</li>
+<li>
+<p><strong>稀疏独立来源</strong>：适用于“单位时间内概率很小且相互独立的突发事件”的建模。</p>
+</li>
+<li>
+<p><strong>间隔的无记忆性</strong>：指数分布唯一具有无记忆性（在条件概率题中经常被考查）。注意：无记忆性是关于 <em>间隔</em> 的性质，而不是计数的直接性质。</p>
+</li>
+</ul>
+<h2>五、建模判断准则</h2>
+<p>当下列条件近似成立时，可选用泊松模型：</p>
+<ol>
+<li>
+<p>事件在短时间内发生概率很小（稀疏）；</p>
+</li>
+<li>
+<p>不重叠时间段内事件数相互独立（或近似独立）；</p>
+</li>
+<li>
+<p>速率在观测窗口内近似恒定（平稳性）或可分段恒定；</p>
+</li>
+<li>
+<p>单位极小区间内同时发生两次以上的概率可以忽略。</p>
+</li>
+</ol>
+<p>若满足，计数用 $\operatorname{Poisson}(\lambda\cdot\text{length})$，相邻间隔用 $\operatorname{Exp}(\lambda)$。</p>
+<hr />
+<h1>小例子（直观）</h1>
+<ul>
+<li>
+<p>若 $\lambda=0.1$（每小时平均 0.1 次故障），则 10 小时无故障概率为 $e^{-0.1\times10}=e^{-1}\approx0.3679$。</p>
+</li>
+<li>
+<p>若把 10 小时分为 1000 个小段，用二项近似：$n=1000,p=0.0001,np=0.1$，则 $\operatorname{Bin}(1000,0.0001)\approx\operatorname{Poisson}(0.1)$。</p>
+</li>
+</ul>
+<hr />
+]]></content>
+        <author>
+            <name>Aexplorer</name>
+            <uri>https://aexplorer1.github.io/</uri>
+        </author>
+        <published>2025-10-12T00:00:00.000Z</published>
+    </entry>
+</feed>

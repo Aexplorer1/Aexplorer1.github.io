@@ -1,0 +1,1 @@
+import{s as r,c as s,a as e,C as t}from"./chunk-4TB4RGXK.CWLRVzYm.js";import{_ as l}from"./MediaEmbed.astro_astro_type_script_index_0_lang.CBc9cm00.js";var d={parser:e,get db(){return new t},renderer:s,styles:r,init:l(r=>{r.class||(r.class={}),r.class.arrowMarkerAbsolute=r.arrowMarkerAbsolute},"init")};export{d as diagram};

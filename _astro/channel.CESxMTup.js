@@ -1,0 +1,1 @@
+import{V as a,W as n}from"./MediaEmbed.astro_astro_type_script_index_0_lang.CBc9cm00.js";const t=(s,t)=>a.lang.round(n.parse(s)[t]);export{t as c};

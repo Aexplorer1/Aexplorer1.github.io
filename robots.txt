@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /~partytown/
+
+Sitemap: https://aexplorer1.github.io/sitemap-index.xml

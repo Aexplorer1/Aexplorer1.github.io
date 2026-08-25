@@ -1,0 +1,1 @@
+import{_ as i}from"./MediaEmbed.astro_astro_type_script_index_0_lang.CBc9cm00.js";var r=class{constructor(t){this.init=t,this.records=this.init()}static{i(this,"ImperativeState")}reset(){this.records=this.init()}};export{r as I};
